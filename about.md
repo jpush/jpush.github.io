@@ -1,18 +1,7 @@
 ---
 layout: page
-title: About
+title: 关于极光
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+极光（www.jiguang.cn）是中国领先的移动大数据平台和移动应用云服务商。其团队核心成员来自腾讯、摩根士丹利、豆瓣、Teradata、中国移动等公司。公司自 2011 年成立以来专注于为 app 开发者提供稳定高效的消息推送、统计分析、即时通讯和短信等开发者服务。至今我们已经服务了超过40万款移动应用，累计覆盖超过 50 亿个移动终端，月活跃用户超过 6 亿，产品覆盖了中国国内 90% 以上的移动终端。基于积累的海量数据，我们拓展了在大数据领域的产品，包括极光广告服务和极光数据服务。极光致力于为各行各业节约开发成本，提高运营效率，优化业务决策。
