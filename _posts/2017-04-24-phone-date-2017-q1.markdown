@@ -1,0 +1,294 @@
+---
+author: data
+comments: true
+date: 2017-04-24 01:48:34+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/phone-date-2017-q1/
+slug: phone-date-2017-q1
+title: "\n\t\t\t\t第一季度手机市场现状分析，华为卫冕销量冠军\t\t"
+wordpress_id: 1842
+categories:
+- 极光数据研究报告
+---
+
+
+				2017年第一季度的手机市场依旧战火熊熊，战况则是几家欢喜几家愁。苹果依然强大，安卓阵营华为与OPPO、vivo渐呈三国鼎立之势。国内领先的移动大数据服务商极光大数据发布《鸡年春季，手机市场依旧硝烟弥漫——2017年Q1手机行业数据报告》，详尽解析这个春季手机行业的发展现状以及行业内各大主流厂商的表现，报告从手机市场的保有率、销量、品牌忠诚度、双摄手机及移动应用安装情况等维度进行解析。以下是报告节选，完整报告请至极光官网或关注极光微信公众号：lovejpush下载。
+
+**报告亮点：**
+
+
+
+	
+  * 华为卫冕销冠，Q1销量占比19.2%
+
+	
+  * iPhone称霸一二线城市，用户忠诚度高达54.1%
+
+	
+  * OPPO R9连续四个季度销量第一，属当之无愧的机王
+
+	
+  * 双摄手机市场华为P9领跑，华为荣耀系覆盖细分市场最大用户量
+
+	
+  * OPPO、vivo双子星越战越勇，保有率和销量均节节上扬
+
+	
+  * “达康书记”也救不了小米，在热播剧《人民的名义》中频频现身的小米风光不再，销量下滑严重
+
+
+​
+
+
+
+* * *
+
+
+
+**手机保有率分析**
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/6414dc7b3b51f8ea992780f2a81908e1.gif)
+
+
+苹果拉开与安卓阵营各品牌的差距，OV市场份额攫取仍在持续。
+
+极光大数据显示，2017年Q1手机保有率top5品牌依次为苹果（18.6%）、华为（13.4%）、OPPO（12.6%）、vivo（11.3%）和小米（8.0%），曾经的安卓机皇三星依旧难掩颓势， 连续三个季度跌出top5。iPhone得益于其超长的使用周期和iPhone7等新产品稳健的销量增长，目前手机保有率已接近20%。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/b3850d2e92092f545c3313fb56650201.gif)
+
+
+在主流手机品牌保有率变化趋势上，极光大数据显示，OPPO有望成为下一个安卓霸主，与华为保有率仅0.8%之差。
+
+
+
+	
+  * OPPO的市场保有率继2016年9月突破10%以来，加速缩小与华为的距离，截至2017年3月与华为保有率差距只有0.8%，距安卓霸主地位仅一步之遥
+
+	
+  * 苹果手机保有率继续攀升
+
+	
+  * 尽管小米去年底推出的mix广受好评，依然无法阻止小米保有率的快速下滑
+
+
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/bd3634f225ba2b784865e478c3a99764.gif)
+
+
+手机品牌保有率在不同城市也显示出不同的表现，iPhone保有率称霸一二线城市，OV在三线及以下城市表现出色。
+
+
+
+	
+  * 极光大数据显示，iPhone在一线、二线和三线以下城市的保有率分别为31.8%、21.2%和12.8%
+
+	
+  * OV渠道下沉明显，重点渗透三线及以下城市，其中OPPO在三线及以下城市中的保有率高达15.2%，超过iPhone和华为
+
+
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/73a12df70182b7967a06c727e1b7e35c.gif)
+
+
+在主流品牌手机型号分布上，极光大数据显示，OPPO比华为更聚焦于明星产品，OPPO保有率top5型号占比56.8%。
+
+
+
+	
+  * 就产品矩阵而言，OPPO、vivo和小米较华为更聚焦于明星产品，top5型号占比分别为56.8%、37.3%、39.4%和26.3%
+
+	
+  * 苹果旧型号的超长生命周期是其市场占有率持续提升的基础，去年9月发布的iPhone7在iPhone中的占比首次进入前三
+
+
+​
+
+
+
+* * *
+
+
+
+​**手机市场销量分析**
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/2f9efc0d9308367ab2cf4531caaba370.gif)
+
+
+极光大数据显示，2017年Q1的国内手机销量上，华为卫冕销量王，为国内手机市场贡献了19.2%的销量。
+
+•      2017年Q1销量top5品牌依次为华为（19.2%）、OPPO（18.7%）、vivo（17.9%）、苹果（14.4%）和小米（8.2%），排名与上季度一致
+
+•      在长尾市场方面，其他品牌的销量上季度占比为18.8%，本季度受到主流品牌的强势挤压，已降至15.7%
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/4234ce79c9d8f9625e1945701d35a8ef.gif)
+
+
+主流手机品牌销量变化趋势也呈现“几家欢乐几家愁”的局面，小米、三星遭遇危机，销量连续四季度大幅下跌。极光大数据显示，华为、OPPO、vivo和iPhone在2017年Q1的销量均有不同程度的上升，升幅在4%-10%之间。而小米较2016年Q4下降了23.1%至636万台，三星则下降了22.6%至456万台。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/53d0acb92a7a9773a39a94161a29c745.gif)
+
+
+在销量价格分布上，OV主攻中端机市场，中端机销量占比约八成。极光大数据显示，华为的产品布局更接近整体市场的价格占比，旗下有不同价位的机型分别攻占高中低端机市场，iPhone则聚焦高端机市场。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/8d6b374d813805405bf5ba510436816c.gif)
+
+
+在机型方面，极光大数据统计，OPPO R9又斩获第一的宝座，销量占比5.5%，连续四个季度领跑。销量top10机型中有5款来自苹果，3款来自OPPO，2款来自vivo。
+
+**智能手机品牌忠诚度分析**
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/3085637271415f782a796aa184010f88.gif)
+
+
+iPhone：在2017年Q1的手机品牌忠诚度方面，极光大数据显示， iPhone登上用户忠诚度巅峰，54.1%的换机用户再次选择iPhone。iPhone用户忠诚度从2016年Q4开始逐渐回升，或由去年9月发布的iPhone7拉动。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/1c0a33c636e3b2d36888712b644f75e0.gif)
+
+
+华为：华为的用户忠诚度较Q3相比大幅提升至30.4%，但OPPO和vivo仍是其强有力的竞争对手。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/eb20f98c089deefbffd906a403acb046.gif)
+
+
+OPPO：极光大数据显示，三成OPPO的换机用户选择OPPO，两成选择vivo 。这说明OPPO的用户忠诚度提高的同时，选择vivo和iPhone的用户也在增加。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/25c5943df909910b762e969a6e864dec.gif)
+
+
+vivo：长尾市场对vivo的影响在Q1有所削弱，只有18.9%的vivo换机用户会选择长尾品牌。而vivo最大的替代品牌依旧是OPPO。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/a3024f443c9371900e18a9d3e4c70162.gif)
+
+
+小米：小米用户忠诚度水平与Q4保持一致，忠诚度较落后，仅有22.3%的小米用户在换机时仍会选择小米。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/2d4eddac88827aa53da8d6764bf86b7e.gif)
+
+
+三星：受去年9月 Glaxy Note 7爆炸事件的持续影响，三星用户忠诚度节节下降，目前“真爱粉”只剩10.4%，忠诚度暂无回升趋势。
+
+​
+
+
+
+* * *
+
+
+
+​**后置双摄像头手机分析**
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/bdcded485fcb8a2a91a9cbfef4166000.gif)
+
+
+极光大数据显示，在后置双摄像头手机这个细分市场，保有率 top15后双摄手机占整体手机市场3.2%的份额。华为在该细分市场处于绝对领先的地位，其旗下的荣耀系列拥有目前细分市场最大的用户量。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/e587f7634426caf24208cd89766e4f83.gif)
+
+
+在2017年Q1国内后置双摄像头手机销量上，华为旗下4个机型位于后置双摄像头手机细分市场销量第一梯队：华为P9（136.4万台）、华为MATE9（116.3万台）、华为荣耀8（100.6万台）、华为荣耀畅玩6X（99.2万台）。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/0381bd5fabcfd801f5231f8ea836dd5c.gif)
+
+
+在用户城市级别分布方面，极光大数据显示，后置摄像头手机用户相对集中在一二线城市。54.2%的后置摄像头手机用户来自一二线城市，较全国移动网民的一二线用户占比高10%。
+
+​
+
+
+
+* * *
+
+
+
+​**主要安卓手机品牌用户画像**
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/7fbb335d418abfa483511064d1097717.gif)
+
+
+在手机用户性别上，极光大数据显示，OPPO和vivo最懂女人心，女性用户约占七成。三星、华为、小米用户的男女比例约为1：1，而OPPO和vivo的性别偏向性显著，女性用户约占七成。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/961e460bf00d5aa1f139b77968557cdd.gif)
+
+
+极光大数据显示，OPPO和vivo用户呈低龄化，过半用户不到25岁。小米、华为、三星用户年龄分布则相对平均。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/d8cb9b2fa5987096dcfa1ee841fe69d4.gif)
+
+
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/863a85cbefcb8ea5104237425d0f024e.gif)
+
+
+极光大数据显示， 主流手机品牌用户普遍对音乐和旅游感兴趣，对直播聊天的接受度高。此外，和主流手机品牌用户搭讪的最佳话题：流行时尚、校园社区、文艺小清新。
+
+​
+
+
+
+* * *
+
+
+
+​**手机应用安装情况**
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/2a0685650c61f3895b259d6d8e38e39a.gif)
+
+
+极光大数据显示， 高中低端机型每台手机平均安装的应用量分别为：56个、52个和39个。中高端机型应用平均安装量均超过50个，在内存、性能等方面相对低端机更能迎合用户安装多应用的需求。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/5b3c4d612c8df50d6a63ca302b68b0fb.gif)
+
+
+在低端机应用安装偏好方面，极光大数据显示低端机用户最关注的应用软件类型是日历闹钟天气app，对导航地图类app的需求明显低于国内移动网民整体水平
+
+低端机用户：关心天气，不关心路况。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/3a029d6fce8ce5afb60cdc967ca48125.gif)
+
+
+针对中端机用户的应用安装偏好，极光大数据发现中端机用户对导航地图、吃喝玩乐类型的应用偏好度最高，该类应用在中端机用户中的渗透率比在全国移动网民中的渗透率高7%左右，同时中端机用户对支付和综合商城类应用的偏好度也较高。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/3e9d80aa863aba113664e4667f989ba2.gif)
+
+
+高端机用户的手机常备生活小工具，对能提高生活品质的生活小工具、图书阅读和投资app较感兴趣。
+
+
+![%image_alt%](http://tc.sinaimg.cn/maxwidth.800/tc.service.weibo.com/sdkfiledl_jiguang_cn/cc1135d2b7c3be53463b8f7d529c35fe.gif)
+
+
+在主流安卓手机应用安装偏好方面，极光大数据显示，华为、 OPPO、vivo、小米、三星最偏爱的应用：卓点记事本、讯飞语音、vivo应用商店、MM娱乐、百度。
+
+报告源自极光大数据，欢迎登陆极光官网或关注极光微信公众号：lovejpush 下载完整报告。
+
+**关于极光**
+
+极光（www.jiguang.cn）是中国领先的移动大数据平台和移动应用云服务商。其团队核心成员来自腾讯、摩根士丹利、豆瓣、Teradata、中国移动等公司。公司自 2011 年成立以来专注于为 app 开发者提供稳定高效的消息推送、统计分析、即时通讯和短信等开发者服务。至今我们已经服务了超过40万款移动应用，累计覆盖超过 50 亿个移动终端，月活跃用户超过 6 亿，产品覆盖了中国国内 90% 以上的移动终端。基于积累的海量数据，我们拓展了在大数据领域的产品，包括极光广告服务和极光数据服务。极光致力于为各行各业节约开发成本，提高运营效率，优化业务决策。
+
+		

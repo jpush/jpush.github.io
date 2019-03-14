@@ -1,0 +1,262 @@
+---
+author: hurong
+comments: true
+date: 2016-04-14 05:16:45+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/richpush/
+slug: richpush
+title: "\n\t\t\t\t富媒体通知全面升级\t\t"
+wordpress_id: 804
+categories:
+- 产品更新
+---
+
+
+				
+
+<blockquote>
+
+> 
+> ###### “让通知更丰富，让操作更便捷”
+> 
+> 
+</blockquote>
+
+
+
+
+### **什么是富媒体通知？**
+
+
+
+
+
+	
+  * 以前，点击普通通知，我们就立刻进入了APP；
+
+	
+  * 现在，点击富媒体通知，我们看到的是图文并茂的页面，然后再选择性地进入APP。
+
+	
+  * 富媒体通知只适用于Android平台。
+
+
+
+
+### 富媒体通知有哪些优势？
+
+
+
+
+
+	
+  * 提高转化率、留存率；
+
+	
+  * 通知形式多样化，重点内容一目了然；
+
+	
+  * 操作简单，无技术要求，降低运营成本。
+
+
+
+
+### 极光推送一直以来都有富媒体，现在和以前又有什么区别呢？
+
+
+
+
+
+	
+  * 权限开放，面向全体用户
+
+
+
+
+- 之前富媒体只针对VIP用户开放，现在所有用户都可以使用富媒体。
+
+
+
+
+
+
+	
+  * 操作更简单
+
+
+
+
+- 升级前的富媒体需要手动编写html页面，升级后的富媒体只需要上传图片编写文字，其他的技术活，我们来做！
+
+
+
+
+
+
+	
+  * 更多模板选择
+
+
+
+
+- 我们提供了三种类型五种模板，还可以通过URL发送页面。未来还有更多选择！
+
+
+
+
+
+
+	
+  * 随时保存，随时编辑
+
+
+
+
+- 草稿箱随时保存模板内容，保证内容不丢失！
+
+
+
+
+
+### 都有哪些模板？
+
+
+
+
+
+	
+  * Landing page：
+
+
+[![模版1](http://blog.jiguang.cn/wp-content/uploads/2016/04/模版1-214x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/模版1.png)
+
+
+
+	
+  * 弹窗
+
+
+
+
+[![单图模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/单图模版-216x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/单图模版.png)          [![图文模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/图文模版-216x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/图文模版.png)
+
+
+
+
+
+
+	
+  * 信息流
+
+
+
+
+[![多图文模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/多图文模版-229x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/多图文模版.png)          [![单图文模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/单图文模版-229x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/单图文模版.png)
+
+
+
+
+
+### 从表象到本质，TA们都适用于哪些场景？
+
+
+
+
+#### - Landing page
+
+
+
+
+
+	
+  * 适用于单张大图；
+
+	
+  * 可选择跳转至其他页面；
+
+	
+  * 一定时间后进入APP。
+
+
+
+
+#### - 弹窗
+
+
+
+
+
+	
+  * 适用于单张小图；
+
+	
+  * 可选择跳转至其他页面；
+
+	
+  * 不可通过弹窗进入APP。
+
+
+
+
+#### - 信息流
+
+
+
+
+
+	
+  * 适用于图文信息同时展示；
+
+	
+  * 提供较多的文字和图片供用户阅读；
+
+	
+  * 可返回进入APP。
+
+
+
+
+#### - URL
+
+
+
+
+
+	
+  * 适用于已经发布的页面，可直接通过添加URL发送。
+
+
+
+
+### 看了那么多，快去试试看吧！
+
+
+
+
+##### 入口在这里：
+
+
+[![entrance](http://blog.jiguang.cn/wp-content/uploads/2016/04/entrance3-300x121.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/entrance3.png)
+
+
+如果自己折腾不好，请移步官网文档之控制台使用指南，那里有教程哦~
+
+
+
+
+
+
+* * *
+
+
+
+
+欢迎拍砖
+
+
+
+
+<hurong@jpush.cn>
+
+		

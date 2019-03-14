@@ -1,0 +1,383 @@
+---
+author: javen
+comments: true
+date: 2016-12-06 09:28:01+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_11/
+slug: updates_2016_11
+title: "\n\t\t\t\t极光近期更新汇总 - 十一月\t\t"
+wordpress_id: 1638
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JAnalytics（统计分析）新产品发布：这是极光开发者服务的全新成员。
+
+	
+  * JPush Android/iOS SDK 大版本升级至 v3，从 JPush 里分离出来 JCore，这样同时使用 JPush 与 JAnalytics 时只需要一个 JCore。
+
+	
+  * JPush Android/iOS SDK 全面支持消息通道加密。
+
+	
+  * JMessage Web SDK 大版本升级至 v2，全新设计的 Promise 风格 API。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 更新到大版本 v3.0.0。
+
+	
+    * 从 JPush 里分离出来 JCore 核心组件，现在包含 2 个 jar 包。
+
+	
+    * 消息通道加密。
+
+	
+    * 通知栏增加更多特性。
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 更新到大版本 v3.0.0。
+
+	
+    * 从 JPush 里分离出来 JCore 核心组件，现在包含 2 个相对独立的部分。
+
+	
+    * 消息通道加密在之前的版本已经支持。
+
+
+
+
+	
+  * JAnalytics Android SDK
+
+	
+    * 新产品首次发布。
+
+	
+      * 支持用户活跃，新增用户等基础项统计。
+
+	
+      * 支持应用崩溃信息统计。
+
+	
+      * 支持购买，内容浏览，登录，注册等模版型事件。
+
+	
+      * 支持自定义计算事件和自定义计数事件。
+
+	
+      * 支持页面流统计。
+
+
+
+
+
+
+
+	
+  * JAnalytics iOS SDK
+
+	
+    * 新产品首次发布。
+
+	
+      * 支持用户活跃，新增用户等基础项统计。
+
+	
+      * 支持应用崩溃信息统计。
+
+	
+      * 支持购买，内容浏览，登录，注册等模版型事件。
+
+	
+      * 支持自定义计算事件和自定义计数事件。
+
+	
+      * 支持页面流统计。
+
+
+
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 所有 HTTP 连接转换为 HTTPS。
+
+	
+    * 修复：群组事件无法未创建会话的问题。
+
+	
+    * 修复：循环发送消息导致崩溃的问题。
+
+
+
+
+	
+  * JMessage Web SDK
+
+	
+    * 命名变更：之前为 JS SDK，现在改为 Web SDK。
+
+	
+    * 发布大版本 v2，全面升级 API，支持 Promise 风格 API。
+
+	
+    * 新增一大波功能：发送与接收文件，更新用户头像等。
+
+
+
+
+	
+  * JSMS Android SDK
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JSMS iOS SDK
+
+	
+    * 近期无更新。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush PHP SDK (composer: jpush)
+
+	
+    * 修复 pushpayload 实例变量在使用之后未释放导致的在单例模式下重复发送推送等问题 #40。
+
+
+
+
+	
+  * JPush Java SDK (maven: jpush)
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JPush C# SDK (NuGet: cn.jpush.api)
+
+	
+    * tag 与 alias 支持特殊字符。
+
+
+
+
+	
+  * JPush Ruby SDK (rubygem: jpush)
+
+	
+    * tag 与 alias 支持特殊字符。
+
+
+
+
+	
+  * JPush Node.js SDK (npm: jpush-sdk)
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JMessage Java SDK (maven: jmessage)
+
+	
+    * 更新支持 JMessage 最新的 REST API。
+
+
+
+
+	
+  * JMessage Python SDK
+
+	
+    * 近期无更新。
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+	
+  * 系统功能
+
+	
+    * 极光开发者业务新发布功能组件：JAnalytics（统计分析）。
+
+
+
+
+	
+  * API
+
+	
+    * JMessage REST API 新增好友相关 API。
+
+
+
+
+	
+  * 控制台
+
+	
+    * JMessage 新增 Web 发消息功能，支持文字与图片。
+
+	
+    * 短信业务上线了营销短信的功能。
+
+	
+    * 上线开发者认证相关功能，以及签名申请功能。
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 更新 JPush SDK 到大版本 v3。
+
+	
+    * iOS 部分做了一些优化。
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 更新到最新的 JMessage SDK。
+
+	
+    * iOS 更新增加 iOS 10 支持。
+
+	
+    * 添加新版本 SDK 支持的 API 支持：好友相关，发送文件与地埋位置等。
+
+
+
+
+	
+  * JPush React Plugin
+
+	
+    * 更新 SDK 以及做小幅优化。
+
+
+
+
+	
+  * JPush Unity3d Plugin
+
+	
+    * 更新 iOS SDK 版本。
+
+	
+    * 更新支持 iOS 10 特性。
+
+
+
+
+	
+  * JSMS Cordova Plugin
+
+	
+    * Android / iOS 都更新支持最新的 SDK 以及 API。
+
+
+
+
+	
+  * JChat
+
+	
+    * Android 增加通讯录功能，增加发送位置功能。
+
+
+
+
+		

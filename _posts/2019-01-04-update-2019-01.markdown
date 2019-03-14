@@ -1,0 +1,428 @@
+---
+author: xianghong
+comments: true
+date: 2019-01-04 09:26:50+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/update-2019-01/
+slug: update-2019-01
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2018.12\t\t"
+wordpress_id: 2107
+categories:
+- 产品更新
+---
+
+
+				
+
+# 重点关注
+
+
+
+
+
+ 	
+  * [JIoT SDK 首次发布，是极光面向物联网开发者推出的 SaaS 服务平台，专门为 IoT 设备优化协议，提供高并发、高覆盖、高可用的设备接入及消息通信能力。](https://docs.jiguang.cn/jiot/guideline/iot_intro/)
+
+ 	
+  * [JPush 新增地理围栏功能，当设备进入或离开相应的地理区域触发通知。](http://etrack05.com/track/click/eyJtYWlsbGlzdF9pZCI6IDAsICJ0YXNrX2lkIjogIiIsICJlbWFpbF9pZCI6ICIxNTQ2NTk0ODk0MTg3XzE4MTc0XzkxNDVfNDY3MS5zYy0xMF85XzYzXzE2MS1pbmJvdW5kMCQxMzQzNjI1NDA5QHFxLmNvbSIsICJzaWduIjogImZlZWYxZWY5YzNhNDg4ODk5N2ZlY2RlNDQ3Y2VhODVhIiwgInVzZXJfaGVhZGVycyI6IHt9LCAibGFiZWwiOiAwLCAibGluayI6ICJodHRwcyUzQS8vZG9jcy5qaWd1YW5nLmNuL2pwdXNoL2NsaWVudC9BbmRyb2lkL2FuZHJvaWRfYXBpLyUyM2FwaV8xMSIsICJ1c2VyX2lkIjogMTgxNzQsICJjYXRlZ29yeV9pZCI6IDczMTkwfQ==.html)
+
+ 	
+  * [极光认证 Android 版本的中国电信协议变更，要求必须升级。](http://etrack05.com/track/click/eyJtYWlsbGlzdF9pZCI6IDAsICJ0YXNrX2lkIjogIiIsICJlbWFpbF9pZCI6ICIxNTQ2NTk0ODk0MTg3XzE4MTc0XzkxNDVfNDY3MS5zYy0xMF85XzYzXzE2MS1pbmJvdW5kMCQxMzQzNjI1NDA5QHFxLmNvbSIsICJzaWduIjogIjRiNjEwNDE4YjEyNzVlZWRmMzZjZjg0NWFjODRhOGI1IiwgInVzZXJfaGVhZGVycyI6IHt9LCAibGFiZWwiOiAwLCAibGluayI6ICJodHRwcyUzQS8vZG9jcy5qaWd1YW5nLmNuL2p2ZXJpZmljYXRpb24vdXBkYXRlcy8lMjNqdmVyaWZpY2F0aW9uLWFuZHJvaWQtc2RrLXYxMTEiLCAidXNlcl9pZCI6IDE4MTc0LCAiY2F0ZWdvcnlfaWQiOiA3MzE5MH0=.html)
+
+ 	
+  * [IMUI 发布纯 JS 版本，以满足开发者对 IMUI 自定义要求。](http://etrack05.com/track/click/eyJtYWlsbGlzdF9pZCI6IDAsICJ0YXNrX2lkIjogIiIsICJlbWFpbF9pZCI6ICIxNTQ2NTk0ODk0MTg3XzE4MTc0XzkxNDVfNDY3MS5zYy0xMF85XzYzXzE2MS1pbmJvdW5kMCQxMzQzNjI1NDA5QHFxLmNvbSIsICJzaWduIjogIjc4NDViNzFhZTZmOGQwMDc1ODE0NzhkNjY1OGNhZTM3IiwgInVzZXJfaGVhZGVycyI6IHt9LCAibGFiZWwiOiAwLCAibGluayI6ICJodHRwcyUzQS8vZ2l0aHViLmNvbS9qcHVzaC9hdXJvcmEtaW11aS90cmVlL21hc3Rlci9SZWFjdE5hdGl2ZV9KUyIsICJ1c2VyX2lkIjogMTgxNzQsICJjYXRlZ29yeV9pZCI6IDczMTkwfQ==.html)
+
+
+
+
+# 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+ 	
+  * JPush Android SDK
+
+ 	
+    * 新增：支持自定义大图标功能
+
+ 	
+    * 新增：支持点击通知栏跳转指定页面
+
+ 	
+    * 新增：地理围栏功能
+
+ 	
+    * 修复：已知问题与开发者反馈的 Bug
+
+
+
+
+ 	
+  * JPush iOS SDK
+
+ 	
+    * 新增：地理围栏功能
+
+
+
+
+ 	
+  * JAnalytics QuickApp SDK
+
+ 	
+    * 新增：deviceInfo 和 locInfo 上报
+
+ 	
+    * 新增：账户维度统计
+
+ 	
+    * 修复：已知问题
+
+
+
+
+ 	
+  * JVerification Android
+
+ 	
+    * 优化：电信 SIM 卡认证方式，SDK 体积更小
+
+ 	
+    * 优化：中国电信协议变更（必须升级）
+
+ 	
+    * 修复：已知问题
+
+
+
+
+ 	
+  * JVerification iOS SDK
+
+ 	
+    * 优化：电信 SIM 卡认证方式，SDK 体积更小
+
+ 	
+    * 修复：已知问题
+
+
+
+
+ 	
+  * JIoT SDK
+
+ 	
+    * 首次发布
+
+ 	
+    * 面向物联网开发者推出的 SaaS 服务平台，专门为 IoT 设备优化协议，提供高并发，高覆盖，高可用的设备接入及消息通信能力
+
+
+
+
+
+
+
+### 服务端 SDK
+
+
+
+
+
+ 	
+  * JPush Java SDK
+
+ 	
+    * 新增：IosNotification 扩展 [sound 字段 JsonObject 添加方式](https://github.com/jpush/jpush-api-java-client/blob/master/example/main/java/cn/jpush/api/examples/PushExample.java#L302)
+
+ 	
+    * 新增：large_icon、intent、thread-id 字段
+
+
+
+
+ 	
+  * JPush Python  SDK
+
+ 	
+    * 新增：送达状态查询 api
+
+ 	
+    * 新增：large_icon、intent、thread-id 字段
+
+
+
+
+ 	
+  * JMessage Java SDK
+
+ 	
+    * 优化：MessageResult 中 msgid 的类型修改为 long
+
+
+
+
+ 	
+  * JSMS PHP SDK
+
+ 	
+    * 添加短信签名 API
+
+ 	
+    * 修改 example 使用配置方式
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+ 	
+  * JPush
+
+ 	
+    *  Portal
+
+ 	
+      * 新增地理围栏功能配置
+
+
+
+
+ 	
+    * REST API
+
+ 	
+      * 新增：Push API - Notification - Android  新增字段 large_icon、intent 分别支持通知栏大图标、指定跳转页面
+
+ 	
+      * 新增：Device API 支持设置 mobile 为空字符串来清除手机号设置，便于开发者更好地使用短信补充服务
+
+ 	
+      * 新增：Push API - Notification - iOS 新增字段 thread-id，用于通知分组，以支持 iOS 12 新特性
+
+
+
+
+
+
+
+ 	
+  * JAnalytics
+
+ 	
+    * Portal
+
+ 	
+      * 新增漏斗分析功能，帮助开发者了解用户在产品中的使用行为，分析每个环节的转化和流失。（目前该功能对全部开发者开放）
+
+
+
+
+
+
+
+ 	
+  * JSMS
+
+ 	
+    * Portal
+
+ 	
+      * 新增：支持单个应用创建多个签名；
+
+ 	
+      * 新增：支持签名、模版独立创建，组合下发
+
+
+
+
+
+
+
+ 	
+  * JVerification
+
+ 	
+    *  Portal
+
+ 	
+      * 新增：IP 白名单
+
+ 	
+      * 新增：SDK 发起认证开关
+
+
+
+
+ 	
+    * REST API：
+
+ 	
+      * 新增：从服务端发起号码认证
+
+ 	
+      * 
+
+
+新增：认证 API 调用频率限制
+
+
+
+
+
+
+
+
+
+
+
+
+
+### [极光开源](https://github.com/jpush)
+
+
+
+
+
+ 	
+  * Aurora IMUI
+
+ 	
+    * JS 版本首次发布，以满足开发者对 IMUI 自定义要求
+
+
+
+
+ 	
+  * JPush PhoneGap Plugin
+
+ 	
+    * 支持：cordova-android@7.1.2
+
+
+
+
+ 	
+  * JPush React Native
+
+ 	
+    * 优化：适配 Android gradle 3.0+
+
+
+
+
+ 	
+  * JPush Flutter Plugin
+
+ 	
+    * 添加 debug 参数
+
+ 	
+    * 支持动态设置 channel
+
+
+
+
+ 	
+  * JMessage React Native
+
+ 	
+    * 优化：适配 Android gradle 3.0+
+
+ 	
+    * 新增：v3 版本对[群组 API](https://github.com/jpush/jmessage-react-plugin/blob/master/document/API.md#%E7%BE%A4%E7%BB%84) 进行了更新和添加
+
+ 	
+    * 新增：群组数据结构新增 Model 数据 [GroupMemberInfo](https://github.com/jpush/jmessage-react-plugin/blob/master/document/Models.md#groupmemberinfo)
+
+
+
+
+ 	
+  * JMessage PhoneGap Plugin
+
+ 	
+    * 支持：cordova-android@7.1.2
+
+ 	
+    * 新增：v4 版本对群组 API 进行了更新和添加，新增 Model 数据 [GroupMemberInfo](https://github.com/jpush/jmessage-phonegap-plugin/wiki/Models#groupmemberinfo)
+
+ 	
+    * 新增：群组 API：[transferGroupOwner](https://github.com/jpush/jmessage-phonegap-plugin/wiki/APIs#transfergroupowner)、[setGroupMemberSilence](https://github.com/jpush/jmessage-phonegap-plugin/wiki/APIs#setgroupmembersilence)、[isSilenceMember](https://github.com/jpush/jmessage-phonegap-plugin/wiki/APIs#issilencemember)、[setGroupNickname](https://github.com/jpush/jmessage-phonegap-plugin/wiki/APIs#setgroupnickname)、[groupSilenceMembers](https://github.com/jpush/jmessage-phonegap-plugin/wiki/APIs#groupsilencemembers)
+
+ 	
+    * 优化：[getGroupMembers](https://github.com/jpush/jmessage-phonegap-plugin/wiki/APIs#getgroupmembers) 返回 Model 改为 [GroupMemberInfo](https://github.com/jpush/jmessage-phonegap-plugin/wiki/Models#groupmemberinfo).
+
+
+
+
+ 	
+  * JMRTC React Native
+
+ 	
+    * 优化：统一 Android 和 iOS 调用方式
+
+
+
+
+ 	
+  * JShare React Native
+
+ 	
+    * 优化：适配 Android gradle 3.0+
+
+ 	
+    * 优化：适配 Android 8.0
+
+
+
+
+ 	
+  * JAnalytics React Native
+
+ 	
+    * 适配 Android gradle 3.0+
+
+ 	
+    * 新增：[setChannel](https://github.com/jpush/janalytics-react-native/blob/master/index.js#L140)、[setAnalyticsReportPeriod](https://github.com/jpush/janalytics-react-native/blob/master/index.js#L151)
+
+
+
+
+ 	
+  * JAnalytics PhoneGap Plugin
+
+ 	
+    * 优化：支持 cordova-android@7.1.2
+
+ 	
+    * 新增：[identifyAccount](https://github.com/jpush/cordova-plugin-janalytics/blob/master/www/JAnalytics.js#L166)、[setAnalyticsReportPeriod](https://github.com/jpush/cordova-plugin-janalytics/blob/master/www/JAnalytics.js#L143)、[setChannel(Android only)](https://github.com/jpush/cordova-plugin-janalytics/blob/master/www/JAnalytics.js#L131)
+
+
+
+
+ 	
+  * JVerification React Native
+
+ 	
+    * 首次发布
+
+
+
+
+		

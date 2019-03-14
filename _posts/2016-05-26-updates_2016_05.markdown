@@ -1,0 +1,201 @@
+---
+author: javen
+comments: true
+date: 2016-05-26 03:02:34+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_05/
+slug: updates_2016_05
+title: "\n\t\t\t\t极光近期更新汇总 - 五月\t\t"
+wordpress_id: 962
+categories:
+- 产品更新
+tags:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * 极光推送 iOS SDK 新版本支持 IPv6，建议升级以满足 Apple 的 App 上架要求；
+
+	
+  * 极光推送重要公告：立即升级老版本 SDK（Android 1.8.2 之前，iOS 2.1.5 之前），否则集成老版本 SDK 的 App 新安装用户将无法使用推送功能。[原因是老版本 SDK 依赖的极光内部 32 位 UID 即将用完。](http://blog.jpush.cn/uid32to64/)
+
+	
+  * 极光IM iOS SDK 发布版本支持跨应用单聊；
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 修复: 用API推送 通知＋自定义消息一起的消息在2.1.3版本上仅收到通知的问题；
+
+	
+    * 修复: 在极端情况下 Tag/Alias 清理后设置不成功的问题；
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 新增：对 IPv6 网络的支持；
+
+	
+    * 修复：存在偶然崩溃的问题；
+
+	
+    * 优化：改善用户备份 App，还原到新设备 RegistrationID 不变的问题；
+
+	
+    * 优化：页面统计信息；
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 新增：实现跨应用单聊；
+
+	
+    * 优化：支持VIP用户群组上限突破200；
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JMessage Java SDK (maven: jmessage-client)
+
+	
+    * 首次正式发布，支持 JMessage REST API；
+
+
+
+
+	
+  * JPush Python SDK (pypi: jpush)
+
+	
+    * 更新支持全部 JPush API；
+
+	
+    * 兼容 Python2, Python3；
+
+
+
+
+	
+  * JPush Java SDK (maven: jpush-client)
+
+	
+  * JPush PHP SDK
+
+	
+  * JPush C# SDK
+
+	
+  * JPush Ruby SDK  (RubyGem: jpush)
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * iOS Pods
+
+	
+    * JPush iOS SDK：JPush
+
+	
+    * JMessage iOS SDK: JMessage
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 增加支持 Android 富媒体推送；
+
+
+
+
+	
+  * JPush Unity3d Plugin
+
+	
+    * 发布了更新，支持新版本 Android/iOS SDK（之前有一年多未更新）；
+
+
+
+
+	
+  * JPush Cocos2d-x Plugin
+
+	
+    * 发布了更新，支持新版本 Android/iOS SDK（之前有一年多未更新）；
+
+
+
+
+	
+  * JPush React Plugin
+
+	
+    * 预告：接近发布。将提供 npm 安装包方式；
+
+
+
+
+	
+  * H5 应用开发支持
+
+	
+  * JChat
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+		

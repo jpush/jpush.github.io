@@ -1,0 +1,194 @@
+---
+author: xianghong
+comments: true
+date: 2019-01-29 05:58:48+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/update-2019-1/
+slug: update-2019-1
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 – 2019.01\t\t"
+wordpress_id: 2131
+categories:
+- 产品更新
+---
+
+
+				
+
+# 重点关注
+
+
+
+
+
+ 	
+  * JMessage SDK 新增群公告、群组黑名单、聊天室管理员和黑名单等多个功能，[建议更新。](https://docs.jiguang.cn/jmessage/updates/)
+
+ 	
+  * JPush 短信补充功能[新增字段 active_filter](https://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#sms_message) ，可以用来控制是否对补发短信的用户进行活跃过滤。
+
+ 	
+  * JMessage Flutter 插件[首次发布](https://github.com/jpush/jmessage-flutter-plugin)，有需求的开发者可以进行接入。
+
+
+
+
+# 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+ 	
+  * Android JCore
+
+ 	
+    * 新增：自定义 Receiver 接收被拉起回调
+
+
+
+
+ 	
+  * JMessage Android SDK
+
+ 	
+    * 新增：支持群公告、群组黑名单
+
+ 	
+    * 新增：支持聊天室管理员、黑名单
+
+ 	
+    * 修复：某些情况下导致的会话刷新事件频繁下发的问题
+
+ 	
+    * 修复：某些情况下更新用户信息 extras 失败的问题
+
+ 	
+    * 修复：用户反馈的一些其他 bug
+
+
+
+
+ 	
+  * JMessage iOS SDK
+
+ 	
+    * 新增：群公告、群组黑名单
+
+ 	
+    * 新增：创建群组时可设置成员上限
+
+ 	
+    * 新增：聊天室黑名单、管理员
+
+ 	
+    * 新增：聊天室管理员变更、黑名单变更事件
+
+ 	
+    * 修复：用户反馈的一些 bug
+
+
+
+
+ 	
+  * JMessage PC SDK
+
+ 	
+    * 新增：Windows 新增 64 位版本 SDK
+
+ 	
+    * 优化：MacOS 更新至 Xcode 10
+
+ 	
+    * 修复：反馈的 bug
+
+
+
+
+ 	
+  * JVerification Android / iOS SDK
+
+ 	
+    * 修复：已知问题
+
+
+
+
+
+
+
+### 服务端 SDK
+
+
+
+
+
+ 	
+  * JSMS PHP / Java SDK
+
+ 	
+    * 发短信支持 sign 参数
+
+
+
+
+ 	
+  * Java common
+
+ 	
+    * 修复： ApacheHttpClient 的 delete 请求体未处理的问题
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+ 	
+  * JPush
+
+ 	
+    * REST API
+
+ 	
+      * 新增：Push API - 短信补充功能新增字段 active_filter 用来控制是否对补发短信的用户进行活跃过滤
+
+ 	
+      * 优化：Device API 更新标签时，若所传的个别 registrationiD 有问题，将返回有问题的 registrationID 给开发者以及错误码 7013，其他正常的 registrationID 正常绑定。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](https://github.com/jpush)
+
+
+
+
+
+ 	
+  * JMessage Flutter Plugin
+
+ 	
+    * 首次发布
+
+
+
+
+		

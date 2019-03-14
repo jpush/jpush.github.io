@@ -1,0 +1,230 @@
+---
+author: javen
+comments: true
+date: 2017-05-03 08:23:29+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates-2017-04/
+slug: updates-2017-04
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2017.04\t\t"
+wordpress_id: 1905
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JShare 极光分享，「极光开发者服务」的又一个成员产品低调上线。提供 Android/iOS SDK 供集成使用。
+
+	
+  * JMessage iOS SDK 支持全新的消息同步机制，大大提升消息同步效率。Android SDK 在之前的版本已经支持。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 新增：为 VIP 用户提供华为推送通道集成。
+
+	
+    * 优化：优化存储性能，提高稳定性。
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 优化：提高 JCore 兼容性与稳定性。
+
+
+
+
+	
+  * JAnalytics Android SDK
+
+	
+    * 修复：一些用户反馈的 Bug。
+
+	
+    * 增加：CrashLog 上报的开关接口。
+
+
+
+
+	
+  * JAnalytics iOS SDK
+
+	
+    * 修复：一些用户反馈的 Bug。
+
+	
+    * 增加：统计上报数据项。
+
+
+
+
+	
+  * JShare Android SDK
+
+	
+    * 新产品：支持分享到微信、QQ、微博等第三方平台。
+
+
+
+
+	
+  * JShare iOS SDK
+
+	
+    * 新产品：支持分享到微信、QQ、微博等第三方平台。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 优化：提升 SDK 稳定性。
+
+	
+    * 新增：提供获取全局未读数的接口。
+
+	
+    * 新增：支持 jcenter 集成。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 优化：全新的消息同步机制。
+
+	
+    * 新增：支持消息漫游。
+
+	
+    * 以及其他较多的新功能。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush Node.js SDK (npm: jpush-sdk)
+
+	
+    * 修复 iOS 通知的Bug，解决与文档不一致的问题。
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+	
+  * 短信
+
+	
+    * 控制台
+
+	
+      * 新增：设置下行消息发送状态回调URL。
+
+	
+      * 新增：设置上行消息内容回调URL。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 修复 iOS 相关 Bugs。
+
+
+
+
+	
+  * JPush React Native
+
+	
+    * 升级 JPush Android/iOS SDK 版本。
+
+	
+    * 更新 Android Demo，提高可参考性。
+
+
+
+
+	
+  * JBox
+
+	
+    * 一个基于 JPush 的最轻便易用的通知框架。提供可直接使用 Andorid/iOS App。
+
+
+
+
+	
+  * Aurora IMUI
+
+	
+    * 通用的 IM UI 组件，提供 Android/iOS 版本。
+
+
+
+
+		

@@ -1,0 +1,369 @@
+---
+author: xianghong
+comments: true
+date: 2018-08-02 03:28:38+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/update-2018-07/
+slug: update-2018-07
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2018.07\t\t"
+wordpress_id: 2065
+categories:
+- 产品更新
+---
+
+
+				
+
+# 重点关注
+
+
+
+
+
+ 	
+  * JMRTC 实时音视频首次发布，可免费试用 10000 分钟。
+
+ 	
+  * JSMS Android SDK v1.2.2 之前版本中 https 证书将于 2019 年 03 月失效，请尽快安排升级。
+
+ 	
+  * JShare 新增 JChatPro 分享功能
+
+ 	
+  * JPush 支持动态配置 Channel
+
+
+
+
+# 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+ 	
+  * JPush Android SDK
+
+ 	
+    * 优化：SDK 加载过程。
+
+ 	
+    * 优化：调整震动权限为可选权限，去掉 wakelock 权限检测。
+
+ 	
+    * 新增：接口设置 Channel。
+
+ 	
+    * 新增：设置 tagalias 与设置手机号码增加 6026 错误码
+
+ 	
+    * 修复： targetversion 大于 21 时在 7.0 及以上手机上通知不显示时间的问题
+
+
+
+
+ 	
+  * JPush iOS SDK
+
+ 	
+    * 修复：本地通知部分设置问题
+
+ 	
+    * 修复：设置手机号码回调问题
+
+ 	
+    * 修复：tag 相关异常问题
+
+
+
+
+ 	
+  * JMessage Android SDK
+
+ 	
+    * 新增：VideoContent 消息类型
+
+ 	
+    * 新增：model 类实现序列化、提供 toJson 方法
+
+ 	
+    * 新增：收到 dev api 更新好友关系事件之后，sdk 上抛好友关系变更事件
+
+ 	
+    * 新增：批量同意审批事件操作、审批事件中增加获取待审批用户人数的接口
+
+ 	
+    * 新增：修改群组类型；添加群成员接口增加 reason；增加群组成员上限调整通知
+
+ 	
+    * 新增：加人进群事件支持自定义扩展字段
+
+
+
+
+ 	
+  * JMessage iOS SDK
+
+ 	
+    * 新增：修改群组类型；批量审批入群申请；公开群添加群成员可填写理由
+
+ 	
+    * 新增：video 视频类型消息；批量增加、删除管理员
+
+ 	
+    * 新增：支持 JMRTC
+
+ 	
+    * 修复：获取群列表接口返回类型错误的问题
+
+ 	
+    * 变更：因为 swift 版本兼容问题，登录返回设备记录接口修改为:
+`+(void)loginWithUsername:password:devicesInfo:completionHandler:`
+
+
+
+
+ 	
+  * JMRTC Android / iOS SDK
+
+ 	
+    * JMRTC 首次发布
+
+ 	
+    * 支持：多人实时音视频通话
+
+ 	
+    * 支持：通话中设备控制（切换摄像头、免提模式等）
+
+ 	
+    * 支持：视频输出分辨率设置
+
+
+
+
+ 	
+  * JShare Android / iOS SDK
+
+ 	
+    * 新增： JChatPro 分享功能
+
+ 	
+    * 修复：部分 Bug
+
+
+
+
+ 	
+  * JSMS Android SDK
+
+ 	
+    * 新增： https 的预埋证书（Ps：JSMS Android SDK v1.2.2 之前版本中 https 证书将于2019年03月失效。）
+
+
+
+
+
+
+
+### 服务端 SDK
+
+
+
+
+
+ 	
+  * JPush Java SDK
+
+ 	
+    * 优化：短信补充 API
+
+ 	
+    * 优化：Gson 禁用 html 转义
+
+ 	
+    * 修复：送达状态北京域名拼接问题
+
+
+
+
+ 	
+  * JPush PHP SDK
+
+ 	
+    * 优化：短信补充 API
+
+ 	
+    * 修复： segment 参数问题
+
+
+
+
+ 	
+  * JPush Python SDK
+
+ 	
+    * 新增： 获取用户在线状态（VIP 专属接口）
+
+ 	
+    * 优化：短信补充 API
+
+
+
+
+ 	
+  * JPush nodejs SDK
+
+ 	
+    * 优化：短信补充 API
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+ 	
+  * 控制台
+
+ 	
+    * 新增：支持手机号绑定，通过手机号找回密码的功能。
+
+
+
+
+ 	
+  * JPush
+
+ 	
+    * Portal
+
+ 	
+      * 优化：扫描下载安卓 demo 的二维码，会先至落地页，避免微信的屏蔽。
+
+
+
+
+
+
+
+ 	
+  * JMessage
+
+ 	
+    * Portal
+
+ 	
+      *  新增：音视频统计
+
+
+
+
+
+
+
+ 	
+  *  极光统计
+
+ 	
+    * Portal
+
+ 	
+      * 新增：错误列表页面增加查询项、已读未读的处理逻辑。
+
+ 	
+      * 新增：页面访问统计
+
+
+
+
+
+
+
+ 	
+  * JSMS
+
+ 	
+    * Portal
+
+ 	
+      * 新增：批量短信发送增加标签和发送记录。
+
+
+
+
+ 	
+    * REST API
+
+ 	
+      * 新增：发送批量短信的 API 新增参数：tag。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](https://github.com/jpush)
+
+
+
+
+
+ 	
+  * JPush React Native
+
+ 	
+    * 新增：getLaunchAppNotification API，用于获取缓存的 notification。
+
+ 	
+    * 优化：统一远程通知字段。
+
+ 	
+    * 修复：Android 点击通知偶尔无法接收事件的问题。
+
+
+
+
+ 	
+  * JPush HBuilder demo
+
+ 	
+    * 新增：获取和清除点击通知缓存 API。
+
+
+
+
+ 	
+  * JPush Weex Plugin
+
+ 	
+    * 首次发布，暂只实现 iOS 平台。
+
+
+
+
+ 	
+  * JMessage PhoneGap Plugin
+
+ 	
+    * 新增：公开群组 API 。
+
+
+
+
+		

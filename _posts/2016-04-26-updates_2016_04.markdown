@@ -1,0 +1,227 @@
+---
+author: javen
+comments: true
+date: 2016-04-26 07:13:43+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_04/
+slug: updates_2016_04
+title: "\n\t\t\t\t极光近期更新汇总 - 四月\t\t"
+wordpress_id: 853
+categories:
+- 产品更新
+tags:
+- 极光
+- 更新汇总
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * 极光推送 iOS SDK 新增可设置 IDFA - 为了减少重复推送，提高统计准确度，建议设置 IDFA（在你的 App 的确有嵌入广告的情况下）；
+
+	
+  * 极光推送全面开放并增强富媒体功能，增加了启动页、弹窗、信息流等多种展示方式，并支持直接发送 URL 页面；
+
+	
+  * 极光IM Android 新增支持防打扰功能；
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 增强：富媒体增加 popwin 与 landingPage 模板；
+
+	
+    * 优化：Android 6.0 中弃用 org.apache.http 包的引用，改用 Google 推荐的方式 httpUrlconnection；
+
+	
+    * 修复：Android 5.0 上系统通知栏图标显示不出来的问题；
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 增强：增加获取 IDFA 的接口 - 为了提高统计的准确性，开发者可选设置 idfa 给 SDK。SDK 不会主动获取 IDFA；
+
+	
+    * 修复：解决特定条件下崩溃的问题；
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 新增：免打扰功能 - 个人与群组都可设置免打扰；
+
+	
+    * 优化：支持 VIP 应用群组上限突破 200；
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush C# SDK
+
+	
+    * 新增：支持 Device API；
+
+	
+    * 新增：支持 Push Schedule API；
+
+	
+    * 新增：Push API 增加支持 sms_message；
+
+
+
+
+	
+  * JPush Ruby SDK
+
+	
+    * 全新版本
+
+	
+      * 对老版本比较大范围的重构，优化 API 使用；
+
+	
+      * 当前版本暂只支持 Push API、Device API；
+
+
+
+
+
+
+
+
+
+
+### 极光开源
+
+
+
+
+
+	
+  * iOS Pods
+
+	
+    * JPush iOS SDK：JPush
+
+	
+    * JMessage iOS SDK: JMessage
+
+
+
+
+	
+  * JPush Phonegap Plugin
+
+	
+    * 更新 Android SDK 至最新的版本；
+
+	
+    * 支持通过 Cordova Plugins 安装插件；
+
+	
+    * Android 解决退出应用后点击通知无法触发点击事件的问题；
+
+
+
+
+	
+  * H5 应用开发支持
+
+	
+    * 首次发布支持 HBuilder（一个 H5 应用开发工具）的 JPush Demo；支持 Android/iOS 二大平台；
+
+
+
+
+	
+  * JChat Swift
+
+	
+    * 首次发布，这是 Swift 版本的 JChat，用于 Demo 如何用 Swift 来使用 JMessage SDK；
+
+	
+    * 初始版本提供 JChat 基本功能；
+
+
+
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+
+
+
+
+	
+  * 改进：极光推送富媒体功能增强
+
+	
+    * 完全对所有应用开放，不再局限于 VIP 应用；
+
+	
+    * 操作更简单：只需要上传照片、编写文字；
+
+	
+    * 支持多种方式：
+
+	
+      * 启动页面
+
+	
+      * 弹窗
+
+	
+      * 信息流
+
+
+
+
+	
+    * 也支持通过 URL 直接发送页面；
+
+
+
+
+		

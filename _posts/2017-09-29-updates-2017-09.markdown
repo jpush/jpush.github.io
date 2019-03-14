@@ -1,0 +1,320 @@
+---
+author: javen
+comments: true
+date: 2017-09-29 09:48:10+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates-2017-09/
+slug: updates-2017-09
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2017.09\t\t"
+wordpress_id: 1939
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * 新上线发布 JChat Web，为 JMessage Web SDK 提供直接可用的 Web 聊天体验。体验地址：http://jchat.im.jiguang.cn
+
+	
+  * JPush Android 兼容支持 Android 8.0。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 新增：ContentProvider 组件用于数据同步。
+
+	
+    * 优化：SDK 在 Android 8.0 上的兼容性。
+
+	
+    * 修复：开发者反馈的问题。
+
+
+
+
+	
+  * JShare iOS SDK
+
+	
+    * 修复：取消获取微信用户信息导致崩溃。
+
+
+
+
+	
+  * JMessage Web SDK
+
+	
+    * 优化：离线事件处理升级为事件同步机制，大幅提升处理大量事件的性能，上层无需改动和适配。
+
+	
+    * 新增：自定义通知栏、消息转发。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 优化：离线事件处理升级为事件同步机制，大幅提升处理大量事件的性能，上层无需改动和适配。
+
+	
+    * 修复：修复用户反馈的一些 Bug。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 优化：离线事件处理升级为事件同步机制，大幅提升处理大量事件的性能，上层无需改动和适配。
+
+	
+    * 优化：上传头像时，指定后缀名。
+
+	
+    * 修复：提升 SDK 稳定性。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush C# SDK
+
+	
+    * 做了大范围的重构与提升。
+
+	
+    * 支持 .NET 1.1, 1.3 标准。
+
+	
+    * 提供同步调用方法。
+
+
+
+
+	
+  * JPush Java SDK
+
+	
+    * 新增 API 支持 - getMessageStatus。
+
+
+
+
+	
+  * JMessage Java SDK
+
+	
+    * 新增多个 REST API 支持。
+
+
+
+
+	
+  * JSMS SDK（Java/PHP）
+
+	
+    * 新增多个 REST API 支持。
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+	
+  * 控制台
+
+	
+    * 增加App 周报功能，以及相关设置。
+
+
+
+
+	
+  *  极光推送
+
+	
+    * Segment 新增支持智能标签作为一类筛选条件。
+
+	
+    * iOS推送支持 apns-collapse-id 字段。
+
+
+
+
+	
+  * 极光统计
+
+	
+    * 统计指标实时性优化。
+
+
+
+
+	
+  * JMessage
+
+	
+    * REST API
+
+	
+      * 实时消息回调新增支持http方式。
+
+	
+      * 新增批量查询用户状态的接口。
+
+
+
+
+
+
+
+	
+  * 短信
+
+	
+    * 创建模板支持 API 和回调操作。
+
+	
+    * 语音验证支持双语播报和code自定义。
+
+	
+    * 支持开发者短信数据周报。
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * Aurora IMUI
+
+	
+    * 发布了多个版本。
+
+	
+    * 新增了一些 API，更新了一些 API。
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 优化：更新官方 SDK依赖。
+
+	
+    * 修复：一些开发者反馈的Bug。
+
+
+
+
+	
+  * JMessage React Plugin
+
+	
+    * 重大更新：支持各种类型消息的发送。
+
+	
+    * 同时支持 Android/iOS。
+
+
+
+
+	
+  * JPush React Native
+
+	
+    * 新增对 SDK 里新版本 tag/alias API 的支持。
+
+
+
+
+	
+  * JChat Web
+
+	
+    * 新项目发布。
+
+	
+    * 扁平化风格，适配 JMessage Web SDK。
+
+	
+    * 支持 JMessage 常见功能。
+
+	
+    * 在线体验：http://jchat.im.jiguang.cn
+
+
+
+
+	
+  * JChat Android
+
+	
+    * 适配新的 SDK，增加相应的功能。
+
+
+
+
+	
+  * JChat Swift
+
+	
+    * 适配新的 SDK，增加相应的功能。
+
+
+
+
+		

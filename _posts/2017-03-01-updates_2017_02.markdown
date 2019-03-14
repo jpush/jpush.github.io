@@ -1,0 +1,283 @@
+---
+author: javen
+comments: true
+date: 2017-03-01 08:28:52+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2017_02/
+slug: updates_2017_02
+title: "\n\t\t\t\t极光近期更新汇总 - 2017.02\t\t"
+wordpress_id: 1777
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JMessage Android/iOS SDK 升级支持 JCore 分离。至此，极光所有 SDK 都已经完成 JCore 分离，同时集成这三个 SDK 时只需要共享一个 JCore 模块。
+
+	
+  * 短信业务进行了较多功能增强与升级。
+
+	
+  * JMessage 控制台做了些改进。
+
+	
+  * JMessage REST API 新增提供 C# 版本 SDK。至此已经支持 Java, Python, PHP, C# 等多个语言。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 发布更新版本，修复 Bug，提升稳定性。
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 修复：JCore DNS 解析失败导致的崩溃问题。
+
+
+
+
+	
+  * JAnalytics Android SDK
+
+	
+    * 修复：用户反馈的兼容性 Bug。
+
+
+
+
+	
+  * JAnalytics iOS SDK
+
+	
+    * 修复：JCore DNS 解析失败导致的崩溃问题。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 模块化分离出 JCore 共享包，可与极光其他 SDK 共存。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 模块化分离出 JCore 共享包，可与极光其他 SDK 共存。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush PHP SDK (composer: jpush)
+
+	
+    * 更新版本：修复服务器端业务不可用时 SDK 崩溃的问题。其他细节更新。
+
+
+
+
+	
+  * JPush Java SDK (maven: jpush)
+
+	
+    * 优化 NettyHttpClient 以解决多线程超时问题，但默认仍然使用 NativeHttpClient.
+
+
+
+
+	
+  * JPush C# SDK (NuGet: cn.jpush.api)
+
+	
+    * 增加对 Android 新特性通知栏样式的支持。
+
+	
+    * 支持 iOS 官方定义的 alert payload 结构。
+
+
+
+
+	
+  * JPush Ruby SDK (rubygem: jpush)
+
+	
+    * 简化代码，去掉 refinement 语法避免安装时与 factory girl 报错。
+
+
+
+
+	
+  * JPush Node.js SDK (npm: jpush-sdk)
+
+	
+    * 更新版本：支持 sms_message 短信补充功能。
+
+
+
+
+	
+  * JMessage PHP SDK (composer: jiguang/jmessage)
+
+	
+    * 修复网友反馈的 Bug。
+
+
+
+
+	
+  * JMessage Java SDK (maven: jmessage)
+
+	
+    * 新增 API 支持：跨应用添加好友、删除好友。
+
+
+
+
+	
+  * JMessage C# SDK (NuGet: jmessage)
+
+	
+    * 首次发布：支持全部的当前 REST API。
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+	
+  * 短信功能增强
+
+	
+    * 为每一个应用独立分配余额
+
+	
+    * 预定发送列表增加取消发送
+
+	
+    * 营销短信增加即时发送
+
+	
+    * 发送记录增加内容关键字搜索
+
+	
+    * 发送统计新增短信类型筛选
+
+	
+    * 上行短信记录
+
+
+
+
+	
+  * 控制台 IM 功能增强
+
+	
+    * 增加文字和图片消息发送
+
+	
+    * 群成员搜索功能
+
+	
+    * 
+
+
+优化部分界面体验
+
+
+
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 更新至最新版本 JPush Android/iOS SDK。
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JPush React Plugin
+
+	
+    * 支持 JCore 分离。
+
+	
+    * 其他很多细节优化。
+
+
+
+
+	
+  * 
+		

@@ -1,0 +1,410 @@
+---
+author: xianghong
+comments: true
+date: 2018-10-31 09:53:57+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/update-2018-10/
+slug: update-2018-10
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2018.10\t\t"
+wordpress_id: 2082
+categories:
+- 产品更新
+---
+
+
+				
+
+# 重点关注
+
+
+
+
+
+ 	
+  * JPush iOS SDK 适配 [iOS 12 通知新特性](https://docs.jiguang.cn/jpush/client/iOS/ios_new_fetures/#ios-12-new-features)；Android SDK 新增[通道共享功能](https://docs.jiguang.cn/jpush/client/Android/android_faq/#_2)，提升推送到达率，建议升级
+
+ 	
+  * [极光认证 SDK](https://docs.jiguang.cn/jverification/guideline/intro/) 全新上线，支持三大运营商，为开发者提供快速验证用户输入的手机号码和本机 SIM 卡号码一致性的功能
+
+ 	
+  * 快应用统计 SDK 首次发布，官网同步支持 QuickApp 平台数据统计
+
+ 	
+  * JMRTC Android SDK 更新域名，老版本在 9 月份停用，请开发者尽快更新 SDK
+
+
+
+
+# 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+ 	
+  * JPush Android SDK
+
+ 	
+    * 新增：通道共享功能，提升推送到达率
+
+ 	
+    * 修复：已知问题与开发者反馈的 bug
+
+
+
+
+ 	
+  * JPush iOS SDK
+
+ 	
+    * 优化：适配 iOS12 通知新特性
+
+ 	
+    * 修复：token 可能上报失败等问题
+
+
+
+
+ 	
+  * JAnalytics Android SDK
+
+ 	
+    * 新增：setChannel 接口，允许开发者动态配置 channel
+
+
+
+
+ 	
+  * JAnalytics QuickApp SDK
+
+ 	
+    * 首次发布
+
+ 	
+    * 支持自定义事件上报、页面流上报及用户行为统计
+
+
+
+
+ 	
+  * JMessage Android SDK
+
+ 	
+    * 新增：支持获取入群时间
+
+ 	
+    * 新增：支持群成员昵称功能
+
+ 	
+    * 新增：支持上层自定义通知栏小图标
+
+ 	
+    * 优化：群组成员信息重构，新增 GroupMemberInfo 代表群组成员信息，原有获取群成员信息返回 UserInfo 的接口 deprecated，新增接口返回 GroupMemberInfo
+
+ 	
+    * 修复：同时集成 JMessage 和 JPush (含厂商通道)，初始化 JMessage 导致程序崩溃问题
+
+ 	
+    * 修复：群成员排序逻辑问题导致上层崩溃
+
+
+
+
+ 	
+  * JMessage iOS SDK
+
+ 	
+    * 新增：群组成员上限修改通知
+
+ 	
+    * 新增：群昵称功能
+
+ 	
+    * 新增：群组成员信息类 [JMSGGroupMemberInfo](https://docs.jiguang.cn/jmessage/client/jmessage_ios_appledoc_html/Classes/JMSGGroupMemberInfo.html)
+
+ 	
+    * 新增：获取群成员信息接口 [-(void)memberInfoList:](https://docs.jiguang.cn/jmessage/client/jmessage_ios_appledoc_html/Classes/JMSGGroup.html#//api/name/memberInfoList:)
+
+ 	
+    * 修复：iOS 发视频消息 Android 下载缩略图失败
+
+
+
+
+ 	
+  * JMRTC Android SDK
+
+ 	
+    * 优化：域名更新，老版本在 9 月份停用，请开发者尽快更新 sdk
+
+
+
+
+ 	
+  * JShare Android SDK
+
+ 	
+    * 新增： QQ 平台 apps 类型分享
+
+ 	
+    * 修复：未安装 Twitter 客户端，授权失败问题。
+
+ 	
+    * 修复：高版本 gradle 编译后运行崩溃问题。
+
+ 	
+    * 修复：概率性无回调问题。
+
+ 	
+    * 修复：微信网页分享参数错误问题。
+
+
+
+
+ 	
+  * JVerification Android / iOS SDK
+
+ 	
+    * 全新上线，为开发者提供快速验证用户输入的手机号码和本机 SIM 卡号码一致性的功能
+
+ 	
+    * 支持三大运营商
+
+ 	
+    * 增加运营商优先选择策略，提升通信效率
+
+
+
+
+
+
+
+### 服务端 SDK
+
+
+
+
+
+ 	
+  * JPush Java SDK
+
+ 	
+    * 新增：获取定时任务对应的所有 msg_id 的接口
+
+ 	
+    * 新增：服务器手机验证上线，去除本地 SDK 手机验证
+
+
+
+
+ 	
+  * JPush PHP / Python SDK
+
+ 	
+    * 新增：获取定时任务对应的所有 msg_id 的接口
+
+
+
+
+ 	
+  * JMessage Java SDK
+
+ 	
+    * 新增：注册和更新账户 extra 字段添加功能
+
+ 	
+    * 优化：从 v1.1.8 开始要求 jdk1.7
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+ 	
+  * 控制台
+
+ 	
+    * 优化：官网开发者注册流程，减少了要求用户必填的信息
+
+
+
+
+ 	
+  * JPush
+
+ 	
+    * Portal
+
+ 	
+      * 优化：扫描下载安卓 demo 二维码，会先至落地页，避免微信的屏蔽
+
+
+
+
+ 	
+    * REST API
+
+ 	
+      * 新增：通过 schedule_id 查询所有的 msg_id 接口
+
+
+
+
+
+
+
+ 	
+  *  极光统计
+
+ 	
+    * Portal
+
+ 	
+      * 开放【概况】、【用户统计】、【参与留存-活跃留存】、【事件统计】页面支持 QuickApp 平台数据统计
+
+ 	
+      * 新增【来源分布】页面以统计 QuickApp 平台两大入口来源（shortcut 及 other）分布
+
+ 	
+      * 统计移动版（除页面统计）上线
+
+
+
+
+
+
+
+ 	
+  * JSMS
+
+ 	
+    * Portal
+
+ 	
+      * 优化：官网短信介绍页面新增短信体验功能，更新最新短信报价表
+
+ 	
+      * 优化：短信充值支持充值短信条数和最新单价
+
+ 	
+      * 优化：开发者认证功能
+
+ 	
+        * 认证信息展示页隐藏敏感信息，加强开发者信息保护
+
+ 	
+        * 支持个人开发者升级企业开发者，升级过程中原业务不受影响
+
+ 	
+        * 开发者修改资料过程中原业务不受影响
+
+
+
+
+
+
+
+
+
+
+ 	
+  * JVerification
+
+ 	
+    * Portal：
+
+ 	
+      * 极光认证全新上线
+
+ 	
+      * 新增：【极光认证】、【认证统计】、【认证明细】、【账户充值】、【充值明细】页面
+
+
+
+
+
+
+
+
+
+
+### [极光开源](https://github.com/jpush)
+
+
+
+
+
+ 	
+  * Aurora IMUI
+
+ 	
+    * 新增：Android 自定义菜单栏
+
+ 	
+    * 新增：头像和图片消息支持网络图片
+
+
+
+
+ 	
+  * JPush PhoneGap Plugin
+
+ 	
+    * 新增：getConnectionState API，获取推送连接状态
+
+
+
+
+ 	
+  * JPush Flutter Plugin
+
+ 	
+    * 首次发布
+
+
+
+
+ 	
+  * JShare React Native
+
+ 	
+    * iOS 修复 webo 没有安装通过浏览器授权奔溃的异常
+
+ 	
+    * 新增 twitter jchatPro 分享
+
+
+
+
+ 	
+  * JMRTC PhoneGap Plugin
+
+ 	
+    * 首次发布，支持 JMessage 音视频
+
+
+
+
+ 	
+  * JMRTC React Native
+
+ 	
+    * 首次发布，支持 JMessage 音视频
+
+
+
+
+		

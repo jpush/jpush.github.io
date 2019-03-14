@@ -1,0 +1,355 @@
+---
+author: javen
+comments: true
+date: 2017-08-04 03:21:23+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates-2017-07/
+slug: updates-2017-07
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2017.07\t\t"
+wordpress_id: 1929
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JMessage 各平台 SDK 都新增了消息撤回的功能。
+
+	
+  * JPush SDK 新增了一套 tag/alias 操作接口。建议开发者使用新的接口。
+
+	
+  * 
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 新增：一套全新的 tag/alias 操作接口。
+
+	
+    * 优化：tag/alias 设置超时问题。
+
+	
+    * 修复：若干开发者反馈的Bug。
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 新增：一套全新的 tag 操作接口。建议开发者使用新的接口。
+
+	
+    * 优化：改进连接协议，提高连接速度及稳定性。
+
+
+
+
+	
+  * JAnalytics Android SDK
+
+	
+    * 修复：一些已知的问题，以及用户反馈的Bug。
+
+
+
+
+	
+  * JAnalytics iOS SDK
+
+	
+    * 修复：几个统计时会影响数据采集的Bug。
+
+	
+    * 优化：改进了SDK 的结构。
+
+
+
+
+	
+  * JShare Android SDK
+
+	
+    * 新增：获取微信、QQ、新浪微博社交平台用户信息的功能。
+
+	
+    * 修复：QQ未登录时没有回调的问题。
+
+
+
+
+	
+  * JShare iOS SDK
+
+	
+    * 新增：获取微信、QQ、新浪微博社交平台用户信息的功能。
+
+	
+    * 修复：开发者反馈的Bug。
+
+
+
+
+	
+  * JMessage Web SDK
+
+	
+    * 新增：消息撤回功能。
+
+	
+    * 新增：消息通知栏显示控制。
+
+	
+    * 优化：可获取 SDK连接、初始化以及登录状态。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 新增：消息撤回功能。
+
+	
+    * 新增：通知栏消息显示控制功能。
+
+	
+    * 新增：自定义通知栏功能。
+
+	
+    * 修复：用户信息自动更新问题。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 新增：支持消息撤回。
+
+	
+    * 新增：支持消息发送时的各种控制，包括离线消息存储控制、消息通知栏显示控制、自定义消息通知栏文字。
+
+	
+    * 新增：支持群聊 @所有人。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JSMS SDK（Java/PHP）
+
+	
+    * 新增：短信 API 新增接口支持。
+
+
+
+
+	
+  * JPush SDK（Java/PHP）
+
+	
+    * 新增：REST API 更新支持
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+	
+  * JPush
+
+	
+    * iOS 推送支持 Token Authentication 鉴权方式。
+
+	
+      * 好处是不会像之前证书的鉴权方式那样有过期的问题。
+
+
+
+
+
+
+
+	
+  * JMessage
+
+	
+    * REST API
+
+	
+      * 发送消息接口：新增支持自定义通知栏、离线控制、通知栏控制等。
+
+	
+      * 管理员注册接口：新增支持添加用户信息相关字段。
+
+	
+      * 新增用户禁用、启用功能。
+
+
+
+
+	
+    * 控制台
+
+	
+      * 新增用户禁用、启用功能。
+
+	
+      * 用户注册新增支持昵称。
+
+
+
+
+
+
+
+	
+  * 短信
+
+	
+    * REST API
+
+	
+      * 新增：短信余量查询 API。
+
+	
+      * 新增：短信定时发送 API。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * Aurora IMUI
+
+	
+    * 新增支持 React Native。
+
+	
+    * Android/iOS 录音统一录音格式为：m4a。
+
+
+
+
+	
+  * JAnalytics React Native
+
+	
+    * 新项目。支持基本的功能。
+
+
+
+
+	
+  * JShare React Native
+
+	
+    * 新项目。支持基本的功能。
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 优化：Android/iOS 统一接口与行为。
+
+	
+    * 修复：一些开发者反馈的Bug。
+
+
+
+
+	
+  * JPush React Native
+
+	
+    * 比较大范围变更：Android/iOS 统一接口。
+
+
+
+
+	
+  * JChat Android
+
+	
+    * 全新UI，代码重构，适配最新的SDK。
+
+
+
+
+	
+  * JChat iOS
+
+	
+    * 全新UI，代码重构，适配最新SDK。
+
+
+
+
+	
+  *  JBox
+
+	
+    * 一个基于 JPush 的最轻便易用的通知框架。提供可直接使用 Andorid/iOS App。
+
+
+
+
+		

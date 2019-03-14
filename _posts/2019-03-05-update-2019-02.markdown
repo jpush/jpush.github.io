@@ -1,0 +1,126 @@
+---
+author: xianghong
+comments: true
+date: 2019-03-05 07:41:19+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/update-2019-02/
+slug: update-2019-02
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 – 2019.02\t\t"
+wordpress_id: 2136
+categories:
+- 产品更新
+---
+
+
+				
+
+
+## 重点关注
+
+
+
+
+
+
+
+  * 极光统计新增动态圈选功能，颠覆传统应用统计使用方式，无需对数据追踪点添加任何代码，您只需对自己的应用界面进行圈圈点点，添加可视化的追踪点事件，便可收集到对应的统计数据。[马上了解→](https://docs.jiguang.cn/janalytics/circle/circle_intro/)
+  * 极光认证新增判断网络环境是否支持认证的接口，提高获取 token 的成功率。[马上升级→](https://docs.jiguang.cn/jverification/updates/)  
+
+  * 极光 IoT 新增变量设置脚本，方便快速运行 demo。[马上升级→](https://docs.jiguang.cn/jiot/updates/)
+
+
+
+
+
+
+# 详细列表
+
+
+
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+
+
+  * JAnalytics Android SDK
+    * 新增：动态圈选埋点功能（beta版）
+    * 修复：一些已知问题
+  * JVerification Android SDK
+    * 新增：判断网络环境是否支持认证的接口
+  * JVerification iOS SDK
+    * 新增：判断网络环境是否支持认证的接口
+    * 修复：已知问题
+  * JIoT C SDK
+    * 新增：环境变量设置脚本，方便快速运行 demo
+    * 新增：业务心跳
+    * 优化：连接策略
+
+
+
+
+
+
+### 服务端 SDK
+
+
+
+
+
+
+
+  * JPush Python SDK 
+    * 新增：短信补充字段 `signid` 和 `active_filter`，支持设置签名和活跃过滤
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+
+
+  * JAnalytics
+    * Portal
+      * 新增：动态圈选 - 圈选事件
+  * JIoT
+    * REST API
+      * 新增：[double 属性](https://docs.jiguang.cn/jiot/server/restapi/)，当属性为 int/double 时，字段类型使用 number，如果设置了值的区间，会校验值是否合法。
+      * 新增：可查询设备基本信息、属性、状态的 [API 接口](https://docs.jiguang.cn/jiot/server/restapi/#_15)
+      * 优化：[API 频率上限](https://docs.jiguang.cn/jiot/server/restapi_intro/#api)提高到 30 秒内 500 次
+
+
+
+
+
+
+### [极光开源](https://github.com/jpush)
+
+
+
+
+
+
+
+  * JPush / JMessage Phonegap Plugin 
+    * 优化：支持 ionic 4
+
+
+
+
+
+
+
+		

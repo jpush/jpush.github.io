@@ -1,0 +1,22 @@
+---
+author: lvxin
+comments: true
+date: 2016-05-11 15:38:00+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/uid32to64/
+slug: uid32to64
+title: "\n\t\t\t\t重要通知：极光推送 32 位 UID 升级到 64 位\t\t"
+wordpress_id: 936
+categories:
+- 产品更新
+---
+
+
+				因为有你们的支持，极光推送高速的发展，终端用户注册量也是越来越大。 极光 SDK 的注册用户 id 也即将走到 32 位的上限。
+
+为了这个准备我们的系统早已全面支持 64 位 uid 的注册，SDK 则在早前一些的版本开始提供支持。Android Push SDK 在 1.8.2 版本开始支持 64bit，iOS Push SDK 在 2.1.0 版本开始支持。但是系统发现很多 APP 依然在使用较早版本的SDK，我们建议您更新到最新版本的 SDK，否则您的新增注册用户将无法使用JPush 功能。
+
+经过多个版本的迭代，新版本的 SDK 除了支持 64 位 uid 外同样做了更多的优化和增加了一些新的功能，能够让您的推送更加丰富和稳定。
+
+关于推送推送支持 64 位 UID 的进一步的说明，请参考文章：[极光推送系统升级支持 42 亿以上用户](http://blog.jpush.cn/jpush_long_uid/)。		

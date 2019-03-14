@@ -1,0 +1,308 @@
+---
+author: javen
+comments: true
+date: 2017-12-25 09:43:53+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates-2017-12/
+slug: updates-2017-12
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2017.12\t\t"
+wordpress_id: 1967
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+ 	
+  * JMessage 整体支持多端同时在线、聊天室功能。
+
+ 	
+  * JMessage Windows C++ SDK 新版本发布。
+
+ 	
+  * 极光统计优化统计数据的实时性。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+ 	
+  * JPush Android SDK
+
+ 	
+    * 优化：进程间通讯机制，提高性能。
+
+ 	
+    * 优化：维持长连接的心跳机制。
+
+ 	
+    * 优化：代码结构调整，以缩减动态库文件的大小。
+
+
+
+
+ 	
+  * JPush iOS SDK
+
+ 	
+    * 新增：iOS Extension SDK 支持，用来统计通知的送达情况。
+
+
+
+
+ 	
+  * JSMS Android/iOS SDK
+
+ 	
+    * 新增：语音验证码播报语音。
+
+
+
+
+ 	
+  * JShare Android/iOS SDK
+
+ 	
+    * 新增：Facebook 平台授权与获取个人信息的功能。
+
+ 	
+    * 新增：Facebook 平台分享功能。
+
+
+
+
+ 	
+  * JMessage Web/Android/iOS SDK
+
+ 	
+    * 新增：多端同时在线。
+
+ 	
+    * 新增：消息未读、已读。
+
+ 	
+    * 新增：聊天室功能。
+
+
+
+
+ 	
+  * JMessage Windows C++ SDK
+
+ 	
+    * 首次发布。
+
+ 	
+    * 支持多端同时在线、消息已读未读、聊天室等最新功能。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+ 	
+  * JPush PHP SDK
+
+ 	
+    * 新增 Admin API 支持。
+
+
+
+
+ 	
+  * JSMS C# SDK
+
+ 	
+    * 大规模重构版本，支持 .NET Standard，提供异步方法。不兼容之前的版本。
+
+ 	
+    * 新增 API 支持。
+
+
+
+
+ 	
+  * JSMS Java SDK
+
+ 	
+    * 支持模板相关 API。
+
+
+
+
+ 	
+  * JMessage Java SDK
+
+ 	
+    * 新增 API 支持：聊天室相关。
+
+ 	
+    * 新增 API 支持：Report V2 VIP。
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+ 	
+  * 极光统计
+
+ 	
+    * 优化统计数据实时性。
+
+ 	
+    * 新增：活跃留存、活跃回访、活跃流失。
+
+
+
+
+ 	
+  * JMessage
+
+ 	
+    * Portal
+
+ 	
+      * 新增多端同时在线设置选项。
+
+ 	
+      * 新增聊天室管理界面。
+
+
+
+
+ 	
+    * REST API
+
+ 	
+      * 新增聊天室管理相关接口。
+
+ 	
+      * 发送消息接口新增支持的聊天室类型。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+ 	
+  * Aurora IMUI
+
+ 	
+    * 新增：支持自定义消息。通过自定义消息功能，可以方便地扩展使用场景。
+
+ 	
+    * 修复很多 Bug。
+
+
+
+
+ 	
+  * JPush PhoneGap Plugin
+
+ 	
+    * 新增：支持 ionic-native。
+
+
+
+
+ 	
+  * JPush React Native
+
+ 	
+    * 更新 Native SDK。
+
+ 	
+    * 新增多个 API。
+
+
+
+
+ 	
+  * JPush Unity3d Plugin
+
+ 	
+    * 更新 Native SDK。
+
+ 	
+    * 支持最新的 API。
+
+ 	
+    * 优化一些实现与方法命名。
+
+
+
+
+ 	
+  * JMessage PhoneGap Plugin
+
+ 	
+    * 更新 Native SDK。
+
+ 	
+    * 新增 多个 API。
+
+
+
+
+ 	
+  * JChat Web/Android/iOS App
+
+ 	
+    * 适配最新 SDK 功能。
+
+
+
+
+ 	
+  * JChat Windows
+
+ 	
+    * 首次发布。
+
+
+
+
+		

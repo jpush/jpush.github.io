@@ -1,0 +1,251 @@
+---
+author: javen
+comments: true
+date: 2016-07-05 08:27:10+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_06/
+slug: updates_2016_06
+title: "\n\t\t\t\t极光近期更新汇总 - 六月\t\t"
+wordpress_id: 1051
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * 极光品牌全面升级。由「极光推送」升级为提供「极光开发者服务」之外，还提供极光数据服务、极光广告服务；
+
+	
+  * 「极光短信验证码」新产品正式开放上线 - [短信验证码产品介绍](https://www.jiguang.cn/sms)；
+
+	
+  * 统计上线崩溃日志分析功能，目前支持Android；
+
+	
+  * 「极光开发者」[订阅号开放](http://community.jiguang.cn/t/topic/5194)，方便开发者最及时地得到极光的产品更新信息；
+
+	
+  * 首个极光官方录制的教程类视频发布 - 「[JPush iOS 集成教程](http://community.jiguang.cn/t/jpush-ios-sdk/4247)」；
+
+	
+  * 极光推送重要公告：立即升级老版本 SDK（Android 1.8.2 之前，iOS 2.1.5 之前），否则集成老版本 SDK 的 App 新安装用户将无法使用推送功能。[原因是老版本 SDK 依赖的极光内部 32 位 UID 已经用完。](http://blog.jpush.cn/uid32to64/)
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 优化：tag/alias 支持更多的特殊字符；
+
+	
+    * 修复：特定条件可能出现的崩溃问题；
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 优化：统计上报全部改为 https 方式；
+
+	
+    * 优化：支持 Tag 数量最多到 1000 个；
+
+	
+    * 优化：IPv6 网络上的通信机制；
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 修复：修复了较多 Bug；
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 新增：对 IPv6 网络的支持；
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JSMS Java SDK (maven: jsms-client)
+
+	
+    * 首次发布
+
+
+
+
+	
+  * JMessage Java SDK (maven: jmessage-client)
+
+	
+    * 新增支持 Admin 用户注册与查询接口；
+
+	
+    * 修复 Bug，增加更多的测试用例；
+
+
+
+
+	
+  * JPush Python SDK (pypi: jpush)
+
+	
+  * JPush Java SDK (maven: jpush-client)
+
+	
+  * JPush PHP SDK
+
+	
+  * JPush C# SDK
+
+	
+  * JPush Ruby SDK  (RubyGem: jpush)
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+
+
+
+
+	
+  * 短信验证码
+
+	
+    * 正式开放[短信验证码 REST API](http://docs.jiguang.cn/server/rest_api_jsms/)；
+
+
+
+
+	
+  * 富媒体推送
+
+	
+    * 新增：金融红包、流量红包的富媒体；
+
+
+
+
+	
+  * 统计分析
+
+	
+    * 新增崩溃日志分析功能。目前仅支持 Android；
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * iOS Pods
+
+	
+    * JPush iOS SDK：JPush
+
+	
+    * JMessage iOS SDK: JMessage
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 更新至最新版本的 Android / iOS Push SDK；
+
+
+
+
+	
+  * JPush Unity3d Plugin
+
+	
+  * JPush Cocos2d-x Plugin
+
+	
+  * JPush React Plugin
+
+	
+    * 发布更新。将提供 npm 安装包方式；
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 发布正式版本，全面兼容 JMessage Android/iOS SDK；
+
+
+
+
+	
+  * H5 应用开发支持
+
+	
+  * JChat
+
+	
+    * Swift 版本更新：大量完善功能，现在与 iOS 版本类似；修复 Bug；
+
+	
+    * Android 版本：匹配 JMessage Android 增加防干扰功能；
+
+
+
+
+		

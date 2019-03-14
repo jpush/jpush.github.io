@@ -1,0 +1,234 @@
+---
+author: javen
+comments: true
+date: 2016-03-24 06:45:27+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_03/
+slug: updates_2016_03
+title: "\n\t\t\t\t极光近期更新汇总 - 201603\t\t"
+wordpress_id: 774
+categories:
+- 产品更新
+tags:
+- 极光推送
+- Update
+- 更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * 极光社区上线，技术支持从以 QQ群为主，切换到以社区为主；
+
+	
+  * 极光IM 上线跨应用聊天功能，发布 Android SDK 相应SDK，iOS 稍后发布；
+
+	
+  * JPush Android SDK 增加对 Android 6.0 的支持；
+
+	
+  * 推送 API 支持『推送不到短信到』功能；
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 新增对 Android 6.0 的支持；
+
+	
+    * 新增 Android 6.0 需要的权限检查接口；
+
+	
+    * 支持 Push Service 设置为独立的进程；
+
+	
+    * 增强富媒体推送功能；
+
+	
+    * Demo 支持 Android Studio 与 Eclipse；
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 增加 bitcode 与 iOS 9 支持；
+
+	
+    * 原 APService 类变更为 JPushService 类；
+
+	
+    * 增加通过代码初始化 AppKey 参数；
+
+	
+    * 修复注册时没有获取到 RegistrationID 的Bug；
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 实现跨应用聊天：目前仅支持单聊；
+
+	
+    * 新增一些跨应用聊天相关的接口；
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 修复由于切换设备变更群成员，导致群组信息不同步引起的问题；
+
+	
+    * 相对于 1.x 版本进行大范围的重构升级，提高了稳定性与性能；
+
+	
+    * 消息通知方式调整，变更为 Delegate 的方式；
+
+	
+    * 公开的 header 文件提供完善的注释，并生成 API 文档；
+
+
+
+
+	
+  * JPush iOS 提供官方 Pod，名称为： JPush （原来是一个网友更新的，现在改由官方更新）。
+
+	
+  * JMessage iOS 提供官方 Pod，名称为：JMessage
+
+	
+  * JMessage Android/iOS 都提供了 UI 组件，以方便灵活地借用；
+
+	
+  * JPush 提供 Swift 版本的 Demo；
+
+	
+  * JPush 提供 React Native Plugin；
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush Java SDK
+
+	
+    * 新增：Push 接口里支持SMS信息；
+
+	
+    * 新增：Device 增加绑定手机号的接口；
+
+	
+    * 新增：获取指定设备的在线状态；
+
+	
+    * 调整：默认支持 SSL 版本为 TLS；
+
+
+
+
+	
+  * JPush PHP SDK
+
+	
+    * 修复某些老旧的PHP环境可能会报CURL 60异常的BUG
+
+	
+    * 移除对Composer的依赖(但仍然可以使用composer引入JPush)
+
+	
+    * 提高兼容性，现在可以兼容PHP5.0以上的的版本了
+
+	
+    * 添加SMS Push API
+
+	
+    * 添加Schedule API
+
+	
+    * 添加/v3/devices/status API
+
+
+
+
+	
+  * JMessage Java SDK
+
+	
+    * 首次提供功能
+
+
+
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+
+
+
+
+	
+  * Push API 增加参数支持短信功能；（开通需要联系销售）
+
+	
+  * Device API 增加绑定手机号的功能；
+
+	
+  * JMessage REST API 支持获取消息列表；
+
+
+
+
+### 其他
+
+
+
+
+
+	
+  * 极光社区上线，取代原有的问答网站 ，以及 QQ群支持方式；
+
+	
+  * 极光发布广告业务、大数据相关业务；
+
+
+
+
+		

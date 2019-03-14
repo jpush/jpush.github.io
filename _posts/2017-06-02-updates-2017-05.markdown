@@ -1,0 +1,233 @@
+---
+author: javen
+comments: true
+date: 2017-06-02 06:44:32+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates-2017-05/
+slug: updates-2017-05
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2017.05\t\t"
+wordpress_id: 1917
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * 极光开源 aurora-imui 项目，一个独立纯粹、通用的聊天 IM UI 库，受到极大欢迎。发布一周即获得 1500 star。支持 Android/iOS。正开发支持 React Native。
+
+	
+  * 6 月 10 日，深圳极光开发者沙龙 JIGUANG MEETUP，听极光、青云Qingcloud、一熊科技的专家们，聊聊高性能架构的实践与探索之路。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 新增：设置 tag/alias 新增错误码 6013 （时间轴错误）。
+
+	
+    * 优化：优化数据存储性能。
+
+	
+    * 优化：提升 SDK 安全性。
+
+
+
+
+	
+  * JShare Android SDK
+
+	
+    * 新增：支持不存在新浪客户端情况下的网页分享。
+
+	
+    * 新增：支持分享内容至新浪微博私信。
+
+
+
+
+	
+  * JShare iOS SDK
+
+	
+    * 新增：支持不存在新浪客户端情况下的网页分享。
+
+	
+    * 新增：支持分享内容至新浪微博私信。
+
+	
+    * 新增：支持 CocoaPods。
+
+
+
+
+	
+  * JMessage Web SDK
+
+	
+    * 修复：页面加载完立刻初始化报异常 bug
+
+	
+    * 修复：在漫游模式下，部分场景不能获取历史消息 bug
+
+	
+    * 新增：获取群成员接口新增昵称、头像字段
+
+	
+    * 新增：获取会话列表接口：单聊新增昵称、头像字段，群聊新增群名称字段
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 修复：下载多媒体文件时下载进度回调错误的问题
+
+	
+    * 修复：allConverstions 接口排序逻辑问题
+
+	
+    * 新增：Conversation 新增 latestMsgTime 属性，用于会话排序
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * 所有SDK：更新增加 Push API 里新特性 tag_not
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+	
+  * 统计
+
+	
+    * 控制台
+
+	
+      * 上线周报功能：可以根据需要开启统计周报。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * Aurora IMUI
+
+	
+    * 通用的 IM UI 组件，提供 Android/iOS 版本。
+
+
+
+
+	
+  * JAnalytics Cordova Plugin
+
+	
+    * 新发布：对 JAnalytics 提供 Cordova 插件。包含 Android/iOS 两个平台。
+
+
+
+
+	
+  * JShare Cordova Plugin
+
+	
+    * 新发布：对 JShare 提供 Cordova 插件。支持 Android/iOS。
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 更改包名。
+
+	
+    * 更新原生 SDK 版本。
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 更改包名。
+
+	
+    * Android 优化离线消息事件。
+
+
+
+
+	
+  * JPush React Native
+
+	
+    * Android 新增接口。
+
+
+
+
+	
+  * JBox
+
+	
+    * 一个基于 JPush 的最轻便易用的通知框架。提供可直接使用 Andorid/iOS App。
+
+
+
+
+		

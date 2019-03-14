@@ -1,0 +1,112 @@
+---
+author: admin
+comments: true
+date: 2013-05-14 09:48:48+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/apns/
+slug: apns
+title: "\n\t\t\t\tAPNs 推送原理及问题\t\t"
+wordpress_id: 331
+categories:
+- 技术文章
+tags:
+- APNs
+- iOS
+- Apple
+- erlang
+- Opensource
+---
+
+
+				在 iOS 平台上，大部分应用是不允许在后台运行并连接网络的。在应用没有被运行的时候，只能通过 Apple Push Notification Service (APNs) 把数据发送到终端用户。对于互联网应用，正确高效的使用 APNs 显然非常重要。
+
+[JPush](http://www.jpush.cn) 为 iOS、Android 平台提供了一个统一推送消息的平台，而对 APNs 接口的封装管理是其中非常重要的一部分。本文分享一下 JPush 团队在使用 APNs 过程中碰到的问题以及我们的解决办法，以帮助应用开发者更好的理解 APNs。
+
+Apple 为应用开发者提供了一个 APNs  推送接口，称为 binary interface。
+
+
+# Binary Interface V1
+
+
+最初版本的 binary interface 协议如下图，这里我们称之为 v1。
+
+Binary Interface V1
+
+![](http://blog.jiguang.cn/wp-content/uploads/2013/05/Original-Binary-Protocol.jpg)
+
+v1 协议有几个问题：
+
+
+
+	
+  1. 消息是否发送成功没有明确的反馈；
+
+	
+  2. 如果一个消息发送失败，比如因为 deviceToken 不合法，APNs 会在大约 500ms 后断掉链接，在断链前发送的消息也会发送失败；
+
+	
+  3. 经我们验证，feedback service 只有报告应用被卸载后，造成 deviceToken 失效的错误。而不会报告 deviceToken 不合法这种类型的推送错误。
+
+
+也就是说如果我们给一批用户发消息，只要有一个 deviceToken 不合法，将会有可能造成若干个用户收不到消息。并且没办法确认哪些 deviceToken 不合法，哪些 deviceToken 需要被重发。这应该是 APNs 丢消息的一个重要的原因。
+
+
+# Binary Interface V2
+
+
+经过开发者不断的向 Apple 反馈这个问题，Apple 终于推出了一个新版本的 binary interface，称为 enhanced binary interface，我们称这为 v2。
+
+Binary Interface V2
+
+![](http://blog.jiguang.cn/wp-content/uploads/2013/05/aps_binary_provider_2.jpg)
+
+我们发现，在 v1 的基础上增加了两个字段：
+
+Identifier —— 一个任意的值，用于一条消息的识别。如果发送出现问题，错误应答里会把 Identifier 带回来。
+
+Expiry —— 离线消息超时的时间，如果为0或者小于0，APNs 不会保存这条消息。
+
+和 v1 一样，如果消息发送没有问题，APNs 不会有任何返回。和 v1 不同，并且很重要的改进是，如果发送出现错误，v2 会在断链之前返回一个错误应答，带上发消息时的 Identifier 和一个错误码。
+
+error-response packet
+
+![](http://blog.jiguang.cn/wp-content/uploads/2013/05/aps_binary_error.jpg)
+
+根据这个错误应答，我们有机会找到是哪条消息发送出错，并确定哪些消息需要被重发。
+
+
+# JPush 的解决办法
+
+
+为了确保每一位用户都能正确的收到消息，JPush 目前已经放弃 binary interface v1，完全采用 binary interface v2。（在我写这篇文章时，发现 Apple 已经把文档中对 binary interface v1 的描述移除，看来 Apple 也已经放弃 v1）
+
+在系统设计上，我们为每一个 APNs 链接维护 一个已发送列表，按发送的先后顺序排序。如果收到发送错误应答，根据返回的 Identifier 找到出错的消息，从该消息的下一条重新开始发送。
+
+发送队列
+
+![](http://blog.jiguang.cn/wp-content/uploads/2013/05/apns_queue.png)
+
+
+# 总结
+
+
+为了持续提高 JPush 推送服务的质量，我们团队做了很多研究和尝试。APNs 管理模块我们最初用 C 语言实现了一个版本，后来觉得用 Erlang 实现可能更方便，所以又从头开始学习 Erlang 并重新用 Erlang 写了一个版本，目前使用效果良好。
+
+在 APNs 管理系统改造的过程中，包括 JPush 的其他模块，都大量的使用了开源的模块或者系统，为了回馈开源社区，我们准备把 APNs 管理系统的 Erlang 实现开放源码，敬请期待。
+
+
+### 参考
+
+
+
+
+
+	
+  * [http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/CommunicatingWIthAPS.html#//apple_ref/doc/uid/TP40008194-CH101-SW1](http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/CommunicatingWIthAPS.html%23//apple_ref/doc/uid/TP40008194-CH101-SW1)
+
+	
+  * [http://redth.info/the-problem-with-apples-push-notification-ser/](http://redth.info/the-problem-with-apples-push-notification-ser/)
+
+
+		

@@ -1,0 +1,202 @@
+---
+author: javen
+comments: true
+date: 2016-08-31 09:04:55+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_08/
+slug: updates_2016_08
+title: "\n\t\t\t\t极光近期更新汇总 - 八月\t\t"
+wordpress_id: 1178
+categories:
+- 产品更新
+tags:
+- 更新汇总
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JPush Android SDK 较大更新，减少了包体大小。
+
+	
+  * 极光控制台统计数据增加导出功能。
+
+	
+  * 极光IM API 增加实时消息回调接口。
+
+	
+  * 极光品牌全面升级。由「极光推送」升级为提供「极光开发者服务」之外，还提供极光数据服务、极光广告服务。
+
+	
+  * 「极光开发者」[订阅号开放](http://community.jiguang.cn/t/topic/5194)，方便开发者最及时地得到极光的产品更新信息。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 增加 jcenter 集成方式的支持。
+
+	
+    * 增加 crash log 及时上报的功能。
+
+	
+    * 优化代码结构，大幅缩减 jar 包大小。
+
+	
+    * 优化富媒体推送的功能。
+
+	
+    * 修复在若干机型上出现的 NegativeArraySizeException 异常。
+
+
+
+
+	
+  * JMessage JS SDK
+
+	
+    * 新增：支持接收图片、语音消息。
+
+	
+    * 新增：支持免打扰功能设置。
+
+	
+    * 新增：支持单聊、获取用户信息的跨应用。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 修复：本地时间与后台时间不一致导致的消息顺序错乱。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 修复本地时间和服务器时间不一致时，消息顺序错乱的问题
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush PHP SDK (composer: jpush)
+
+	
+    * 修复：为无法使用 Composer 的项目提供源码安装 autoload 支持。
+
+	
+    * 修复： Composer 安装版本号问题。
+
+	
+    * 优化：更新 Examples。
+
+
+
+
+	
+  * JPush Node.js SDK (npm: jpush-sdk)
+
+	
+    * 新增：增加对定时任务的支持。
+
+
+
+
+	
+  * JSMS Java SDK (maven: jsms-client)
+
+	
+    * 修复：将验证码类型由 int 修改为 String。
+
+
+
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+
+
+
+
+	
+  * 控制台
+
+	
+    * 统计数据增加导出功能。
+
+	
+    * 优化查询维度。
+
+
+
+
+	
+  * API
+
+	
+    * IM 增加下载媒体文件的 API。
+
+	
+    * IM 增加实时消息回调接口。
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 持续更新：修复 Bug，提高可用性。
+
+
+
+
+		

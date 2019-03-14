@@ -1,0 +1,278 @@
+---
+author: javen
+comments: true
+date: 2016-11-01 09:31:34+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_10/
+slug: updates_2016_10
+title: "\n\t\t\t\t极光近期更新汇总 - 十月\t\t"
+wordpress_id: 1384
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JMessage iOS SDK 支持 iOS 10，以及大量新功能。
+
+	
+  * JMessage 控制台整体上线新版本，包括后台管理与数据统计。
+
+	
+  * 短信验证码 SDK 支持语音验证码功能。短信验证码控制台开放模板自定义。
+
+	
+  * JPush 服务器端 SDK 主流支持 iOS 10 新特性字段。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * SDK 内部 https 访问增加证书认证。
+
+	
+    * 富文本页面内容增加缩放功能。
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 传输消息加密。
+
+	
+    * 优化 IPv6 网络处理。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 支持 iOS 10。
+
+	
+    * 新增：好友功能，并且支持备注名与备注信息。
+
+	
+    * 新增：支持发送文件、位置消息。
+
+
+
+
+	
+  * JMessage JS SDK
+
+	
+    * 增加接口：发送图片、用户注册。
+
+	
+    * 提供更多的跨应用支持：黒名单、群组聊天。
+
+	
+    * 优化 Demo。
+
+
+
+
+	
+  * JSMS Android SDK
+
+	
+    * 新增语音验证码功能。
+
+	
+    * 其他细节优化。
+
+
+
+
+	
+  * JSMS iOS SDK
+
+	
+    * 新增语音验证码功能。
+
+	
+    * SDK 完全使用 HTTPS 链接。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush PHP SDK (composer: jpush)
+
+	
+    * 更新版本支持 iOS 10 新特性所需要的字段。
+
+	
+    * 修复若干小 Bug。
+
+
+
+
+	
+  * JPush Java SDK (maven: jpush)
+
+	
+    * 更新版本支持 iOS 10 新特性所需要的字段。
+
+	
+    * 修改一个小 Bug。
+
+
+
+
+	
+  * JPush Ruby SDK (rubygem: jpush)
+
+	
+    * 更新版本支持 iOS 10 新特性所需要的字段。
+
+
+
+
+	
+  * JPush Node.js SDK (npm: jpush-sdk)
+
+	
+    * 更新版本支持 iOS 10 新特性所需要的字段。
+
+
+
+
+	
+  * JMessage Python SDK
+
+	
+    * 发布首个版本。
+
+
+
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+
+
+
+
+	
+  * 控制台
+
+	
+    * JMessage 控制台新版本上线，包括后台管理与数据统计功能都有更新。
+
+	
+    * 短信验证码功能，增加支持申请模板和签名，并可进行开发者认证。
+
+
+
+
+	
+  * API
+
+	
+    * JMessage Report API 提供 v2 版本，提高了稳定性与性能。
+
+	
+    * JSMS REST API 新增支持语音验证码，以及模板短信。
+
+
+
+
+	
+  * 系统
+
+	
+    * JMessage 用户群组个数上限由 100 个扩大到 500 个。
+
+	
+    * 短信功能支持通知类模板。
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 新增 iOS 新特性的 API 封装。
+
+
+
+
+	
+  * JPush React Plugin
+
+	
+    * 修复小 Bug。
+
+
+
+
+	
+  * JChat Swift
+
+	
+    * 修复小 Bug。
+
+
+
+
+		

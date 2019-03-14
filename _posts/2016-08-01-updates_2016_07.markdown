@@ -1,0 +1,182 @@
+---
+author: javen
+comments: true
+date: 2016-08-01 08:04:24+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_07/
+slug: updates_2016_07
+title: "\n\t\t\t\t极光近期更新汇总 - 七月\t\t"
+wordpress_id: 1101
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * 极光IM JS SDK 发布。至此，极光IM 支持 3 个平台互通消息：Android, iOS, Web。
+
+	
+  * 极光品牌全面升级。由「极光推送」升级为提供「极光开发者服务」之外，还提供极光数据服务、极光广告服务。
+
+	
+  * 「极光开发者」[订阅号开放](http://community.jiguang.cn/t/topic/5194)，方便开发者最及时地得到极光的产品更新信息。
+
+	
+  * 极光IM iOS SDK 新增一大把功能：黑名单，免打扰，跨应用群聊等。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JMessage JS SDK
+
+	
+    * 全新发布。
+
+	
+    * 支持 Web 上与 Android, iOS 即时聊天。
+
+	
+    * 功能：单聊群聊；内容暂只支持文本。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 新增：新增全局免打扰接口。
+
+	
+    * 新增：群组、黑名单、免打扰功能的跨应用能力。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 新增：免打扰功能（包括跨应用支持）。
+
+	
+    * 新增：黑名单功能（包括跨应用支持）。
+
+	
+    * 新增：群聊的跨应用支持。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush PHP SDK (composer: jpush)
+
+	
+    * 新增：对命名空间的支持。
+
+	
+    * 优化：使用 PSR-4 标准加载类。
+
+	
+    * 优化：增加异常处理机制。
+
+	
+    * 优化：改进 API 请求返回格式。
+
+
+
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+
+
+
+
+	
+  * 无
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 细节改进。
+
+
+
+
+	
+  * JPush React Plugin
+
+	
+    * 修复：Android 收到通知后点击通知无法打开应用的 bug。
+
+	
+    * 优化：适配 React Ntive 0.30.0。
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 多次小更新，修复 Bug，提高可用性。
+
+
+
+
+	
+  * Cordova Plugin JSMS
+
+	
+    * 首次发布：极光短信验证码插件的 Cordova/PhoneGap 插件。
+
+	
+    * 同时支持 Android, iOS。
+
+
+
+
+		

@@ -1,0 +1,419 @@
+---
+author: xianghong
+comments: true
+date: 2018-04-17 05:54:20+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/update-2018-04/
+slug: update-2018-04
+title: "\n\t\t\t\t「极光开发者服务」近期更新汇总 - 2018.04\t\t"
+wordpress_id: 1979
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+ 	
+  * JPush SDK 升级提醒：32 位注册号码即将消耗完毕，不再支持 iOS 2.1.0 ，Android 1.8.2 以下版本的注册，已分别于 2016 年 1 月，2015 年 9 月开始提供升级版本，请尽快安排升级。
+
+ 	
+  * JShare 支持对 Twitter 平台的分享。
+
+ 	
+  * JMessage 整体新增许多群相关的接口。
+
+ 	
+  * JMessage PC SDK 首次发布，同时支持 Windows、MacOS。
+
+ 	
+  * IMUI 新增自定义 inputView。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+ 	
+  * JPush Android SDK
+
+ 	
+    * 优化：JPush 接入服务，用户活跃上报的逻辑。
+
+ 	
+    * 新增：绑定手机号的 API ，用于短信补充功能。
+
+ 	
+    * 修复： Android 8.0 + 设备上的若干崩溃。
+
+
+
+
+ 	
+  * JPush iOS SDK
+
+ 	
+    * 优化：使用自定义消息不必再依赖 APNs Token 注册成功。
+
+ 	
+    * 优化：将自定义消息的 Message ID 回调给开发者。
+
+ 	
+    * 新增：绑定手机号的 API，用于短信补充功能。
+
+ 	
+    * 新增：在 Service Extension 中增加日志开关。
+
+
+
+
+ 	
+  * JAnalytics Android SDK
+
+ 	
+    * 新增：统计维度-账号，用户可以登记账号信息、解除关联信息。
+
+ 	
+    * 新增：统计频率设置，用户可以设定统计数据的自动上报周期。
+
+
+
+
+ 	
+  * JAnalytics iOS SDK
+
+ 	
+    * 新增：用户维度绑定/解绑功能。
+
+ 	
+    * 新增：定时/即时上报功能，通过 API 可关闭该功能或调整上报频率。
+
+
+
+
+ 	
+  * JMessage Android / iOS / Web / Windows SDK
+
+ 	
+    * 新增：群组管理员角色。
+
+ 	
+    * 新增：解散群、移交群主功能。
+
+ 	
+    * 新增：设备间消息透传、登录设备记录获取。
+
+ 	
+    * 新增：获取 Appkey 下所有公开群。
+
+
+
+
+ 	
+  * JMessage PC SDK
+
+ 	
+    * 全新 PC 端 SDK，同时支持 Windows、macOS，同步 Windows v1.2.0 的所有功能
+
+
+
+
+ 	
+  * JShare Android / iOS SDK
+
+ 	
+    * 新增：Twitter 平台分享、授权、获取个人信息。
+
+
+
+
+
+
+
+### 服务端 SDK
+
+
+
+
+
+ 	
+  * JPush PHP SDK
+
+ 	
+    * 新增：送达状态查询 API 。
+
+ 	
+    * 新增：可选择配置服务器地址。
+
+ 	
+    * 优化：去掉 option 方法中的类型限制
+
+
+
+
+ 	
+  * JPush C# SDK
+
+ 	
+    * 优化：同步方法的实现。
+
+ 	
+    * 将 `PushPayload` 中的 `Platform` 类型修改为 `object`。
+
+
+
+
+ 	
+  * JPush Python SDK
+
+ 	
+    * 新增： Admin API 。
+
+ 	
+    * 新增：可选择配置服务器地址。
+
+
+
+
+ 	
+  * JPush nodejs SDK
+
+ 	
+    * 新增：设置 `readTimeOut` 、`proxy` 参数。
+
+ 	
+    * 新增： `tag_not`、`segment`、`abtest` 方法。
+
+
+
+
+ 	
+  * JMessage PHP SDK
+
+ 	
+    * 新增：聊天室 API 。
+
+ 	
+    * 修复：在 php 版本小于 5.5 时的文件上传问题。
+
+
+
+
+ 	
+  * JMessage Java SDK
+
+ 	
+    * 新增：MessagePayload 增加 `no_notification`，`no_offline` 等字段。
+
+ 	
+    * Pom 中公共依赖包 scope 改为 provided 。
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+ 	
+  * 控制台
+
+ 	
+    * 新增：官网登录支持绑定微信与短信作为二次验证。
+
+
+
+
+ 	
+  * JPush
+
+ 	
+    * Portal
+
+ 	
+      * 新增：推送预览窗口，反映出推送信息的预览和预估人数
+
+
+
+
+ 	
+    * REST API
+
+ 	
+      * 应运营商规定，JPush 短信补充功能强制要求提交短信模板进行审核。
+
+
+
+
+
+
+
+ 	
+  * JMessage
+
+ 	
+    * REST API
+
+ 	
+      * 新增：批量删除用户、移交群主。
+
+ 	
+      * 新增：设置/获得 SDK-API 用户注册开关。
+
+
+
+
+
+
+
+ 	
+  *  极光统计
+
+ 	
+    * Portal：
+
+ 	
+      * 新增：账户概况、趋势、分析。
+
+ 	
+      * 新增：账户留存、流失、回访。
+
+
+
+
+
+
+
+ 	
+  * JSMS
+
+ 	
+    * Portal：
+
+ 	
+      * 新增：月账单（包含应用维度与账号维度 ）、IP 白名单功能。
+
+ 	
+      * 优化：控制台发送历史。
+
+
+
+
+ 	
+    * REST API：
+
+ 	
+      * 新增：短信签名 API 。
+
+ 	
+      * 优化：短信回调地址填写校验，新填写的地址不允许带自定义端口号。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](https://github.com/jpush)
+
+
+
+
+
+ 	
+  * Aurora IMUI
+
+ 	
+    * 新增：很多配置项，相机/语音 监听器。
+
+ 	
+    * 新增：RN 添加权限提示。
+
+ 	
+    * 新增：自定义 inputView。
+
+ 	
+    * 修复很多 Bug 。
+
+
+
+
+ 	
+  * JPush PhoneGap Plugin
+
+ 	
+    * 新增：支持 Cordova Android 7.0.0 。
+
+
+
+
+ 	
+  * JPush React Native
+
+ 	
+    * 新增：支持 CocoaPods 方式集成。
+
+
+
+
+ 	
+  * JPush Unity3d Plugin
+
+ 	
+    * 新增：插件的 Android 项目，方便导入修改。
+
+ 	
+    * 将插件打包为 .aar 的形式提供使用。
+
+
+
+
+ 	
+  * JMessage PhoneGap Plugin
+
+ 	
+    * 新增：聊天室、角标。
+
+ 	
+    * 新增：支持 Cordova Android 7.0.0 。
+
+
+
+
+ 	
+  * JMessage React Plugin
+
+ 	
+    * 新增：聊天室。
+
+ 	
+    * 新增：支持 CocoaPods 方式集成。
+
+
+
+
+		

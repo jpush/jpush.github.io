@@ -1,0 +1,215 @@
+---
+author: javen
+comments: true
+date: 2016-10-10 06:56:40+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates_2016_09/
+slug: updates_2016_09
+title: "\n\t\t\t\t极光近期更新汇总 - 九月\t\t"
+wordpress_id: 1298
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JPush iOS SDK 全面支持 iOS 10，并且把 HTTP 请求全面切换成 https，以满足 Apple 规范要求。
+
+	
+  * JMessage REST API 发消息接口支持图片，并且提供图片的上传与下载接口。
+
+	
+  * JPush Server SDK 多个语言版本支持 HTTP/2：PHP, Java, Python。使用 HTTP/2 将极大地提高接口调用效率。
+
+	
+  * JPush 推送不到短信到的功能在控制台上提供了统计。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 全面支持 iOS 10 新特性。
+
+	
+    * 全部改为 https 连接。
+
+	
+    * Tag alias 支持更多的特殊符号。
+
+	
+    * 新增获取 registrationID 的接口。
+
+	
+    * 修复 Bug，增加 SDK 的稳定性。
+
+
+
+
+	
+  * JMessage JS SDK
+
+	
+    * 增加接口：发送图片、用户注册。
+
+	
+    * 提供更多的跨应用支持：黒名单、群组聊天。
+
+	
+    * 优化 Demo。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 新增好友功能。
+
+	
+    * 个人信息提供备注名与备注信息。
+
+	
+    * 新增发送消息类型：文件、位置。
+
+	
+    * 优化接口执行效率。
+
+	
+    * 修改一些 Bugs。
+
+
+
+
+	
+  * JMessage iOS SDK
+
+	
+    * 修复接收大量消息并且进行前后台切换时导致崩溃的问题。
+
+	
+    * 修复登录时偶发Crash问题。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush PHP SDK (composer: jpush)
+
+	
+    * 支持 HTTP/2（注：PHP 版本要求大于 5.5.24）。
+
+
+
+
+	
+  * JPush Java SDK (maven: jpush)
+
+	
+    * 支持 HTTP/2 （未在正式版本上直接支持，而是提供新的分支：https://github.com/jpush/jpush-api-java-client/tree/http2）。
+
+
+
+
+
+
+
+### 服务器端（功能、REST API、控制台）
+
+
+
+
+
+	
+  * 控制台
+
+	
+    * JPush 推送不到短信到功能提供统计数据。
+
+
+
+
+	
+  * API
+
+	
+    * IM 发送消息 API 支持图片。
+
+	
+    * IM 新增上传与下载图片的接口。
+
+	
+    * IM 更新用户信息支持更新头像。
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 更新支持新版本 JPush iOS SDK，以支持 iOS 10。
+
+
+
+
+	
+  * JPush React Plugin
+
+	
+    * 更新支持新版本 JPush iOS SDK，以支持 iOS 10。
+
+
+
+
+	
+  * JChat Swift
+
+	
+    * 提供对 Swift 2.3 与 Swift 3.0 的版本支持的分支。
+
+
+
+
+		

@@ -1,0 +1,308 @@
+---
+author: javen
+comments: true
+date: 2017-04-05 09:26:35+00:00
+excerpt: "\n\t\t\t\t\t\t"
+layout: post
+link: http://blog.jiguang.cn/updates-2017-03/
+slug: updates-2017-03
+title: "\n\t\t\t\t极光开发者服务近期更新汇总 - 2017.03\t\t"
+wordpress_id: 1835
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+
+
+
+
+	
+  * JMessage 推出微信小程序版本的 SDK。
+
+	
+  * JMessage Android/Web SDK 优化到全新的同步机制，以提高消息同步效率；以及一大波新功能。
+
+
+
+
+## 详细列表
+
+
+
+
+### 客户端 SDK
+
+
+
+
+
+	
+  * JPush Android SDK
+
+	
+    * 新增：支持呼吸灯提醒。
+
+	
+    * 修复：HTTP 上报偶尔崩溃的问题。
+
+
+
+
+	
+  * JPush iOS SDK
+
+	
+    * 优化：Socket connect 的一些机制。
+
+	
+    * 修复：HTTP 上报偶尔崩溃的问题。
+
+
+
+
+	
+  * JMessage Android SDK
+
+	
+    * 优化：全新的消息同步机制。
+
+	
+    * 新增：支持消息漫游。
+
+	
+    * 新增：支持群聊里 @ 功能。
+
+	
+    * 以及其他较多的新功能。
+
+
+
+
+	
+  * JMessage Web SDK
+
+	
+    * 优化：全新的消息同步机制。
+
+	
+    * 新增：支持消息漫游。
+
+	
+    * 以及其他较多的新功能。
+
+
+
+
+	
+  * JMessage Wxapplet SDK
+
+	
+    * 首次推出微信小程序版本的 SDK，功能与用法参考 Web SDK。
+
+
+
+
+
+
+
+### 服务器端 SDK
+
+
+
+
+
+	
+  * JPush PHP SDK (composer: jpush)
+
+	
+    * 修复：ServiceNotAvailable 异常。
+
+	
+    * 新增支持：推送 API 新增支持 alert_type 字段。
+
+
+
+
+	
+  * JPush Java SDK (maven: jpush)
+
+	
+    * 更新提供 ApacheHttpClient 以支持高并发请求。
+
+	
+    * 新增支持：推送 API 新增支持 alert_type 字段。
+
+
+
+
+	
+  * JPush C# SDK (NuGet: cn.jpush.api)
+
+	
+    * 新增支持：推送 API 新增支持 alert_type 字段。
+
+
+
+
+	
+  * JPush Python SDK (pip: jpush)
+
+	
+    * 功能完善：支持最新版本 API。
+
+	
+    * 新增支持：推送 API 新增支持 alert_type 字段。
+
+
+
+
+	
+  * JPush Ruby SDK (rubygem: jpush)
+
+	
+    * 新增支持：推送 API 新增支持 alert_type 字段。
+
+
+
+
+	
+  * JPush Node.js SDK (npm: jpush-sdk)
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JMessage PHP SDK (composer: jiguang/jmessage)
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JMessage Java SDK (maven: jmessage)
+
+	
+    * 近期无更新。
+
+
+
+
+	
+  * JMessage C# SDK (NuGet: jmessage)
+
+	
+    * 近期无更新。
+
+
+
+
+
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+
+
+
+
+	
+  * 短信
+
+	
+    * 增加了更多的分流渠道，提升业务可靠性。
+
+
+
+
+	
+  * 统计
+
+	
+    * 内部统计优化，提高统计速度。
+
+
+
+
+	
+  * JMessage
+
+	
+    * 控制台：新增敏感词管理，开发者可自由控制敏感词检查。
+
+	
+    * REST API：
+
+	
+      * 新增敏感词相关管理接口。
+
+	
+      * 新增用户、消息、群组统计接口。
+
+	
+      * 新增获取历史群组消息接口。
+
+
+
+
+
+
+
+
+
+
+### [极光开源](http://github.com/jpush)
+
+
+
+
+
+	
+  * JPush PhoneGap Plugin
+
+	
+    * 分离 JCore。
+
+	
+    * 更新至最新的 SDK 版本。
+
+
+
+
+	
+  * JMessage PhoneGap Plugin
+
+	
+    * 分离 JPush、JCore。
+
+
+
+
+	
+  * JPush React Plugin
+
+	
+    * 解决应用未运行但收到通知导致的崩溃问题。
+
+
+
+
+	
+  * JBox
+
+	
+    * 一个基于 JPush 的最轻便易用的通知框架。
+
+
+
+
+		
