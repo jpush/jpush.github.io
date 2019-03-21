@@ -37,7 +37,7 @@ Couchbase 的数据服务在单机、 集群安装，集群、多集群通信都
 
 存储引擎直接决定了存储系统能够提供的性能和功能。在 Couchbase 的数据储存分对象缓存和数据储存引擎。如下图所示应用对数据的操作首先是对内存操作，然后才会异步更新至数据储存引擎中。对于 Couchbase，数据层 以 memcached API 对数据进行交互，系统在 memcached 程序中嵌入持久化引擎代码对数据进行缓存、复制、持久化等操作，持久化操作就是同步数据至 CouchDB 中（新版代码中增加了forestDB引擎）。对于图中的复制是在第四节中详细介绍。
 
-[![1](http://blog.jiguang.cn/wp-content/uploads/2016/02/1-1024x575.png)](http://blog.jpush.cn/wp-content/uploads/2016/02/1.png)
+[![1](/images/2016/02/1-1024x575.png)](/images/2016/02/1.png)
 
 
 
@@ -47,7 +47,7 @@ Couchbase 的数据服务在单机、 集群安装，集群、多集群通信都
 
 对象缓存提供先内存储存的架构，使得的读与写的操作降低了延迟。对象储存是属于在内存中以hash储存方式储存，支持增、删、改，以及随机读取操作，其哈希分片大小，根据所储存的数据项的量会动态变动。如下图，对象缓存根据key值得相关运算计算出分片的哈希值，然后会根据根据所储存项的多少，在一个哈希分片以链表串连数据，每个内存中储存的数据结构见图所示。
 
-[![2](http://blog.jiguang.cn/wp-content/uploads/2016/02/2.png)](http://blog.jpush.cn/wp-content/uploads/2016/02/2.png)
+[![2](/images/2016/02/2.png)](/images/2016/02/2.png)
 
 
 
@@ -93,7 +93,7 @@ Couchstore（Couchbase的数据储存引擎）是按vbucket为单位的文件储
 
  如下图所示：主节点指向中间节点. 这些中间节点指向叶节点。主节点和中间节点针对它们的子树可以划分指向文档范围的大小。叶节点储存了文档ID和元数据指向值所储存的文件位置。
 
-[![3](http://blog.jiguang.cn/wp-content/uploads/2016/02/3.png)](http://blog.jpush.cn/wp-content/uploads/2016/02/3.png)
+[![3](/images/2016/02/3.png)](/images/2016/02/3.png)
 
 
 
@@ -118,7 +118,7 @@ Couchstore（Couchbase的数据储存引擎）是按vbucket为单位的文件储
 
 在Couchbase数据分布是按计算分配到多个节点上，每个节点都储存两部分数据有效数据和副本数据，客户端对数据的操作主要是按照节点中对应的有效数据进行操作，执行压力会部分到不同的节点，类似如下图所示：
 
-[![4](http://blog.jiguang.cn/wp-content/uploads/2016/02/4.png)](http://blog.jpush.cn/wp-content/uploads/2016/02/4.png)
+[![4](/images/2016/02/4.png)](/images/2016/02/4.png)
 
 
 
@@ -155,7 +155,7 @@ Couchbase的集群管理是由erlang/otp进行集群通信管理，集群之间�
 
 在 Couchbase 中，我们所操作的每一个bucket会逻辑划分为1024个vbucket，其数据的储存基于每个vbucket储存并且每个 vbucket都会映射到相对应的服务器节点，这种储存结构的方式叫做集群映射。如下图所示，当应用与Couchbase服务器交互时，会通过SDK的与 服务器数据进行交互，当应用操作某一个的bucket的key值时，在SDK中会通过哈希的方式计算，使用公式crc32(key)%1024确定key 值是属于1024个vbucket中的某个，然后根据vbucket所映射的节点服务器对数据进行操作。
 
-[![5](http://blog.jiguang.cn/wp-content/uploads/2016/02/5.png)](http://blog.jpush.cn/wp-content/uploads/2016/02/5.png)
+[![5](/images/2016/02/5.png)](/images/2016/02/5.png)
 
 
 
@@ -199,7 +199,7 @@ Couchbase的集群管理是由erlang/otp进行集群通信管理，集群之间�
 
 集群内复制主要针对同一个集群中多个节点的数据进行多份复制备份，并且复制的份数会分布到不同的节点中。在数据分布中我们知道每个节点都会储存有效的 vbucket和复制的vbucket。如下图展示，当应用对对数据进行写操作，此操作会先到集群节点中所对应有效的vbucket的数据进行写操作，并 且有效的vbucket节点会根据DCP协议传输写操作的变更传输到复制的vbucket所对应的节点，对复制的vbucket进行变更。可复制的 vbucket的份数，可以在操作bucket的时候进行配置，备份数量为1-3份。
 
-[![6](http://blog.jiguang.cn/wp-content/uploads/2016/02/6-300x284.png)](http://blog.jpush.cn/wp-content/uploads/2016/02/6.png)
+[![6](/images/2016/02/6-300x284.png)](/images/2016/02/6.png)
 
 
 
@@ -261,7 +261,7 @@ Couchbase的集群管理是由erlang/otp进行集群通信管理，集群之间�
 
 跨数据中心复制主要是针对多个集群间的数据复制，此种复制主要以异步的方式通过XDCR协议同步数据到其它集群中备份，从而实现单集群或机房出现问题级的容灾。跨数据中心复制是以bucket为单位进行复制的，在管理员操作界面可以通过配置XDCR来进行此种复制方式，下图为跨数据中心复制示例图：
 
-[![7](http://blog.jiguang.cn/wp-content/uploads/2016/02/7.png)](http://blog.jpush.cn/wp-content/uploads/2016/02/7.png)
+[![7](/images/2016/02/7.png)](/images/2016/02/7.png)
 
 
 

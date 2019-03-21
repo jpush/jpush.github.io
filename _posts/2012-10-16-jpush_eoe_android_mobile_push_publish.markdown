@@ -21,11 +21,11 @@ categories:
 
 第一部分，先是产品总监方家文上台，从产品角度说开发者为什么需要用Push。
 
-[![演讲开始](http://blog.jpush.cn/wp-content/uploads/2012/10/IMG_4840-1024x682.jpg)](http://blog.jiguang.cn/wp-content/uploads/2012/10/jpush-eoe-1.jpg)
+[![演讲开始](/images/2012/10/jpush-eoe-1.jpg)](/images/2012/10/jpush-eoe-1.jpg)
 
 第二个部分，由技术总监张虎上台讲我们是怎么样实现大容量Push服务的。
 
-[![技术干货](http://blog.jpush.cn/wp-content/uploads/2012/10/IMG_4904-1024x682.jpg)](http://blog.jpush.cn/wp-content/uploads/2012/10/jpush-eoe-2.jpg)
+[![技术干货](/images/2012/10/jpush-eoe-2.jpg)](/images/2012/10/jpush-eoe-2.jpg)
 
 演讲结束后，在场的开发者反响热烈，在休息里的 15 分钟时间里，二台演讲人被开发者一直围着在问这问那。有开发者发微博说，这是他今天收获干货最多的演讲。
 

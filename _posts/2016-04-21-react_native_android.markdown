@@ -26,7 +26,7 @@ tags:
 我们先来看一下 PushDemoApp 最终的界面效果：
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-efdbff67863495f3.gif)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-efdbff67863495f3.gif)
+[![react native with jpush](/images/2016/04/1745101-efdbff67863495f3.gif)](/images/2016/04/1745101-efdbff67863495f3.gif)
 
 
 
@@ -42,7 +42,7 @@ tags:
 这样就创建了一个名为 PushDemo 的项目，使用 Android Studio 打开PushDemo/android项目，接下来改造 android 的工程结构以兼容 Eclipse，如图所示：
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-9aebd7437788b681.jpeg)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-9aebd7437788b681.jpeg)
+[![react native with jpush](/images/2016/04/1745101-9aebd7437788b681.jpeg)](/images/2016/04/1745101-9aebd7437788b681.jpeg)
 
 
 
@@ -339,7 +339,7 @@ _justifyContent_: 可能的取值:
   * space-around 在垂直布局中以高为基准，控件之间的间隔相等，控件与边界的间隔为控件之间间隔的一半；在水平布局中以宽为基准，控件之间的间隔相等，控件与边界的间隔为控件之间间隔的一半
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-9809fba386f579f7.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-9809fba386f579f7.png)
+[![react native with jpush](/images/2016/04/1745101-9809fba386f579f7.png)](/images/2016/04/1745101-9809fba386f579f7.png)
 
 _alignSelf_ 其效果与alignItems一样，但针对个别控件。如果某个控件声明了alignSelf属性，则会覆盖父容器的alignItems属性。
 
@@ -784,7 +784,7 @@ React Native还实现了一些比较常用的控件，如Switch、Picker、Toolb
 命令运行了。这时会自动弹出一个窗口来执行React Packger。
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-0ee69b2455da1775.jpeg)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-0ee69b2455da1775.jpeg)
+[![react native with jpush](/images/2016/04/1745101-0ee69b2455da1775.jpeg)](/images/2016/04/1745101-0ee69b2455da1775.jpeg)
 
 
 
@@ -793,7 +793,7 @@ React Native还实现了一些比较常用的控件，如Switch、Picker、Toolb
 如果使用模拟器，推荐使用 Genymotion，只要注册一个账号就可以了。运行后如果出现
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-081f574267b631fa.jpeg)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-081f574267b631fa.jpeg)
+[![react native with jpush](/images/2016/04/1745101-081f574267b631fa.jpeg)](/images/2016/04/1745101-081f574267b631fa.jpeg)
 
 
 
@@ -802,7 +802,7 @@ React Native还实现了一些比较常用的控件，如Switch、Picker、Toolb
 不要慌，点击一下Reload JS 即可，如果出现了 Unable to download JS bundle 错误：
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-0780398bf53543d7.jpeg)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-0780398bf53543d7.jpeg)
+[![react native with jpush](/images/2016/04/1745101-0780398bf53543d7.jpeg)](/images/2016/04/1745101-0780398bf53543d7.jpeg)
 
 
 
@@ -812,7 +812,7 @@ React Native还实现了一些比较常用的控件，如Switch、Picker、Toolb
 首先检查一下设备和电脑的网络，确保两者在同一个Wifi环境下。在模拟器上点击下面的三角按钮，在弹出的菜单中点击Menu按钮，如图：
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-793e44c39442774b.jpeg)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-793e44c39442774b.jpeg)
+[![react native with jpush](/images/2016/04/1745101-793e44c39442774b.jpeg)](/images/2016/04/1745101-793e44c39442774b.jpeg)
 
 
 
@@ -822,7 +822,7 @@ React Native还实现了一些比较常用的控件，如Switch、Picker、Toolb
 就可以唤出设置对话框：
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-bbec40e9580c5fc9.jpeg)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-bbec40e9580c5fc9.jpeg)
+[![react native with jpush](/images/2016/04/1745101-bbec40e9580c5fc9.jpeg)](/images/2016/04/1745101-bbec40e9580c5fc9.jpeg)
 
 
 
@@ -831,7 +831,7 @@ React Native还实现了一些比较常用的控件，如Switch、Picker、Toolb
 在真机中，只需要晃动手机，即可弹出上面的对话框。然后点击Dev Settings选项进入设置界面。
 
 
-[![react native with jpush](http://blog.jiguang.cn/wp-content/uploads/2016/04/1745101-3edfab054ca201c1.jpeg)](http://blog.jpush.cn/wp-content/uploads/2016/04/1745101-3edfab054ca201c1.jpeg)
+[![react native with jpush](/images/2016/04/1745101-3edfab054ca201c1.jpeg)](/images/2016/04/1745101-3edfab054ca201c1.jpeg)
 
 
 

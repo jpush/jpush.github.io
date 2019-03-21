@@ -129,7 +129,7 @@ categories:
   * Landing page：
 
 
-[![模版1](http://blog.jiguang.cn/wp-content/uploads/2016/04/模版1-214x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/模版1.png)
+[![模版1](/images/2016/04/模版1-214x300.png)](/images/2016/04/模版1.png)
 
 
 
@@ -139,7 +139,7 @@ categories:
 
 
 
-[![单图模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/单图模版-216x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/单图模版.png)          [![图文模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/图文模版-216x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/图文模版.png)
+[![单图模版](/images/2016/04/单图模版-216x300.png)](/images/2016/04/单图模版.png)          [![图文模版](/images/2016/04/图文模版-216x300.png)](/images/2016/04/图文模版.png)
 
 
 
@@ -152,7 +152,7 @@ categories:
 
 
 
-[![多图文模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/多图文模版-229x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/多图文模版.png)          [![单图文模版](http://blog.jiguang.cn/wp-content/uploads/2016/04/单图文模版-229x300.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/单图文模版.png)
+[![多图文模版](/images/2016/04/多图文模版-229x300.png)](/images/2016/04/多图文模版.png)          [![单图文模版](/images/2016/04/单图文模版-229x300.png)](/images/2016/04/单图文模版.png)
 
 
 
@@ -237,7 +237,7 @@ categories:
 ##### 入口在这里：
 
 
-[![entrance](http://blog.jiguang.cn/wp-content/uploads/2016/04/entrance3-300x121.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/entrance3.png)
+[![entrance](/images/2016/04/entrance3-300x121.png)](/images/2016/04/entrance3.png)
 
 
 如果自己折腾不好，请移步官网文档之控制台使用指南，那里有教程哦~

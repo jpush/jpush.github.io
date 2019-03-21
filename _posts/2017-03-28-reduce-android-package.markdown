@@ -18,7 +18,7 @@ categories:
 
 
 
-[![11](http://blog.jiguang.cn/wp-content/uploads/2017/03/11.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/11.png)
+[![11](/images/2017/03/11.png)](/images/2017/03/11.png)
 
 
 
@@ -51,7 +51,7 @@ categories:
 
 
 首先，我们先用 Android Studio 提供的 APK Analyser 工具来分析下我们的 apk 文件：
-[![12](http://blog.jiguang.cn/wp-content/uploads/2017/03/12.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/12.png)
+[![12](/images/2017/03/12.png)](/images/2017/03/12.png)
 可以看到占空间最多的主要是三个部分：classes.dex, res 和 resources.arsc。
 
 
@@ -122,7 +122,7 @@ classes.dex 文件的大小完全取决于程序中方法数的多少。在上�
 
 
 通过设置 minifyEnabled 属性为 true，会告诉 proguard 删除所有未使用的方法和指令，进一步的减少 .dex 文件的大小。
-[![13](http://blog.jiguang.cn/wp-content/uploads/2017/03/13.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/13.png)
+[![13](/images/2017/03/13.png)](/images/2017/03/13.png)
 方法数从 29897 减少到了 15168，大小从 3.1MB 减少到了 1.98 MB。
 
 
@@ -140,9 +140,9 @@ classes.dex 文件的大小完全取决于程序中方法数的多少。在上�
 
 
 我们可以选中 drawable 和 mipmap 文件夹，右键后选择 convert to webp，将图片转为 webp 格式。
-[![14](http://blog.jiguang.cn/wp-content/uploads/2017/03/14.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/14.png)
+[![14](/images/2017/03/14.png)](/images/2017/03/14.png)
 转换的结果：
-[![15](http://blog.jiguang.cn/wp-content/uploads/2017/03/15.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/15.png)
+[![15](/images/2017/03/15.png)](/images/2017/03/15.png)
 
 
 

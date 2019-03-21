@@ -68,7 +68,7 @@ categories:
   * 依靠“颜值经济”积累资本并在近期准备上市的美图公司在拍照 P 图 app 领域的实力雄厚
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/7da55275d62f4669a2ebaeb8125f881a_th.jpg)
+![%image_alt%](/images/-000//1/7da55275d62f4669a2ebaeb8125f881a_th.jpg)
 
 　　
 
@@ -82,7 +82,7 @@ categories:
   * “颜值经济”成就了美图帝国的崛起，美图在依靠拍照 P 图领域的丰富产品线成为垂直领域绝对领导者。根据美图公司官网显示，目前其旗下有 13 款美图 app ，从 2012 年开始陆续上线，分别针对不同细分用户群体
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/d3d17d2159114b0a80eae79e20d4cd9e_th.jpg)
+![%image_alt%](/images/-000//1/d3d17d2159114b0a80eae79e20d4cd9e_th.jpg)
 
 
 
@@ -99,7 +99,7 @@ categories:
   * 拍照 P 图类 app 行业渗透率在过去 8 个月整体处于上升趋势，对比 4 月第一周，11 月最后一周的行业市场渗透率上升了 12.9%，用户规模从 2.35 亿扩大至 3.22 亿
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/f24673232dad4818801d637bad435043_th.jpg)
+![%image_alt%](/images/-000//1/f24673232dad4818801d637bad435043_th.jpg)
 
 
 
@@ -139,7 +139,7 @@ categories:
   * 国内互联网巨头对拍照 P 图 app 市场也非常重视，腾讯旗下的天天 P 图，相册管家均进入 top 10
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/de64f628823247c0a95217284cd869a0_th.jpg)
+![%image_alt%](/images/-000//1/de64f628823247c0a95217284cd869a0_th.jpg)
 
 
 
@@ -156,7 +156,7 @@ categories:
   * Faceu 激萌和 SNOW 相机是两款功能相似的产品，均以识别人脸并根据用户动态进行面部图像捕捉和覆盖趣味贴图见长，截至 11 月最后一周，他们的市场渗透率分别为 3.1% 和 1.9% ，平均 DAU 分别为 118.03 万和 21.03 万
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/d100a29fa4c5467bae6e6677c5363695_th.jpg)
+![%image_alt%](/images/-000//1/d100a29fa4c5467bae6e6677c5363695_th.jpg)
 
 
 
@@ -173,7 +173,7 @@ categories:
   * PicsArt 日均新增用户量超过 30 万，其增量超过市场渗透率排名第三的天天 P 图，增势强劲
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/1456d33eb59f4fd7889282e4276026f3_th.jpg)
+![%image_alt%](/images/-000//1/1456d33eb59f4fd7889282e4276026f3_th.jpg)
 
 
 
@@ -190,7 +190,7 @@ categories:
   * PicsArt 日均新增用户量超过 30 万，30 天留存率为 70.4%，或在产品体验方面有一定优势
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/612c4fdb9c22473f83bc56103e596e1b_th.jpg)
+![%image_alt%](/images/-000//1/612c4fdb9c22473f83bc56103e596e1b_th.jpg)
 
 
 
@@ -198,7 +198,7 @@ categories:
 
 　　日均使用频率最高 app：相机360
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/b4b4868accbf4eeaa9bac9088149f1c3_th.jpg)
+![%image_alt%](/images/-000//1/b4b4868accbf4eeaa9bac9088149f1c3_th.jpg)
 
 
 
@@ -206,7 +206,7 @@ categories:
 
 　　用户基数大的美图系 app，使用时长却是落后的
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/823e4bf1fcae42b09e8873ec53a43ae4_th.jpg)
+![%image_alt%](/images/-000//1/823e4bf1fcae42b09e8873ec53a43ae4_th.jpg)
 
 
 
@@ -220,7 +220,7 @@ categories:
   * 极光数据研究院还注意到，美图双雄的重合率高达 41%，而相机360与其他同类产品的重合率均不超过 16% ，说明相机360基本满足用户需求，忠诚度较高
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/cf2fe918217846a5b0d47e0ac245cbed_th.jpg)
+![%image_alt%](/images/-000//1/cf2fe918217846a5b0d47e0ac245cbed_th.jpg)
 
 
 
@@ -237,7 +237,7 @@ categories:
   * 7.4% 的拍照 P 图用户对这一类型的 app 有“蜜汁”热爱，他们的移动设备会安装 5 款以上的拍照 P 图 app
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/9d9694b399bd4115b25946bdcd8f8754_th.jpg)
+![%image_alt%](/images/-000//1/9d9694b399bd4115b25946bdcd8f8754_th.jpg)
 
 
 
@@ -277,7 +277,7 @@ categories:
   * 拍照 P 图用户对音乐，书籍，旅游，美容美妆和直播聊天最感兴趣，流行时尚和二次元也是他们的共同话题
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/cd797c24e80840faa696350d48a6f278_th.jpg)
+![%image_alt%](/images/-000//1/cd797c24e80840faa696350d48a6f278_th.jpg)
 
 
 
@@ -294,7 +294,7 @@ categories:
   * 4 款拍照 P 图类 app 进入偏好度 top 10：相机360，PicsArt，相片组合和美图秀秀
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/f5711f4f94964b65be4e2e55db371d60_th.jpg)
+![%image_alt%](/images/-000//1/f5711f4f94964b65be4e2e55db371d60_th.jpg)
 
 
 
@@ -310,7 +310,7 @@ categories:
   * 拍照 P 图 app 用户城市等级分布与全国网民分布基本一致，一线城市的用户对拍照 P 图 app 更感兴趣
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/5c3b824620c24e45bc7d693462281913_th.jpg)
+![%image_alt%](/images/-000//1/5c3b824620c24e45bc7d693462281913_th.jpg)
 
 
 
@@ -324,7 +324,7 @@ categories:
   * 美颜相机中接近九成用户对音乐感兴趣，超过四成用户关注流行时尚话题，最偏爱的手机机型是红米 NOTE
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/3addff248ac448b5b362eecd6024dda4_th.jpg)
+![%image_alt%](/images/-000//1/3addff248ac448b5b362eecd6024dda4_th.jpg)
 
 
 
@@ -338,7 +338,7 @@ categories:
   * 美图秀秀用户男女比例约为 4：1，67.7% 用户不到 30 岁，接近九成为音乐爱好者，超过一半用户对流行时尚话题感兴趣
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/1199ded1cea843a59eb92572754438e5_th.jpg)
+![%image_alt%](/images/-000//1/1199ded1cea843a59eb92572754438e5_th.jpg)
 
 
 
@@ -352,7 +352,7 @@ categories:
   * 天天 P 图的用户使用新浪微博的比例比全国平均水平高出 22.9%
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/cc0830cd9e0c4f8290635d9dd757d6d4_th.jpg)
+![%image_alt%](/images/-000//1/cc0830cd9e0c4f8290635d9dd757d6d4_th.jpg)
 
 
 
@@ -366,7 +366,7 @@ categories:
   * 潮自拍的用户喜欢参与流行时尚，文艺小清新和校园社区相关的话题，最偏爱的应用是美颜相机
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/-000//1/400fb15a06814a6384ad905a85089629_th.jpg)
+![%image_alt%](/images/-000//1/400fb15a06814a6384ad905a85089629_th.jpg)
 
 
 

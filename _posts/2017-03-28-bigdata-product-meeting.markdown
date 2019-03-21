@@ -21,7 +21,7 @@ categories:
 
 
 
-### [![大数据技术-900x500](http://blog.jiguang.cn/wp-content/uploads/2017/03/大数据技术-900x500.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/大数据技术-900x500.png)
+### [![大数据技术-900x500](/images/2017/03/大数据技术-900x500.png)](/images/2017/03/大数据技术-900x500.png)
 
 
 
@@ -137,13 +137,13 @@ http://www.bagevent.com/event/450465
 ### 详细内容：
 
 
-[![大数据时代-百格](http://blog.jiguang.cn/wp-content/uploads/2017/03/大数据时代-百格.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/大数据时代-百格.png)[![大数据时代-时间-百格](http://blog.jiguang.cn/wp-content/uploads/2017/03/大数据时代-时间-百格.jpg)](http://blog.jiguang.cn/wp-content/uploads/2017/03/大数据时代-时间-百格.jpg)
+[![大数据时代-百格](/images/2017/03/大数据时代-百格.png)](/images/2017/03/大数据时代-百格.png)[![大数据时代-时间-百格](/images/2017/03/大数据时代-时间-百格.jpg)](/images/2017/03/大数据时代-时间-百格.jpg)
 
 主办方：
 
-[![七牛云](http://blog.jiguang.cn/wp-content/uploads/2017/03/七牛云.jpeg)](http://blog.jiguang.cn/wp-content/uploads/2017/03/七牛云.jpeg)联合主办：[![极光](http://blog.jiguang.cn/wp-content/uploads/2017/03/极光.jpeg)](http://blog.jiguang.cn/wp-content/uploads/2017/03/极光.jpeg)协办方：
+[![七牛云](/images/2017/03/七牛云.jpeg)](/images/2017/03/七牛云.jpeg)联合主办：[![极光](/images/2017/03/极光.jpeg)](/images/2017/03/极光.jpeg)协办方：
 
-[![协办](http://blog.jiguang.cn/wp-content/uploads/2017/03/协办.jpeg)](http://blog.jiguang.cn/wp-content/uploads/2017/03/协办.jpeg)
+[![协办](/images/2017/03/协办.jpeg)](/images/2017/03/协办.jpeg)
 
 
 
@@ -158,7 +158,7 @@ http://www.bagevent.com/event/450465
 
 合作伙伴：
 
-[![合作伙伴](http://blog.jiguang.cn/wp-content/uploads/2017/03/合作伙伴.jpeg)](http://blog.jiguang.cn/wp-content/uploads/2017/03/合作伙伴.jpeg)
+[![合作伙伴](/images/2017/03/合作伙伴.jpeg)](/images/2017/03/合作伙伴.jpeg)
 
 
 

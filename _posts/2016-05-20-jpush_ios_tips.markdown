@@ -106,7 +106,7 @@ JPush 目前的SDK并不支持https，集成的时候需要到xxx-info.plist里�
 
 
 
-![bc0fd846851c923480f190dfda089265b14d461f_1_690x251](http://blog.jiguang.cn/wp-content/uploads/2016/05/bc0fd846851c923480f190dfda089265b14d461f_1_690x251.png)
+![bc0fd846851c923480f190dfda089265b14d461f_1_690x251](/images/2016/05/bc0fd846851c923480f190dfda089265b14d461f_1_690x251.png)
 
 
 
@@ -126,7 +126,7 @@ JPush 目前的SDK并不支持https，集成的时候需要到xxx-info.plist里�
 
 
 
-[![15b31dd72354a85148e8d2f9cd594757db857fc7_1_690x411](http://blog.jiguang.cn/wp-content/uploads/2016/05/15b31dd72354a85148e8d2f9cd594757db857fc7_1_690x411.png)](http://blog.jpush.cn/wp-content/uploads/2016/05/15b31dd72354a85148e8d2f9cd594757db857fc7_1_690x411.png)
+[![15b31dd72354a85148e8d2f9cd594757db857fc7_1_690x411](/images/2016/05/15b31dd72354a85148e8d2f9cd594757db857fc7_1_690x411.png)](/images/2016/05/15b31dd72354a85148e8d2f9cd594757db857fc7_1_690x411.png)
 
 
 
@@ -146,7 +146,7 @@ JPush 目前的SDK并不支持https，集成的时候需要到xxx-info.plist里�
 
 
 
-[![6697d318cdf01da86d82fbcedc14e226cf0c2ad4_1_690x362](http://blog.jiguang.cn/wp-content/uploads/2016/05/6697d318cdf01da86d82fbcedc14e226cf0c2ad4_1_690x362.png)](http://blog.jpush.cn/wp-content/uploads/2016/05/6697d318cdf01da86d82fbcedc14e226cf0c2ad4_1_690x362.png)
+[![6697d318cdf01da86d82fbcedc14e226cf0c2ad4_1_690x362](/images/2016/05/6697d318cdf01da86d82fbcedc14e226cf0c2ad4_1_690x362.png)](/images/2016/05/6697d318cdf01da86d82fbcedc14e226cf0c2ad4_1_690x362.png)
 
 
 
@@ -156,7 +156,7 @@ JPush 目前的SDK并不支持https，集成的时候需要到xxx-info.plist里�
 
 
 
-[![94993bd4760513780feb218a9de82c94d4c04021_1_690x452](http://blog.jiguang.cn/wp-content/uploads/2016/05/94993bd4760513780feb218a9de82c94d4c04021_1_690x452.png)](http://blog.jpush.cn/wp-content/uploads/2016/05/94993bd4760513780feb218a9de82c94d4c04021_1_690x452.png)
+[![94993bd4760513780feb218a9de82c94d4c04021_1_690x452](/images/2016/05/94993bd4760513780feb218a9de82c94d4c04021_1_690x452.png)](/images/2016/05/94993bd4760513780feb218a9de82c94d4c04021_1_690x452.png)
 
 
 
@@ -194,7 +194,7 @@ JPush 目前的SDK并不支持https，集成的时候需要到xxx-info.plist里�
 
 
 
-[![9d243b6e3cc48188a3437dd56b0654be74372c24_1_689x286](http://blog.jiguang.cn/wp-content/uploads/2016/05/9d243b6e3cc48188a3437dd56b0654be74372c24_1_689x286.png)](http://blog.jpush.cn/wp-content/uploads/2016/05/9d243b6e3cc48188a3437dd56b0654be74372c24_1_689x286.png)
+[![9d243b6e3cc48188a3437dd56b0654be74372c24_1_689x286](/images/2016/05/9d243b6e3cc48188a3437dd56b0654be74372c24_1_689x286.png)](/images/2016/05/9d243b6e3cc48188a3437dd56b0654be74372c24_1_689x286.png)
 
 
 

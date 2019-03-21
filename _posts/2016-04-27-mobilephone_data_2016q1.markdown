@@ -265,7 +265,7 @@ Android与iOS系统用户在移动终端的比例为85.38%：14.62%
 •市场保有率较高的华为和三星未出现进入销量Top10的机型，侧面反映这两个品牌的高市场保有率与其丰富的产品线关系更密切，而非由重点机型拉动
 
 
-[![16](http://blog.jiguang.cn/wp-content/uploads/2016/04/16.png)](http://blog.jpush.cn/wp-content/uploads/2016/04/16.png)
+[![16](/images/2016/04/16.png)](/images/2016/04/16.png)
 
 
 **6**

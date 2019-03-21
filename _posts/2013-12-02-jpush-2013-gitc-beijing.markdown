@@ -19,7 +19,7 @@ tags:
 
 				 
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2013/12/0.jpg)](http://blog.jpush.cn/wp-content/uploads/2013/12/0.jpg)
+[![](/images/2013/12/0.jpg)](/images/2013/12/0.jpg)
 
 
 

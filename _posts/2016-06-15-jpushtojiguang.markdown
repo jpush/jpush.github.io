@@ -25,7 +25,7 @@ categories:
 
 未来的企业竞争将是一场数据竞争，挖掘数据背后的价值，才是企业制胜的关键。而在数据的积累、分析与运用这条道路上，极光已经走了很远。
 
-[![edm_03](http://blog.jiguang.cn/wp-content/uploads/2016/06/edm_03.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/06/edm_03.jpg)
+[![edm_03](/images/2016/06/edm_03.jpg)](/images/2016/06/edm_03.jpg)
 
 
 ### 数据创造更高的价值
@@ -46,7 +46,7 @@ categories:
 
 
 
-[![wechat](http://blog.jiguang.cn/wp-content/uploads/2016/06/wechat.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/06/wechat.jpg)                        ![weibo](http://blog.jiguang.cn/wp-content/uploads/2016/06/weibo.jpg)
+[![wechat](/images/2016/06/wechat.jpg)](/images/2016/06/wechat.jpg)                        ![weibo](/images/2016/06/weibo.jpg)
 
 
 

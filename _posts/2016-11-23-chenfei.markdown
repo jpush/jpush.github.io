@@ -15,7 +15,7 @@ categories:
 
 				
 
-[![1000x5621](http://blog.jiguang.cn/wp-content/uploads/2016/11/1000x5621.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/11/1000x5621.jpg)
+[![1000x5621](/images/2016/11/1000x5621.jpg)](/images/2016/11/1000x5621.jpg)
 
 
 

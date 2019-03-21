@@ -22,7 +22,7 @@ categories:
 但是，推送给谁？是个问题。
 
 
-[![weibo 3](http://blog.jiguang.cn/wp-content/uploads/2016/06/weibo-3.png)](http://blog.jiguang.cn/wp-content/uploads/2016/06/weibo-3.png)
+[![weibo 3](/images/2016/06/weibo-3.png)](/images/2016/06/weibo-3.png)
 
 
 

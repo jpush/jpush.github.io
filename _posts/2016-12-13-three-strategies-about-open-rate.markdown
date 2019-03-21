@@ -13,7 +13,7 @@ categories:
 ---
 
 
-				[![3](http://blog.jiguang.cn/wp-content/uploads/2016/12/3.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/3.jpg)
+				[![3](/images/2016/12/3.jpg)](/images/2016/12/3.jpg)
 
 我们都知道推送通知在 App 运营中的作用巨大。但是，很多用户却并不买帐，App 第一次启动提示是否「启用推送通知」时，他们直接选择了「否」。
 
@@ -33,8 +33,8 @@ App 开发者有没有办法，让用户更多点地开启通知功能呢？还�
 
 有没有更友好的作法呢？有。就是在使用 App 的某个阶段，先业务上提示，向用户说明，「开启通知功能」对这个 App 的体验有多么重要。然后，再调用系统远程通知注册，系统会弹出请求通知权限的提示框，让用户做选择。
 
-[![11](http://blog.jiguang.cn/wp-content/uploads/2016/12/11.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/11.jpg)[![12](http://blog.jiguang.cn/wp-content/uploads/2016/12/12.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/12.jpg)以上截图是「星空」这款 App 刚打开时给我的展示界面。在弹出系统的提示是否允许通知前，它有个介绍的页面，告诉你启用「定位」对这个 App 有什么好处，启用「通知」对这个 App 有什么好处。看到关于通知的说明，我点击「允许」按钮后，就会弹出下图里系统的界面，让你允许启用通知功能。
-[![13](http://blog.jiguang.cn/wp-content/uploads/2016/12/13.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/13.jpg)
+[![11](/images/2016/12/11.jpg)](/images/2016/12/11.jpg)[![12](/images/2016/12/12.jpg)](/images/2016/12/12.jpg)以上截图是「星空」这款 App 刚打开时给我的展示界面。在弹出系统的提示是否允许通知前，它有个介绍的页面，告诉你启用「定位」对这个 App 有什么好处，启用「通知」对这个 App 有什么好处。看到关于通知的说明，我点击「允许」按钮后，就会弹出下图里系统的界面，让你允许启用通知功能。
+[![13](/images/2016/12/13.jpg)](/images/2016/12/13.jpg)
 
 这个截图是来自于应用 「AppSo」，一款做应用推荐的 App。看到有「限免」通知，我就毫不犹豫地点击了「允许」推送通知。
 
@@ -50,7 +50,7 @@ App 开发者有没有办法，让用户更多点地开启通知功能呢？还�
 
 让用户清晰地了解推送的内容的方式，就是对可能的「通知」进行分类，并且让用户勾选他希望收到通知的分类。
 
-[![14](http://blog.jiguang.cn/wp-content/uploads/2016/12/14.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/14.jpg)
+[![14](/images/2016/12/14.jpg)](/images/2016/12/14.jpg)
 
 比如「亚马逊购物」这个应用，推送通知的类型有这些可选，我选择开通了：帐户状态通知、配送状态通知、个性化推荐，而秒杀不是我感兴趣的。如果他不提供这个设置项，则我会因为有秒杀这种广告性质的通知而完全关闭这个 App 的通知功能。
 
@@ -66,7 +66,7 @@ App 开发者有没有办法，让用户更多点地开启通知功能呢？还�
 
 下图是「天猫」的界面，点击「新消息提示总开关」这里，就切换到了系统设置里「天猫」应用相关的设置项页面。
 
-[![15](http://blog.jiguang.cn/wp-content/uploads/2016/12/15.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/15.jpg)[![16](http://blog.jiguang.cn/wp-content/uploads/2016/12/16.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/16.jpg)
+[![15](/images/2016/12/15.jpg)](/images/2016/12/15.jpg)[![16](/images/2016/12/16.jpg)](/images/2016/12/16.jpg)
 
 需要注意的是，提示用户其实也有个时机把握问题，我对 QQ 的提示就不太爽：经常冷不丁弹出提示，说我没有启用通知建议我启用。而有些应用的提示就还可接受，即在 App 使用场景真的与通知相关时才提示我，比如电商类 App 我在查询发货进度时。
 

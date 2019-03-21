@@ -15,7 +15,7 @@ categories:
 
 				
 
-# [![000](http://blog.jiguang.cn/wp-content/uploads/2016/08/000.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/000.png)
+# [![000](/images/2016/08/000.png)](/images/2016/08/000.png)
 
 
 
@@ -201,7 +201,7 @@ _以下由我个人按照产品或运营可能感兴趣的新增特性总结归�
 
 Subtitle样式和展示位置如下图所示，Subtitle的加入给内容类App带来了福音，交给优秀编辑和策划去使用应该是一项利器。
 
-[![111](http://blog.jiguang.cn/wp-content/uploads/2016/08/111.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/111.png)
+[![111](/images/2016/08/111.png)](/images/2016/08/111.png)
 
 
 ## 
@@ -216,7 +216,7 @@ Subtitle样式和展示位置如下图所示，Subtitle的加入给内容类App�
 
 Attachments的加入也可以让你更好的对发给用户的通知进行分类。
 
-[![222](http://blog.jiguang.cn/wp-content/uploads/2016/08/222.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/222.png)
+[![222](/images/2016/08/222.png)](/images/2016/08/222.png)
 
 
 ## 
@@ -240,7 +240,7 @@ Attachments的加入也可以让你更好的对发给用户的通知进行分类
   * 地理围栏
 
 
-[![333](http://blog.jiguang.cn/wp-content/uploads/2016/08/333.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/333.png)
+[![333](/images/2016/08/333.png)](/images/2016/08/333.png)
 
 
 ## 
@@ -253,7 +253,7 @@ Attachments的加入也可以让你更好的对发给用户的通知进行分类
 
 如果设备支持3DTouch的话用力按压通知即可进入内容扩展页面，此页面会可以由开发者自定义展示内容，可以是之前Attachments的内容比如图片视频，也可以是开发者自己定义的布局内容，同时也支持在内容扩展页面增加更多的自定义ActionButton。但是，个人认为有一些遗憾的是扩展内容几乎不支持交互，交互就只能放到ActionButton里面了。
 
-[![contentextension01](http://blog.jiguang.cn/wp-content/uploads/2016/08/contentextension01.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/contentextension01.png)
+[![contentextension01](/images/2016/08/contentextension01.png)](/images/2016/08/contentextension01.png)
 
 
 
@@ -266,7 +266,7 @@ Attachments的加入也可以让你更好的对发给用户的通知进行分类
 
 
 
-## [![contentextension02](http://blog.jiguang.cn/wp-content/uploads/2016/08/contentextension02.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/contentextension02.png)
+## [![contentextension02](/images/2016/08/contentextension02.png)](/images/2016/08/contentextension02.png)
 
 
 
@@ -295,9 +295,9 @@ Attachments的加入也可以让你更好的对发给用户的通知进行分类
   * 通知撤回
 
 
-[![modify01](http://blog.jiguang.cn/wp-content/uploads/2016/08/modify01.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/modify02.png)
+[![modify01](/images/2016/08/modify01.png)](/images/2016/08/modify02.png)
 
-[![modify02](http://blog.jiguang.cn/wp-content/uploads/2016/08/modify02.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/modify02.png)
+[![modify02](/images/2016/08/modify02.png)](/images/2016/08/modify02.png)
 
 
 ## 
@@ -339,7 +339,7 @@ Attachments的加入也可以让你更好的对发给用户的通知进行分类
   * 添加Attachments
 
 
-[![serviceextension01](http://blog.jiguang.cn/wp-content/uploads/2016/08/serviceextension01.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/serviceextension01.png)
+[![serviceextension01](/images/2016/08/serviceextension01.png)](/images/2016/08/serviceextension01.png)
 
 
 ## 获取通知相关设置信息API
@@ -347,7 +347,7 @@ Attachments的加入也可以让你更好的对发给用户的通知进行分类
 
 可以通过API获取到用户设置该App相关于推送通知的设置的详细列表，该信息的统计可以让App的开发者更好的根据用户的通知使用习惯来改进通知的策略。
 
-[![notificationsetting01](http://blog.jiguang.cn/wp-content/uploads/2016/08/notificationsetting01.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/notificationsetting01.png)
+[![notificationsetting01](/images/2016/08/notificationsetting01.png)](/images/2016/08/notificationsetting01.png)
 
 
 ## 增加应用内通知展示API
@@ -355,7 +355,7 @@ Attachments的加入也可以让你更好的对发给用户的通知进行分类
 
 提供官方的应用内收到APNs通知并做UI展示的API，在此之前如果想做此类功能需要开发者自己开发功能，此API的优势在于让开发者更简单的实现应用内展示通知的功能并且统一点击通知之后的事件。
 
-[![inapppresent01](http://blog.jiguang.cn/wp-content/uploads/2016/08/inapppresent01.png)](http://blog.jiguang.cn/wp-content/uploads/2016/08/inapppresent01.png)
+[![inapppresent01](/images/2016/08/inapppresent01.png)](/images/2016/08/inapppresent01.png)
 
 
 

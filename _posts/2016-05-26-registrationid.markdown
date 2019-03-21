@@ -91,7 +91,7 @@ iOS 9 版本之后，每次卸载后重装都会导致 Device Token 变化，所
 IDFA 是广告标识符，是 iOS 专门为广告跟踪唯一地识别用户而设计的。在 iOS 设备上，设备 -> 隐私 -> 广告这个页面，有一个设置项：限制广告跟踪。默认是未选中状态的，即是关闭状态，是不限制的。用户可以选中，从而限制广告跟踪。设置项之外还有一个按钮：还原广告标识符...。如果用户点击了这个按钮，则 IDFA 值会变化。
 
 
-[![2115454-b0c648ae038d8d0a](http://blog.jpush.cn/wp-content/uploads/2016/05/2115454-b0c648ae038d8d0a.png)](http://blog.jpush.cn/wp-content/uploads/2016/05/2115454-b0c648ae038d8d0a.png)
+[![2115454-b0c648ae038d8d0a](/images/2016/05/2115454-b0c648ae038d8d0a.png)](/images/2016/05/2115454-b0c648ae038d8d0a.png)
 
 
 

@@ -32,7 +32,7 @@ tags:
 为了解决此问题，JPush 为每个客户端保存其特定的 badge 值。客户端有变更时，把 badge 值更新到 JPush 服务器。有新的推送时，把这个值 +1 推送下来（默认是 +1）。这样就符合实际的使用场景了。如下图所示：
 
 
-![jpush_apns_badge_plus](http://blog.jiguang.cn/wp-content/uploads/2014/08/Snip20140806_72.png) 
+![jpush_apns_badge_plus](/images/2014/08/Snip20140806_72.png) 
 
 
 为实现此功能，JPush 服务器端需要承受比较大的性能压力、并发压力。但我们认为，这个功能对 iOS 通知推送是非常有意义的，所以我们做了。

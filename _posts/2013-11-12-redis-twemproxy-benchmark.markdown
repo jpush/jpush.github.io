@@ -153,7 +153,7 @@ Twemproxy版本：nutcracker-0.2.4
 
 部署示意图
 
-![](http://blog.jiguang.cn/wp-content/uploads/2013/11/twemproxy部署示意图.jpg)
+![](/images/2013/11/twemproxy部署示意图.jpg)
 
 下面的测试都是根据上面的配置不同组合来进行测试得出对应的结论。
 
@@ -637,7 +637,7 @@ twemproxy(9999)
 
 
 
-![redis压力测试对比](http://blog.jiguang.cn/wp-content/uploads/2013/11/redis_test.jpg)
+![redis压力测试对比](/images/2013/11/redis_test.jpg)
 
 
 ## Twemproxy后端接入不同 Redis 数量测试对比

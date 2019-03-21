@@ -31,7 +31,7 @@ categories:
 
 
 极光以提供更加全面的开发者服务为目标，利用极光推送的数据和网络优势结合更丰富的功能，推出了极光统计（英文：JAnalytics）。至此，极光开发者服务更加丰富、完善了。
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/2016/12/roadmap.jpg!thumbnail)
+![%image_alt%](/images/2016/12/roadmap.jpg!thumbnail)
 
 
 
@@ -51,7 +51,7 @@ categories:
 
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/2016/12/sdk(1).png!thumbnail)
+![%image_alt%](/images/2016/12/sdk(1).png!thumbnail)
 
 
 
@@ -66,7 +66,7 @@ categories:
 
 
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/2016/12/WechatIMG21.jpeg!thumbnail)
+![%image_alt%](/images/2016/12/WechatIMG21.jpeg!thumbnail)
 
 
 

@@ -87,7 +87,7 @@ Chrome URL 栏上的路径是： chrome://apps/
 
 相关截图：
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2014/06/Snip20140617_21.png)](http://blog.jpush.cn/wp-content/uploads/2014/06/Snip20140617_21.png)
+[![](/images/2014/06/Snip20140617_21.png)](/images/2014/06/Snip20140617_21.png)
 
 
 ### Advanced REST Client （Chrome）
@@ -97,10 +97,10 @@ Chrome URL 栏上的路径是： chrome://apps/
 
 相关截图：
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2014/06/Snip20140617_23.png)](http://blog.jpush.cn/wp-content/uploads/2014/06/Snip20140617_23.png)
+[![](/images/2014/06/Snip20140617_23.png)](/images/2014/06/Snip20140617_23.png)
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2014/06/Snip20140617_24.png)](http://blog.jpush.cn/wp-content/uploads/2014/06/Snip20140617_24.png)
+[![](/images/2014/06/Snip20140617_24.png)](/images/2014/06/Snip20140617_24.png)
 
 
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2014/06/Snip20140617_22.png)](http://blog.jpush.cn/wp-content/uploads/2014/06/Snip20140617_22.png)		
+[![](/images/2014/06/Snip20140617_22.png)](/images/2014/06/Snip20140617_22.png)		

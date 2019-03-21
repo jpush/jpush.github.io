@@ -19,7 +19,7 @@ categories:
 <blockquote>导语：Slack 里负责搜索与人工智能的领导 Noah Weiss 的经验分享。好的消息推送三要素：timely、personal、actionable。消息推送对用户留存率与活跃度至关重要。用户愿意打开消息推送，是对你的 App 的信任。</blockquote>
 
 
-![推送通知策略分析](http://blog.jiguang.cn/wp-content/uploads/2017/05/v2-91103d1ea40ea9906c5695bc9de8dfdf_r.jpg)
+![推送通知策略分析](/images/2017/05/v2-91103d1ea40ea9906c5695bc9de8dfdf_r.jpg)
 
 智能手机的发展已经有近十年时间了，而在移动设备中，推送通知的潜力不可小觑。在进入 Slack 之前，Weiss 曾在 Foursquare 工作。Weiss 也曾是 Google 数据搜索项目的主要产品经理。对于推送通知的策略、投入、指标和准则，Weiss 有着深刻的智慧。
 
@@ -47,7 +47,7 @@ Weiss 总结了推送的三大特质：及时性、个人化和可操作性。�
 
 你不能依靠用户在天时地利时记起你，你得主动出击。
 
-![%image_alt%](http://blog.jiguang.cn/wp-content/uploads/2017/05/v2-58e4d76a8b56ee8e241f7fe9583eeaa5_b.jpg)
+![%image_alt%](/images/2017/05/v2-58e4d76a8b56ee8e241f7fe9583eeaa5_b.jpg)
 
 （Noah Weiss）
 

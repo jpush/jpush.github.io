@@ -42,4 +42,4 @@ tags:
 
 该版本为 JMessage Android SDK v1.2.0，你可以看看[变更记录](http://docs.jpush.io/updates/#jmessage-android-sdk-v120)，或者[下载SDK](https://www.jpush.cn/downloads/sdk/android/)。iOS 支持跨应用聊天的版本稍后也将发布上线。有任何问题，请到[极光社区](http://community.jpush.cn)讨论。
 
-[![jmessage1](http://blog.jiguang.cn/wp-content/uploads/2016/03/jmessage1.jpg)](http://blog.jpush.cn/wp-content/uploads/2016/03/jmessage1.jpg)		
+[![jmessage1](/images/2016/03/jmessage1.jpg)](/images/2016/03/jmessage1.jpg)		

@@ -40,7 +40,7 @@ RunDeck是用Java/Grails写的开源工具，帮助用户在数据中心或者�
 
 RunDeck是基于Java的webapp服务，运行在Servlet容器里。用户登陆RunDeck，在web界面进行操作，请求对远程服务器进行操作。web通过HTTP(s)与RunDeck服务进行通信，RunDeck服务接受服务请求后，从配置文件里面读取用户权限，以及服务器资源的一些信息。结合权限以及资源信息，RunDeck服务通过ssh对远程的服务器进行操作，并将操作结果存放在数据库中。
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2012/12/fig0001-300x215.png)](http://blog.jpush.cn/wp-content/uploads/2012/12/fig0001.png)
+[![](/images/2012/12/fig0001-300x215.png)](/images/2012/12/fig0001.png)
 
 **RunDeck****的应用**
 
@@ -58,7 +58,7 @@ RunDeck是基于Java的webapp服务，运行在Servlet容器里。用户登陆Ru
 
 RunDeck提供一个非常强大的功能，就是可以自己定义job。job由命令、脚本、其它的job组成。比如对于服务器上的各种web server，可以定义不同的job，执行不同的操作。实际配置中，我们就对apache服务器定义了三个job，分别对应启动、停止、重启apache服务。对于nginx服务器，定义job来配置nginx的端口号。通过job机制，用户可以定义、管理、维护各种脚本、操作，极大的提高自动化效率。
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2012/12/job_new-300x150.png)](http://blog.jpush.cn/wp-content/uploads/2012/12/job_new.png)
+[![](/images/2012/12/job_new-300x150.png)](/images/2012/12/job_new.png)
 
 **RunDeck ****经验与技巧**
 

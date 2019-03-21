@@ -13,7 +13,7 @@ categories:
 ---
 
 
-				[![20160815-深圳iOSer Meetup2-02](http://blog.jiguang.cn/wp-content/uploads/2016/08/20160815-深圳iOSer-Meetup2-02.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/08/20160815-深圳iOSer-Meetup2-02.jpg)
+				[![20160815-深圳iOSer Meetup2-02](/images/2016/08/20160815-深圳iOSer-Meetup2-02.jpg)](/images/2016/08/20160815-深圳iOSer-Meetup2-02.jpg)
 
 极光和 BearyChat，「T」社区的小伙伴，一起为大家准备了一场专注于 iOS 相关技术的小型开发者交流活动，在本次「深圳 iOSer Meetup」中，除了三位嘉宾会和大家分享一些干货之外，大家还可以一起近距离交流，沟通经验，互通有无。希望这次 Meetup 能够给大家提供一个有意义的交流平台，结识更多有趣的朋友，开拓一些思路，让 iOS 更有意思。
 

@@ -35,7 +35,7 @@ tags:
 国外为很多大 IT 公司包括 Oracle, Intel, Saleforce, USA Today 在内都使用的第三方推送服务 [Urban Airship](http://urbanairship.com/) ，针对大量应用做了一个统计，如下图：
 
 
-[![Push for apps](http://blog.jiguang.cn/wp-content/uploads/2012/10/Push通知提高留存率.png)](http://blog.jpush.cn/wp-content/uploads/2012/10/Push通知提高留存率.png)
+[![Push for apps](/images/2012/10/Push通知提高留存率.png)](/images/2012/10/Push通知提高留存率.png)
 
 
 上图表明，平均一个应用一般 6 个月留存率只有 15%，但做了 Push 后留存率提高一倍。

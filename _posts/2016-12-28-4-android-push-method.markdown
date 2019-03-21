@@ -24,7 +24,7 @@ categories:
 
 
 极光推送是为 App 提供第三方推送服务的平台之一，它提供四种消息形式：通知，自定义消息，富媒体和本地通知。
-笔者将基于官方说明与个人理解来谈一下这四种消息。本篇为 Android 篇，[ iOS 篇入口](http://www.jianshu.com/p/061c5f7e86d1)。[![Basic RGB](http://blog.jiguang.cn/wp-content/uploads/2016/12/31.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/31.jpg)
+笔者将基于官方说明与个人理解来谈一下这四种消息。本篇为 Android 篇，[ iOS 篇入口](http://www.jianshu.com/p/061c5f7e86d1)。[![Basic RGB](/images/2016/12/31.jpg)](/images/2016/12/31.jpg)
 
 
 

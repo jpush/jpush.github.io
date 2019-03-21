@@ -30,7 +30,7 @@ categories:
 
 
 
-[![20161206-%e6%9e%81%e5%85%89%e7%94%bb%e5%86%8c%e5%8d%95%e5%9b%be-29](http://blog.jiguang.cn/wp-content/uploads/2016/12/20161206-极光画册单图-29.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/12/20161206-极光画册单图-29.jpg)
+[![20161206-%e6%9e%81%e5%85%89%e7%94%bb%e5%86%8c%e5%8d%95%e5%9b%be-29](/images/2016/12/20161206-极光画册单图-29.jpg)](/images/2016/12/20161206-极光画册单图-29.jpg)
 
 
 

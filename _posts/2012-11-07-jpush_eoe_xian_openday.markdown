@@ -25,4 +25,4 @@ tags:
 
 了解更多信息：[http://t.cn/zlkYKLO](http://t.cn/zlkYKLO)本期开放日完全免费。
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2012/11/西安宣传-300x215.png)](http://blog.jpush.cn/wp-content/uploads/2012/11/西安宣传.png)		
+[![](/images/2012/11/西安宣传-300x215.png)](/images/2012/11/西安宣传.png)		

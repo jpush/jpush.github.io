@@ -39,7 +39,7 @@ Zookeeper服务自身组成一个集群(2n+1个服务允许n个失效)。Zookeep
 
 Zookeeper逻辑图如下，
 
-![](http://blog.jiguang.cn/wp-content/uploads/2012/10/1.jpg)
+![](/images/2012/10/1.jpg)
 
 
 
@@ -65,7 +65,7 @@ Zookeeper表现为一个分层的文件系统目录树结构（不同于文件�
 
 数据模型结构图如下，
 
-![](http://blog.jiguang.cn/wp-content/uploads/2012/10/2.png)
+![](/images/2012/10/2.png)
 
 圆形节点可以含有子节点，多边形节点不能含有子节点。一个节点对应一个应用，节点存储的数据就是应用需要的配置信息。
 
@@ -144,7 +144,7 @@ a. 我们的逻辑服务器包含两类配置。
 
 逻辑图如下，
 
-![](http://blog.jiguang.cn/wp-content/uploads/2012/10/3.jpg)
+![](/images/2012/10/3.jpg)
 
 用户编辑好策略配置信息（xml格式），通过客户端加载到Zookeeper。Zookeeper立即通知其下的逻辑服务器（BLx），逻辑服务器下载最新的配置策略，并应用新的策略。新的策略有可能改变某一段id范围内用户的数据流向，或越过原来的逻辑服务器，或指向新加入的逻辑服务器。
 
@@ -153,13 +153,13 @@ b. 数据模型设计
 同一类型的逻辑服务在Zookeeper上创建一个节点，共享相同的配置信息。
 该节点下面为策略配置项，分为Acl和Agl两类，如下图：（以代理逻辑服务为例）
 
-![](http://blog.jiguang.cn/wp-content/uploads/2012/10/4.jpg)
+![](/images/2012/10/4.jpg)
 
 Acl1, Acl2, Acl3, Agl1, Agl2分别存有策略配置信息。变化后会通知监听Proxy节点的逻辑服务器，Proxy逻辑服务器下载最新策略，并应用该策略。新节点的加入和退出也会通知到Proxy逻辑服务器。
 
 c. 业务处理流程如下图
 
-![](http://blog.jiguang.cn/wp-content/uploads/2012/10/5.jpg)
+![](/images/2012/10/5.jpg)
 
 
 

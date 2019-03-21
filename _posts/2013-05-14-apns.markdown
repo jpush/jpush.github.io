@@ -33,7 +33,7 @@ Apple 为应用开发者提供了一个 APNs  推送接口，称为 binary inte
 
 Binary Interface V1
 
-![](http://blog.jiguang.cn/wp-content/uploads/2013/05/Original-Binary-Protocol.jpg)
+![](/images/2013/05/Original-Binary-Protocol.jpg)
 
 v1 协议有几个问题：
 
@@ -59,7 +59,7 @@ v1 协议有几个问题：
 
 Binary Interface V2
 
-![](http://blog.jiguang.cn/wp-content/uploads/2013/05/aps_binary_provider_2.jpg)
+![](/images/2013/05/aps_binary_provider_2.jpg)
 
 我们发现，在 v1 的基础上增加了两个字段：
 
@@ -71,7 +71,7 @@ Expiry —— 离线消息超时的时间，如果为0或者小于0，APNs 不�
 
 error-response packet
 
-![](http://blog.jiguang.cn/wp-content/uploads/2013/05/aps_binary_error.jpg)
+![](/images/2013/05/aps_binary_error.jpg)
 
 根据这个错误应答，我们有机会找到是哪条消息发送出错，并确定哪些消息需要被重发。
 
@@ -85,7 +85,7 @@ error-response packet
 
 发送队列
 
-![](http://blog.jiguang.cn/wp-content/uploads/2013/05/apns_queue.png)
+![](/images/2013/05/apns_queue.png)
 
 
 # 总结

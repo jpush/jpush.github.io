@@ -47,12 +47,12 @@ categories:
 
 
 	
-  1. 首先跟以前版本的 Xcode 没什么区别。下载自己在 Apple Developer 官网申请好的证书、描述文件（[iOS 证书 设置指南 ](https://docs.jiguang.cn/jpush/client/iOS/ios_cer_guide/)）。填写 Bundle Identifier、选择开发者，正确配置后，这里不会有任何异常警告：[![1](http://blog.jiguang.cn/wp-content/uploads/2016/10/1.jpeg)](http://blog.jiguang.cn/wp-content/uploads/2016/10/1.jpeg)
+  1. 首先跟以前版本的 Xcode 没什么区别。下载自己在 Apple Developer 官网申请好的证书、描述文件（[iOS 证书 设置指南 ](https://docs.jiguang.cn/jpush/client/iOS/ios_cer_guide/)）。填写 Bundle Identifier、选择开发者，正确配置后，这里不会有任何异常警告：[![1](/images/2016/10/1.jpeg)](/images/2016/10/1.jpeg)
 
 	
   2. Target - your target - Capabilities - 开启 Push Notifications
 证书如果配置正确，这里会自动打勾。系统会在工程目录里生成一个 `projectName.entitlements` 文件，请不要随意删除、修改：
-[![2](http://blog.jiguang.cn/wp-content/uploads/2016/10/2.jpeg)](http://blog.jiguang.cn/wp-content/uploads/2016/10/2.jpeg)
+[![2](/images/2016/10/2.jpeg)](/images/2016/10/2.jpeg)
 
 	
   3. Target - your target - Capabilities - 开启 Background Modes - 勾选最后一项 Remote Notifications（这是 iOS 7 以后支持的 App 在后台收到推送时能够让开发者执行一段代码的功能，建议开启 [[iOS 7 Background Remote Notification]](https://docs.jiguang.cn/jpush/client/iOS/ios_new_fetures/#ios-7-background-remote-notification)、[[iOS 推送全解析 - Tip5：后台推送/静默推送]](http://www.jianshu.com/p/e9c313df746f)）
@@ -74,7 +74,7 @@ categories:
 
 	
   3. Target - your target - Build Phases - Link Binary With Libraries - 引入一个新的库 `UserNotifications.framework`
-[![3](http://blog.jiguang.cn/wp-content/uploads/2016/10/3.jpeg)](http://blog.jiguang.cn/wp-content/uploads/2016/10/3.jpeg)
+[![3](/images/2016/10/3.jpeg)](/images/2016/10/3.jpeg)
 
 
 
@@ -225,7 +225,7 @@ categories:
 
 主要负责修改推送内容、增加图片、gif、audio、video 展示。
 收到推送小图 - 下拉 - 展示大图
-[![4](http://blog.jiguang.cn/wp-content/uploads/2016/10/4.gif)](http://blog.jiguang.cn/wp-content/uploads/2016/10/4.gif)
+[![4](/images/2016/10/4.gif)](/images/2016/10/4.gif)
 
 
 #### Notification Content
@@ -233,7 +233,7 @@ categories:
 
 用于完全自定义推送展示 UI，响应用户操作事件，并即时更新推送展示 UI。
 注意下图中点击 Accept 后，推送 UI 里日程表 UI 发生了刷新。
-[![5](http://blog.jiguang.cn/wp-content/uploads/2016/10/5.gif)](http://blog.jiguang.cn/wp-content/uploads/2016/10/5.gif)
+[![5](/images/2016/10/5.gif)](/images/2016/10/5.gif)
 
 **关于 Change 6 的详细教程可参照**
 

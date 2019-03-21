@@ -75,4 +75,4 @@ tags:
 
 期待着与所有极光开发者们一起，构建一个既能够最快地解决问题，又能够提升技能、与同行交流的社区！
 
-[![社区](http://blog.jiguang.cn/wp-content/uploads/2016/03/社区-.jpg)](http://community.jpush.cn/)		
+[![社区](/images/2016/03/社区-.jpg)](http://community.jpush.cn/)		

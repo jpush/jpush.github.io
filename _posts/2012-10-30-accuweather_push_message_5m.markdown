@@ -18,7 +18,7 @@ tags:
 
 				本文由极光推送技术博客编译自 [Mobile Marketer](http://www.mobilemarketer.com) 。
 
-[![](http://blog.jiguang.cn/wp-content/uploads/2012/10/accuWeather.jpg)](http://blog.jpush.cn/wp-content/uploads/2012/10/accuWeather.jpg)
+[![](/images/2012/10/accuWeather.jpg)](/images/2012/10/accuWeather.jpg)
 
 AccuWeather 是一款天气应用。每个月这款应用要向用户发送 500万条恶劣天气提醒。基于这个工作的卓越成效，应用开发者正在扩散其推送至富媒体内容，比如：基于地理位置的广告，生活方式广播等。
 

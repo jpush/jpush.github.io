@@ -150,7 +150,7 @@ categories:
 
 
 
-这个步骤，其实是吧 jpush plugin 工程添加到 自己的项目工程里面，可以看到 Libraries 目录多了一个 RCTJPushModule.xcodeproj 工程文件，如下图所示[![001](http://blog.jiguang.cn/wp-content/uploads/2017/03/001.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/001.png)
+这个步骤，其实是吧 jpush plugin 工程添加到 自己的项目工程里面，可以看到 Libraries 目录多了一个 RCTJPushModule.xcodeproj 工程文件，如下图所示[![001](/images/2017/03/001.png)](/images/2017/03/001.png)
 
 
 
@@ -164,7 +164,7 @@ TARGETS -> Build phases -> Link Binary With Libraries 多了几个系统库，�
 
 
 
-[![002](http://blog.jiguang.cn/wp-content/uploads/2017/03/002.png)](http://blog.jiguang.cn/wp-content/uploads/2017/03/002.png)
+[![002](/images/2017/03/002.png)](/images/2017/03/002.png)
 
 
 

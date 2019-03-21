@@ -20,7 +20,7 @@ categories:
 
 
 
-[![14815281621](http://blog.jiguang.cn/wp-content/uploads/2016/12/14815281621.png)](http://blog.jiguang.cn/wp-content/uploads/2016/12/14815281621.png)
+[![14815281621](/images/2016/12/14815281621.png)](/images/2016/12/14815281621.png)
 
 
 
@@ -50,7 +50,7 @@ categories:
 
 
 
-[![14815284161](http://blog.jiguang.cn/wp-content/uploads/2016/12/14815284161.png)](http://blog.jiguang.cn/wp-content/uploads/2016/12/14815284161.png)
+[![14815284161](/images/2016/12/14815284161.png)](/images/2016/12/14815284161.png)
 
 
 
@@ -115,7 +115,7 @@ categories:
 
 
 
-[![14815283361](http://blog.jiguang.cn/wp-content/uploads/2016/12/14815283361.png)](http://blog.jiguang.cn/wp-content/uploads/2016/12/14815283361.png)
+[![14815283361](/images/2016/12/14815283361.png)](/images/2016/12/14815283361.png)
 
 
 

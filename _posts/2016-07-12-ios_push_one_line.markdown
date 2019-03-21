@@ -79,7 +79,7 @@ tags:
 
 
 从终端进入到项目**根目录的与项目同名文件夹**下(如：/HelloWorld/HelloWorld/)
-[![1](http://blog.jiguang.cn/wp-content/uploads/2016/07/1.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/07/1.jpg)
+[![1](/images/2016/07/1.jpg)](/images/2016/07/1.jpg)
 
 
 
@@ -104,7 +104,7 @@ tags:
 #### 完成！！
 
 
-安装成功命令行提示以下内容 [![12](http://blog.jiguang.cn/wp-content/uploads/2016/07/12.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/07/12.jpg)
+安装成功命令行提示以下内容 [![12](/images/2016/07/12.jpg)](/images/2016/07/12.jpg)
 
 
 #### 命令说明
@@ -141,7 +141,7 @@ platform=native 时帮大家做以下事情：
   * 从终端进入到 Cordova 项目的**根**目录下：
 
 
-[![2](http://blog.jiguang.cn/wp-content/uploads/2016/07/2.png)](http://blog.jiguang.cn/wp-content/uploads/2016/07/2.png)
+[![2](/images/2016/07/2.png)](/images/2016/07/2.png)
 
 
 	
@@ -159,7 +159,7 @@ platform=native 时帮大家做以下事情：
 #### 完成！！
 
 
-安装成功命令行提示以下内容 [![21](http://blog.jiguang.cn/wp-content/uploads/2016/07/21.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/07/21.jpg)
+安装成功命令行提示以下内容 [![21](/images/2016/07/21.jpg)](/images/2016/07/21.jpg)
 
 
 #### 命令说明
@@ -201,7 +201,7 @@ platform=cordova 时帮大家做以下事情：
 
 
 
-[![3](http://blog.jiguang.cn/wp-content/uploads/2016/07/3.png)](http://blog.jiguang.cn/wp-content/uploads/2016/07/3.png)
+[![3](/images/2016/07/3.png)](/images/2016/07/3.png)
 
 
 
@@ -223,7 +223,7 @@ platform=cordova 时帮大家做以下事情：
 
 
 安装成功命令行提示以下内容
-[![32](http://blog.jiguang.cn/wp-content/uploads/2016/07/32.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/07/32.jpg)
+[![32](/images/2016/07/32.jpg)](/images/2016/07/32.jpg)
 
 
 #### 命令说明

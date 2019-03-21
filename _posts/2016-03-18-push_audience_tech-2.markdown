@@ -27,7 +27,7 @@ tags:
 
 但是，推送给谁？是个问题。
 
-[![jpush_segment](http://blog.jiguang.cn/wp-content/uploads/2016/03/jpush_segment.jpg)](http://blog.jiguang.cn/wp-content/uploads/2016/03/jpush_segment.jpg)
+[![jpush_segment](/images/2016/03/jpush_segment.jpg)](/images/2016/03/jpush_segment.jpg)
 
 本文以极光推送作为范例，重点说说推送人群（Audience）选择的技术问题。其他推送云服务也或多或少有些类似。
 
@@ -58,7 +58,7 @@ tags:
 
 以下先分别解析以上几个推送人群类型，及其具体用法。之后再谈谈他们的适用场景，以及如何区别使用。
 
-[![jpush_audience](http://blog.jpush.cn/wp-content/uploads/2016/03/jpush_audience.png)](http://blog.jpush.cn/wp-content/uploads/2016/03/jpush_audience.png)
+[![jpush_audience](/images/2016/03/jpush_audience.png)](/images/2016/03/jpush_audience.png)
 
 
 ### 注册ID（RegistrationID）
