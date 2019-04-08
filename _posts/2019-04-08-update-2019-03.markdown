@@ -1,0 +1,80 @@
+---
+author: Iris Jay
+date: 2019-04-08 07:41:19+00:00
+layout: post
+link: http://blog.jiguang.cn/update-2019-03/
+slug: update-2019-03
+title: "「极光开发者服务」近期更新汇总 – 2019.03"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * 极光推送在自定义通知布局时支持设置时间字段，优化厂商通道，[马上升级→](https://docs.jiguang.cn/jpush/updates/)
+
+  * 极光认证新增一键登录功能，[马上升级→](https://docs.jiguang.cn/jverification/updates/)  
+
+  * 极光 IoT 支持乐鑫 ESP8266 Wi-Fi 模块，服务端支持批量创建设备。[马上升级→](https://docs.jiguang.cn/jiot/updates/)
+
+  * JAnalytics flutter plugin 插件[首次发布](https://github.com/jpush/janalytics-flutter-plugin)，使用过程中遇到任何问题欢迎反馈。
+
+  * JMessage Android SDK 新增：“取消消息发送”和“取消消息附件下载”功能，[了解详情→](https://docs.jiguang.cn/jmessage/client/android_sdk/message/#_28)
+
+# 详细列表
+
+### 客户端 SDK
+
+  * JPush Android SDK
+    * 新增：自定义通知布局增加设置时间
+    * 修复：已知问题
+  * JMessage Android SDK
+    * 新增：“取消消息发送”和“取消消息附件下载”功能
+    * 新增：群组和聊天室新增带时间参数的禁言接口，建议使用新的禁言接口
+    * 修复：某些情况下用户信息 extras 未更新的问题
+    * 修复：用户反馈的一些其他 Bug
+  * JVerification Android SDK
+    * 新增：一键登录功能，并支持自定义授权页
+  * JVerification iOS SDK
+    * 新增：一键登录功能，并支持自定义授权页
+    * 修复：不支持模拟器运行的问题
+  * JIoT C SDK
+    * 新增：支持乐鑫 ESP8266 Wi-Fi 模块
+
+### 服务端 SDK
+
+  * JPush PHP SDK 
+    * 新增：thread-id 支持 iOS 通知分组功能，apns_collapse_id 支持更新 iOS 通知
+    * 新增：large_icon 支持设置 Android 通知栏大图标，intent 支持跳转到具体页面
+    * 新增：取消手机号绑定的 API
+  * JSMS C# SDK 
+    * 新增：短信签名 API
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * JVerification
+    * Portal
+      * 新增：一键登录统计 - 概况与明细
+  * JIoT
+    * REST API
+      * 新增：[批量创建](https://docs.jiguang.cn/jiot/server/restapi/#_36)设备的 API
+      * 优化：[API 频率控制说明](https://docs.jiguang.cn/jiot/server/restapi_intro/#api)
+
+### [极光开源](https://github.com/jpush)
+
+  * JPush react native 
+    * 优化：支持 vivo 推送渠道
+  * JMessage react plugin
+    * 新增：已读消息回执功能
+  * JMessage flutter plugin
+    * 修复：fromusername 为 null 的 BUG
+    * 新增：获取历史消息是否降序的 API
+  * JVerification react native
+    * 新增：iOS cocoapods 集成方式
+  * JAnalytics react native 
+    * 优化：扩展 setup 方法，iOS 和 Android 初始化共同方法，供 Android 端动态设置渠道后调用初始化
+  * JAnalytics flutter plugin
+    * 首次发布
