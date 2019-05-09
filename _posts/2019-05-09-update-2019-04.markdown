@@ -29,7 +29,7 @@ categories:
 
   * JPush iOS SDK
     * 新增：根据 JCore 2.0 进行 JPush 重构，性能优化
-    * 修改：删除了 setupWithOption:launchingOption 初始化接口，不再支持pushConfig.plist方式集成
+    * 修改：删除了 setupWithOption:launchingOption 初始化接口，不再支持 pushConfig.plist 方式集成
     * 优化：消息状态上报逻辑
     * 修复：已知问题
   * JAnalytics MiniProgram SDK
@@ -76,7 +76,7 @@ categories:
       * 优化：优化了 no such user 信息，列出了不存在的用户
   * JAnalytics
     * Portal
-      * 新增：自定义事件统计，平台选择新增小程序
+      * 新增：自定义事件统计数据的平台选择新增小程序
 
 ### [极光开源](https://github.com/jpush)
 
