@@ -1,0 +1,111 @@
+---
+author: Iris Jay
+date: 2019-06-01 07:41:19+00:00
+layout: post
+link: http://blog.jiguang.cn/update-2019-04/
+slug: update-2019-05
+title: "「极光开发者服务」近期更新汇总 – 2019.05"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * 极光开发者服务控制台全新改版，给你更好的交互体验，[切换新版，找“茬”有礼](https://community.jiguang.cn/t/topic/33374)
+  * 极光认证新增预取号功能，提高一键登录成功率，[建议升级](https://docs.jiguang.cn/jverification/updates/)
+  * 极光 IoT Android SDK 首次发布，支持 Android 系统，[立即体验](https://docs.jiguang.cn/jiot/client/android_sdk_guide/)
+  * JChat Android 与 iOS App 同步更新，新增了聊天室和聊天室相关功能，修复了 BUG，[立即获取开源代码](https://github.com/jpush?utf8=%E2%9C%93&q=jchat&type=&language=)
+  * 极光魔链 Android 与 iOS SDK 同步更新，适配了高版本系统，功能更加稳定，[建议升级](https://mlinks.jiguang.cn/doc/sdk-download.html)
+
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JPush Android SDK
+    * 优化：长连接接入优化
+    * 优化：事件回调方式修改
+    * 新增：AndroidManifest.xml 新增组件配置
+    * 优化：适配 Android Q
+    * 修复：修复已知问题
+  * JMessage Android SDK
+    * 修复：聊天室消息发送的一些问题
+    * 修复：用户反馈的一些其他 Bug
+    * 优化：适配 JCore2.0.0
+    * 优化：支持消息发送时自定义未读消息数
+    * 变化：从 2.9.0 版本开始，自定义消息默认行为发生变化：默认将展示通知栏和增加会话未读数，请开发者注意
+  * JMessage iOS SDK
+    * 优化：适配 JCore2.0.0
+    * 优化：支持消息发送时自定义未读消息数
+    * 修复：已知问题
+  * JVerification Android SDK
+    * 优化：升级中国联通 SDK
+    * 新增：新增预取号功能，提高一键登录成功率
+    * 新增：获取号码认证 token 接口新增超时设置
+    * 修复：已知问题
+  * JVerification iOS SDK
+    * 优化：修改中国电信授权页面文案
+    * 优化：升级中国联通 SDK
+    * 优化：双卡设备判断网络是否支持的逻辑
+    * 新增：新增预取号功能，提高一键登录成功率
+    * 新增：获取号码认证 token 接口新增超时设置
+    * 修复：iOS 12.0.X 系统中偶现请求超时的问题
+    * 修复：其他已知问题
+  * JIoT Android SDK
+    * 支持 Android 平台
+    * 首次发布
+  * JMLink Android SDK
+    * 优化：适配 Android Q 系统
+    * 修复：应用安装未打开，首次被短链接拉起后无法跳转到指定页面的问题
+  * JMLink iOS SDK
+    * 修复：客户反馈的崩溃问题 
+
+### 服务端 SDK
+
+  * JPush PHP SDK 
+    * 修复： schedule API 地址错误
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * 控制台
+    * 开发者服务控制台全新改版
+      * 功能简明易用：入口清晰，优化各个产品的业务操作流程
+      * 数据高效分析：信息整合，关键数据指标在首页直观展示
+      * 产品更加独立：拆分模块，简化各产品间的业务逻辑关联
+      * 全新设计规范：交互统一，有更好的操作体验和视觉效果
+  * JMessage
+    * Portal
+      * 新增：可以直接修改群组/聊天室的群主/房主信息
+      * 优化：通过控制台发消息不再强制要求需要 admin 身份
+  * JAnalytics
+    * Portal
+      * 新增：数据分析-用户卸载中新增 iOS 平台的分析数据
+  * JMLink
+    * Portal
+      * 优化：去除请求量库存限制，mlink 请求量将不再需要付费
+
+### [极光开源](https://github.com/jpush)
+
+
+  * JMessage react plugin
+    * 新增：发送视频消息
+    * 新增：根据 MessageID 删除消息
+    * 新增：命令透传事件
+    * 新增：群组 @ 功能
+    * 优化：修改 iOS getHistoryMessage 的消息顺序与 android 一致
+
+  * JMessage flutter plugin
+    * 修复：修改 downloadOriginalImage 和 downloadThumbImage 参数名称
+
+  * JChat Android App
+    * 修复：表情库无法使用的问题
+    * 修复：用户反馈的一些其他 bug
+    * 新增：聊天室和聊天室相关功能
+
+  * JChat iOS App
+    * 优化：适配 swift 5.0
+    * 新增：聊天室和聊天室相关功能
+    * 修复：已知问题
