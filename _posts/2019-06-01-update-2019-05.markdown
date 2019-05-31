@@ -85,7 +85,7 @@ categories:
       * 新增：数据分析-用户卸载中新增 iOS 平台的分析数据
   * JMLink
     * Portal
-      * 优化：去除请求量库存限制，mlink 请求量将不再需要付费
+      * 优化：去除请求量库存限制，mlink 请求量开放使用
 
 ### [极光开源](https://github.com/jpush)
 
