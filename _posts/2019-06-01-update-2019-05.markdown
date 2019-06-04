@@ -15,6 +15,7 @@ categories:
 ## 重点关注
 
   * 极光开发者服务控制台全新改版，给你更好的交互体验，[切换新版，找“茬”有礼](https://community.jiguang.cn/t/topic/33374)
+  * JPush Android SDK 优化了长连接接入和事件回调方式，适配了 Android Q，[建议升级](https://docs.jiguang.cn/jpush/updates/)
   * 极光认证新增预取号功能，提高一键登录成功率，[建议升级](https://docs.jiguang.cn/jverification/updates/)
   * 极光 IoT Android SDK 首次发布，支持 Android 系统，[立即体验](https://docs.jiguang.cn/jiot/client/android_sdk_guide/)
   * JChat Android 与 iOS App 同步更新，新增了聊天室和聊天室相关功能，修复了 BUG，[立即获取开源代码](https://github.com/jpush?utf8=%E2%9C%93&q=jchat&type=&language=)
