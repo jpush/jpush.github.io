@@ -1,0 +1,96 @@
+---
+author: Iris Jay
+date: 2019-07-01 07:41:19+00:00
+layout: post
+link: http://blog.jiguang.cn/update-2019-06/
+slug: update-2019-06
+title: "「极光开发者服务」近期更新汇总 – 2019.06"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * 极光统计 Web SDK 首次发布，集成快速且简易，有效降低开发者的接⼊成本，[欢迎体验](https://docs.jiguang.cn/janalytics/client/web_sdk/)
+  * JPush 的地理围栏功能新增回调及删除功能，[详情了解](https://docs.jiguang.cn/jpush/client/iOS/ios_api/#_158)
+  * JShare 新增分享小程序至微信好友功能，[马上升级](https://docs.jiguang.cn/jshare/updates/)
+  * 极光认证的一键登录接口，可以设置参数是否自动关闭授权页面，提供关闭授权页面接口，[建议升级](https://docs.jiguang.cn/jverification/updates/)
+
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JCore Android/iOS SDK
+    * 优化：支持 tcp 上报
+    * 修复：修复已知问题
+  * JPush Android SDK
+    * 新增：地理围栏新增回调及删除功能
+    * 优化：优化自定义消息、通知消息单进程回调方式
+    * 修复：修复已知问题
+  * JPush iOS SDK
+    * 新增：地理围栏新增回调及删除功能
+    * 修复：修复已知问题
+  * JAnalytics web SDK
+    * 首次发布
+    * 支持：自定义事件
+    * 支持：用户行为数据上报、位置数据可选上报
+  * JShare Android/iOS SDK
+    * 新增：分享小程序至微信好友功能
+    * 优化：文档
+    * 修复：已知问题
+  * JVerification Android SDK
+    * 新增：一键登录接口，可设置参数是否自动关闭授权页面
+    * 新增：关闭授权页面接口
+  * JVerification iOS SDK
+    * 新增：一键登录接口，可设置参数是否自动关闭授权页面
+    * 新增：关闭授权页面接口
+    * 修复：使用移动号码一键登录偶现的崩溃问题
+    * 修复：其他已知问题
+  * JIoT Android SDK
+    * 优化：适配兼容 Android 4.0 及以上版本
+    * 优化：sdk 压缩包由 tar 包转变成 zip 包
+    * 优化：及时释放资源
+
+### 服务端 SDK
+
+  * JMessage C# SDK 
+    * 优化：创建群组可使用 falg 指定群组类型为私有或公开
+  * JMessage Java SDK
+    * 新增：获取聊天室历史消息、设置群成员禁言
+    * 新增：发图片消息时可附带 extra 字段
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * 控制台
+    * 优化：视觉交互效果
+    * 优化：提示文案的描述
+  * JPush
+    * Portal
+      * 修复：富媒体消息传 title 不展示问题
+      * 新增：地理围栏新增触发回调功能
+  * JMessage
+    * Portal
+      * 修复：IM 批量导入用户失败缺少提示的问题
+  * JAnalytics
+    * Portal
+      * 新增：支持 Web SDK 统计数据展示
+
+### [极光开源](https://github.com/jpush)
+ 
+  * JPush unity3d plugin
+    * 新增：Android 支持设置渠道、上报通知栏点击事件、设置是否开启省电模式
+    * 新增：iOS 新增地理位置统计、支持移除待推送或已在通知中心显示的推送
+    * 新增：过滤无效 tag 的 API、地理围栏的 API、支持设置手机号码
+
+  * JMessage flutter plugin
+    * 修复：发送文件消息增加 filename 字段
+
+  * JChat iOS App
+    * 修复：输入框点击+号底部视图错乱问题
+  
+  * Aurora IMUI
+    * 修复：inputview 闪退问题
