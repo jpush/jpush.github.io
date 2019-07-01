@@ -18,6 +18,7 @@ categories:
   * JPush 的地理围栏功能新增回调及删除功能，[详情了解](https://docs.jiguang.cn/jpush/client/iOS/ios_api/#_158)
   * JShare 新增分享小程序至微信好友功能，[马上升级](https://docs.jiguang.cn/jshare/updates/)
   * 极光认证的一键登录接口，可以设置参数是否自动关闭授权页面，提供关闭授权页面接口，[建议升级](https://docs.jiguang.cn/jverification/updates/)
+  * JIoT 适配兼容 Android 4.0 及以上版本，[建议升级](https://docs.jiguang.cn/jiot/updates/)
 
 
 ## 详细列表
