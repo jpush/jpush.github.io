@@ -4,8 +4,8 @@ comments: true
 date: 2012-10-11 08:14:12+00:00
 excerpt: "\n\t\t\t\t\t\t"
 layout: post
-link: http://blog.jiguang.cn/push_zookeeper_study_usage/
-slug: push_zookeeper_study_usage
+link: http://blog.jiguang.cn/push-zookeeper-study-usage/
+slug: push-zookeeper-study-usage
 title: "\n\t\t\t\tZookeeper 的学习与运用\t\t"
 wordpress_id: 47
 categories:
