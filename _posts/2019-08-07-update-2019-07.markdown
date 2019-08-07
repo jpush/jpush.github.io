@@ -1,0 +1,116 @@
+---
+author: Iris Jay
+date: 2019-08-07 07:41:19+00:00
+layout: post
+link: http://blog.jiguang.cn/update-2019-07/
+slug: update-2019-08
+title: "「极光开发者服务」近期更新汇总 – 2019.07"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * 极光认证新增更多自定义授权页面的接口，快来[升级 SDK ](https://docs.jiguang.cn/jverification/updates/)使用更多功能。
+  * JPush Android SDK 支持设置自定义通知 Channel，更好地适配 Android 8.0 特性，马上[升级体验](https://docs.jiguang.cn/jpush/client/Android/android_api/#notificationchannel)
+  * JAnalytics unity3d 插件首次发布，快来[试试](https://github.com/jpush/janalytics-unity3d-plugin)吧。
+  * 官网控制台新增 IP 验证功能，更好的保护开发者账号安全，前往个人账户信息 - 安全设置 - 登录 IP 限制进行设置。
+
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JCore Android SDK
+    * 优化： CrashLog 内部处理逻辑
+    * 优化：多进程通信功能
+    * 优化：数据上报业务逻辑
+    * 修复：一些已知问题
+  * JPush Android SDK
+    * 优化：优化 demo
+    * 新增：支持用户推送时自定义通知 channel
+    * 修复：修复已知问题
+  * JPush iOS SDK
+    * 优化：提供获取 IDFA 版本和不获取 IDFA 版本，供开发者选择
+    * 修复：已知问题
+  * JAnalytics Android/iOS SDK
+    * 优化：动态圈选功能，Android 新增支持 Dialog、Popmenu 控件圈选
+    * 修复：已知问题
+  * JMessage iOS SDK
+    * 优化：多线程处理方式
+    * 新增：崩溃日志上报接口
+    * 修复：已知问题
+  * JVerification Android SDK
+    * 优化：运营商判断逻辑
+    * 优化：升级中国移动 SDK，提升取号的速度
+    * 优化：修改预取号、获取号码认证 token 接口设置超时时间的限制
+    * 新增：判断初始化是否成功的接口和初始化回调参数
+    * 新增：设置授权页面导航栏隐藏、手机号码字体大小、隐私条款 check 框默认状态的接口
+    * 修复：调用关闭授权页面接口偶现失败的问题
+    * 修复：已知问题
+  * JVerification iOS SDK
+    * 优化：修改预取号、获取号码认证 token 接口设置超时时间的限制
+    * 新增：判断初始化是否成功的接口和初始化回调参数
+    * 新增：设置授权页面导航栏隐藏、手机号码字体大小、隐私条款 check 框默认状态的接口
+    * 修复：其他已知问题
+  * JIoT Android SDK
+    * 优化：SDK 修改为全 java 实现
+    * 优化：断连接口增加详细信息
+  * JMLink Android SDK
+    * 优化：适配 Android Q 系统
+    * 修复：应用安装未打开，首次被短链接拉起后无法跳转到指定页面的问题
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * 控制台
+    * 新增：登录 IP 验证功能（功能入口：个人账户信息 - 安全设置 - 登录 IP 限制）
+    * 修复：报表下载列表不全的问题
+  * JPush
+    * Portal
+      * 新增：用户分群支持按应用版本和渠道进行分类
+      * 修复：点击通知的预览选项不正确问题
+    * REST API
+      * 新增：Push API 新增 [批量单推功能](https://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#vip)（VIP支持）
+      * 新增：Report API 新增数据统计[新接口](https://docs.jiguang.cn/jpush/server/push/rest_api_v3_report/#_7)
+  * JMessage
+    * Portal
+      * 修复：子账号进入 IM 页面的登陆异常问题
+
+
+### [极光开源](https://github.com/jpush)
+
+
+  * JPush phonegap plugin
+    * 优化：升级适配最新版 JPush 原生 SDK
+  * JMessage phonegap plugin
+    * 修复：无法找到接口问题
+    * 修复： getAllUnreadCount 返回 bool 问题
+  * JPush unity3d plugin
+    * 新增：删除地理围栏的 API
+    * 新增：增加集成方式
+  * JAnalytics unity3d plugin
+    * 首次发布
+  * JPush flutter plugin
+    * 优化：适配 flutter 1.7.8
+    * 优化：升级 JPush SDK 版本未 3.3.4
+    * 修复：修改 LocalNotification 的属性名 extras 为 extra
+  * JMessage flutter plugin
+    * 优化：添加 iOS 端 apns 注册方法
+    * 优化：适配更新到最新版本 JMessage SDK
+    * 修复：Android 端 serverMessageId 超过 int 存储范围的问题
+    * 修复：Android 接收消息时 flutter 没回调的问题
+    * 修复：修改代码书写错误
+    * 修复：发送地理位置参数修改为 double 类型
+    * 修复：删除 flutter 主动清空 iOS 角标的代码
+    * 修复：createMessage 方法中经纬度为 int 的错误
+    * 修复：在 Android 下 GroupInfo 的属性 maxMemberCount 为 int 的错误
+    * 修复：消息撤回事件回调中 message 为 null 的错误
+    * 修复：监听不到入群申请通知事件的 bug 
+  * JVerification flutter plugin
+    * 新增：添加自定义 Textview、 Button 控件
+    * 新增：设置协议勾选框默认状态属性
+    * 变更：自定义 UI 界面接口将使用新接口 [setCustomAuthViewAllWidgets]
