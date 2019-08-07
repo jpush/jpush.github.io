@@ -2,7 +2,7 @@
 author: Iris Jay
 date: 2019-07-01 07:41:19+00:00
 layout: post
-link: http://blog.jiguang.cn/update-2019-06/
+link: https://blog.jiguang.cn/update-2019-06/
 slug: update-2019-06
 title: "「极光开发者服务」近期更新汇总 – 2019.06"
 categories:
