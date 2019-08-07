@@ -4,8 +4,8 @@ comments: true
 date: 2012-10-16 15:28:06+00:00
 excerpt: "\n\t\t\t\t\t\t"
 layout: post
-link: http://blog.jiguang.cn/android_push_opensource_androidpn_xmpp_openfire/
-slug: android_push_opensource_androidpn_xmpp_openfire
+link: http://blog.jiguang.cn/android-push-opensource-androidpn-xmpp-openfire/
+slug: android-push-opensource-androidpn-xmpp-openfire
 title: "\n\t\t\t\tAndroid Push 开源方案解析\t\t"
 wordpress_id: 96
 categories:
