@@ -96,7 +96,7 @@ categories:
     * 首次发布
   * JPush flutter plugin
     * 优化：适配 flutter 1.7.8
-    * 优化：升级 JPush SDK 版本未 3.3.4
+    * 优化：升级 JPush SDK 版本为 3.3.4
     * 修复：修改 LocalNotification 的属性名 extras 为 extra
   * JMessage flutter plugin
     * 优化：添加 iOS 端 apns 注册方法
