@@ -59,9 +59,6 @@ categories:
   * JIoT Android SDK
     * 优化：SDK 修改为全 java 实现
     * 优化：断连接口增加详细信息
-  * JMLink Android SDK
-    * 优化：适配 Android Q 系统
-    * 修复：应用安装未打开，首次被短链接拉起后无法跳转到指定页面的问题
 
 
 ### 服务器端（系统功能、REST API、控制台）
