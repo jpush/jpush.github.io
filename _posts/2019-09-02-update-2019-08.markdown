@@ -14,7 +14,7 @@ categories:
 
 ## 重点关注
 
-  * JMlink 发布新版本 SDK 并可在极光开发者控制台进行配置，支持一链直达、场景还原、无码邀请、智能短链接、跨渠道监测等多种功能，[快来体验吧](https://docs.jiguang.cn/jmlink/guideline/intro/)
+  * JMLink 发布新版本 SDK 并可在极光开发者控制台进行配置，支持一链直达、场景还原、无码邀请、智能短链接、跨渠道监测等多种功能，[快来体验吧](https://docs.jiguang.cn/jmlink/guideline/intro/)
   * JVerification 授权页面新增更多自定义接口，优化初始化和预取号的逻辑，提高初始化和拉起授权页面的成功率，[建议升级](https://docs.jiguang.cn/jverification/updates/)
   * JIoT C SDK 新增对中移物联网的 M5311 NB-IoT 模组的支持，[建议升级](https://docs.jiguang.cn/jiot/updates/)
   * JPush 新增日活优化-[早上好功能](https://docs.jiguang.cn/jpush/guideline/intro/)，帮助开发者增加 App 的用户粘性，提升用户活跃度，尽可能的唤醒您 App 的沉默用户，欢迎体验
@@ -81,14 +81,14 @@ categories:
 ### 服务器端（系统功能、REST API、控制台）
 
   * 控制台
-    * 新增：JMlink 管理入口
+    * 新增：JMLink 管理入口
   * JPush
     * Portal
       * 新增：日活优化-[早上好功能](https://docs.jiguang.cn/jpush/guideline/intro/)
       * 新增：推送时传递自定义 channel_id 字段功能
   * JMLink
     * Portal
-      * JMlink 正式入驻极光控制台，支持一链直达、场景还原、无码邀请、智能短链接、跨渠道监测等多种功能。
+      * JMLink 正式入驻极光控制台，支持一链直达、场景还原、无码邀请、智能短链接、跨渠道监测等多种功能。
 
 
 ### [极光开源](https://github.com/jpush)
