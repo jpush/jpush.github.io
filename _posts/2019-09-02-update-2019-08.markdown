@@ -1,0 +1,109 @@
+---
+author: Iris Jay
+date: 2019-09-02 15:30:19+00:00
+layout: post
+link: https://blog.jiguang.cn/update-2019-08/
+slug: update-2019-08
+title: "「极光开发者服务」近期更新汇总 – 2019.08"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * JMlink 发布新版本 SDK 并可在极光开发者控制台进行配置，支持一链直达、场景还原、无码邀请、智能短链接、跨渠道监测等多种功能[快来体验吧](https://docs.jiguang.cn/jmlink/guideline/intro/)
+  * JVerification 授权页面新增更多自定义接口，优化初始化和预取号的逻辑，提高初始化和拉起授权页面的成功率，[建议升级](https://docs.jiguang.cn/jverification/updates/)
+  * JIoT C SDK 新增对中移物联网的 M5311 NB-IoT 模组的支持，[建议升级](https://docs.jiguang.cn/jiot/updates/)
+  * JPush 新增日活优化-[早上好功能](https://docs.jiguang.cn/jpush/guideline/intro/)，帮助开发者增加 App 的用户粘性，提升用户活跃度，尽可能的唤醒您 App 的沉默用户，欢迎体验
+  * JPush、JMessage、JVerification 的 Flutter 插件均进行了功能优化和 BUG 修复，建议升级
+
+
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JVerification Android SDK
+    * 优化：优化初始化逻辑，提高初始化成功率
+    * 优化：优化预取号逻辑，提高拉起授权页面的成功率
+    * 更改：移除 SDK 发起号码认证接口
+    * 新增：授权页面关闭的回调
+    * 新增：授权页面支持沉浸式状态栏
+    * 新增：设置授权页面导航栏标题、隐私栏字体大小
+    * 新增：设置授权页面导航栏返回按钮隐藏、登录按钮大小的逻辑
+    * 新增：支持授权页面的弹窗样式、控件设置 X 轴方向偏移、slogan 设置相对屏幕底部 Y 偏移
+    * 新增：支持授权页面登录按钮设置高度、宽度、字体大小
+    * 新增：支持授权页面隐私协议栏设置文本对齐方式、自定义协议名称之外的文本
+    * 修复：已知问题
+  * JVerification iOS SDK
+    * 优化：优化初始化逻辑，提高初始化成功率
+    * 优化：优化预取号逻辑，提高拉起授权页面的成功率
+    * 更改：移除 SDK 发起号码认证接口
+    * 新增：新增授权页面关闭的回调，支持设置授权页面自动旋转，支持强制屏幕方向
+    * 新增：设置授权页面的隐私栏字体大小、导航栏返回按钮隐藏、弹窗样式
+    * 新增：JVLayoutConstraint 布局类，使用约束布局替代 Frame 布局，并兼容原有控件的 Frame 布局
+    * 新增：支持修改隐私协议文案
+    * 修复：已知问题
+  * JIoT C SDK
+    * 新增：SDK 事件回调接口
+    * 更改：移除 jiotPropertySetRsp和jiotMsgDeliverRsp 接口，sdk 收到消息时直接回复 rsp，不需要主动回复
+    * 新增：针对中移物联网的 M5311 NB-IoT 模组的支持
+  * JMLink Android SDK
+    * 更改：去掉原魔窗中与 deeplink 无关的服务，仅保留 scheme 跳转、场景还原、应用宝跳转、无码邀请业务
+    * 兼容老版本魔链 sdk，保障开发者平滑升级，建议全都使用新接口！注意新版本 SDK 中移除了非相关深度链接服务的 UserProfile 类及其相应的方法，如开发者在早期项目中有使用到 UserProfile 类和相关方法，请移除。
+  * JMLink iOS SDK
+    * 优化：JMLink 对接 Jcore，SDK 模块化服务，可搭配极光开发者多种产品服务
+    * 优化：适配魔链新版本上报协议
+    * 新增：增加接口类为“JMLink”关键字
+    * 优化：支持 scheme 跳转、场景还原、应用宝跳转、无码邀请应用场景。
+    * 优化：兼容老版本魔链 SDK ，老版本接口全部标注过时，并且桥接到新版sdk接口中，保障开发者平滑升级，建议全都使用新接口！
+  * JMLink Web SDK
+    * 优化：SDK 关键词为 JMLink 和 jmlink
+    * 优化：增加初始化方法
+    * 优化：支持三种参数传递方式
+### 服务端 SDK
+
+  * JPush Java SDK
+    * 新增：批量单推接口，送达统计详情（新）接口，消息统计详情（VIP 专属接口，新）
+    * 修复：导致序列化错误和空指针异常的 BUG
+  * JPush ruby SDK
+    * 新增：audience 增加 segment、abtest 字段
+    * 新增：notification.android 增加 channel_id、large_icon、intent
+    * 新增：notification.ios 增加 thread-id
+    * 更改：sms_message 的 content 变为 signid、temp_id、temp_para、active_filter
+    * 新增：cid
+    * 新增：送达统计详情（新）接口，送达状态查询接口，消息统计详情（VIP 专属接口，新）
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * 控制台
+    * 新增：JMlink 管理入口
+  * JPush
+    * Portal
+      * 新增：日活优化-[早上好功能](https://docs.jiguang.cn/jpush/guideline/intro/)
+      * 新增：推送时传递自定义 channel_id 字段功能
+  * JMLink
+    * Portal
+      * JMlink 正式入驻极光控制台，支持一链直达、场景还原、无码邀请、智能短链接、跨渠道监测等多种功能。
+
+
+### [极光开源](https://github.com/jpush)
+
+  * JPush flutter plugin
+    * 修复：调用 sendLocalNotification 接口 crash 问题
+    * 修复：iOS 启动 APP 角标自动消失问题
+    * 修复：执行 flutter build apk 打包错误问题
+    * 优化：更新配置
+  * JMessage flutter plugin
+    * 新增：发送消息透传接口，支持会话间、设备间透传命令
+    * 新增：消息撤回类型消息
+    * 修复：经纬度数据错误问题
+    * 修复：Group 和 GroupInfo 属性 maxMemberCount 改为 int 类型
+    * 修复：获取我的群组 crash
+  * JVerification flutter plugin
+    * 修复：自定义 UI 时传入无资源的图片导致错误问题
+    * 修复：自定义 UI 时不传 widgets 导致错误问题
+    * 优化：SDK 适配到 v2.3.6
