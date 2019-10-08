@@ -79,7 +79,7 @@ categories:
 
   * JAnalytics
     * REST API
-      * 新增：卸载明细数据回调 API（VIP 接口）
+      * 新增：卸载明细数据回调 API（付费接口）
 
 
 ### [极光开源](https://github.com/jpush)
