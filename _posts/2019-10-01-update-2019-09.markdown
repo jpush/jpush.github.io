@@ -1,0 +1,106 @@
+---
+author: Iris Jay
+date: 2019-10-02 15:30:19+00:00
+layout: post
+link: https://blog.jiguang.cn/update-2019-09/
+slug: update-2019-09
+title: "「极光开发者服务」近期更新汇总 – 2019.09"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * JPush Android SDK 新增角标特性支持，优化 Channel 的默认处理逻辑，[建议升级](https://docs.jiguang.cn/jpush/updates/)
+  * 极光认证在授权页面增加诸多自定义接口、事件回调，支持横、竖屏分别设置控件布局约束且 SDK 可根据方向自动切换，[建议升级](https://docs.jiguang.cn/jverification/updates/)
+  * JMLink 小程序 SDK 发布，支持从微信小程序中直达应用，可用于应用推广引流，[欢迎体验](https://docs.jiguang.cn/jmlink/client/Miniprogram_wx/jmlink_mp_guide/)
+  * JPush、JMessage、JVerification 的 Flutter 插件均有优化和 BUG 修复，均[建议升级](https://github.com/jpush?utf8=%E2%9C%93&q=Flutter&type=&language=)至最新版本使用
+
+
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JPush iOS SDK
+    * 修复：已知问题
+    * 优化：更新 Push Example 应用 Logo
+  * JPush Android SDK
+    * 新增：Android 角标特性支持，并同步提供可供用户自行设置的 SDK API 接口
+    * 优化：Android Channel 特性的默认处理逻辑
+    * 优化：更新 Push Example，并同步更新应用 Logo
+    * 修复：已知问题
+  * JAnalytics MiniProgram SDK
+    * 新增：活跃上报
+    * 新增：地理位置和网络信息上报
+  * JMessage WXApplet SDK
+    * 修复：已知错误
+  * JVerification Android SDK
+    * 优化：初始化逻辑，提高 Wi-Fi 开启时取号的成功率
+    * 优化：在预取号和一键登录回调中再次请求的逻辑
+    * 优化：关闭授权页面的逻辑
+    * 新增：清除预取号缓存接口，SDK 不再主动清除预取号缓存
+    * 新增：授权页面支持横、竖屏分别配置 UIConfig，SDK 可根据方向自动切换
+    * 新增：授权页面状态栏、导航栏、隐私栏、loading、隐私协议 Web 页等大量 UI 自定义接口
+    * 新增：授权页面拉起、登录按钮点击、checkBox 点击等事件回调
+    * 优化：授权页面登录按钮支持重复点击，最多 3 次
+    * 优化：授权页面隐私栏展示位置
+    * 优化：运营商判断逻辑
+    * 修复：已知问题
+  * JVerification iOS SDK
+    * 新增：清除预取号缓存接口，SDK 不再主动清除预取号缓存
+    * 新增：授权页面支持横、竖屏分别设置控件布局约束，当授权页面横屏时优先使用横屏约束
+    * 新增：授权页面状态栏、导航栏、隐私栏、loading、隐私协议 Web 页等大量 UI 自定义接口
+    * 新增：授权页面拉起、登录按钮点击、checkBox 点击等事件回调
+    * 优化：授权页面登录按钮支持重复点击，最多 3 次
+    * 更改：中国电信授权页面运营商协议名称修改为“天翼账号服务与隐私协议”
+    * 优化：getToken 接口请求号码认证 token 的逻辑
+    * 更改：此版本授权页面使用约束布局时，号码栏、slogan 不再自动适配宽高，需开发者自行设置
+    * 修复：已知问题
+  * JMLink MiniProgram SDK
+    * 新增：支持微信小程序，从微信小程序中直达应用，可用于应用推广引流
+    * 新增：支持从小程序携参到应用内，帮助开发者完成业务处理
+    * 如果您是 mlink 老用户并使用了旧服务的小程序 SDK，请将 utils 目录下的「mw-sdk.min.js」删除
+### 服务端 SDK
+
+  * JPush Java SDK
+    * 优化：支持自定义参数，当 rest API 有参数增加，支持用户自定义传递，无需单独封装
+  * JPush C# SDK
+    * 新增：notifacation 支持 large_icon，uri_activity，uri_flag，intent
+    * 新增：获取定时任务对应的所有 msg_id 接口
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * JAnalytics
+    * REST API
+      * 新增：卸载明细数据回调 API（VIP 接口）
+
+
+### [极光开源](https://github.com/jpush)
+
+  * JPush react native
+    * 优化：重构插件
+    * 新增：支持自定义消息解析 title
+    * 优化：iOS 支持应用被杀死状态下，用户点击推送消息，打开 App 后可以收到点击通知事件
+    * 优化：Android 应用在后台时点击通知切到前台，支持应用在被杀死的状态下点击通知启动应用
+    * 优化：更新 example
+    * 修复：ios 通知消息解析问题
+  * JPush Flutter plugin
+    * 优化：适配最新版本 JPush SDK
+    * 新增：Android 支持设置角标 badge
+  * JMessage flutter plugin
+    * 新增：消息已读未读回执功能
+    * 修复：删除会话 Android 报错问题
+    * 优化：下载消息多媒体文件时，统一传入本地消息 id 
+    * 优化：统一 iOS、Android 的用户登录状态变更事件枚举
+  * JVerification flutter plugin
+    * 新增：关闭授权页面接口
+    * 新增：设置授权页背景图片
+    * 新增：支持隐藏导航栏、返回按钮
+    * 新增：SDK 清除预取号缓存接口
+    * 新增：可设置横竖屏授权页接口
+    * 新增：授权页点击事件监听
+    * 优化：sdk 适配到 v2.4.8
