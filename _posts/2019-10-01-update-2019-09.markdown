@@ -15,7 +15,7 @@ categories:
 ## 重点关注
 
   * JPush Android SDK 新增角标特性支持，优化 Channel 的默认处理逻辑，[建议升级](https://docs.jiguang.cn/jpush/updates/)
-  * 极光认证在授权页面增加诸多自定义接口、事件回调，支持横、竖屏分别设置控件布局约束且 SDK 可根据方向自动切换，[建议升级](https://docs.jiguang.cn/jverification/updates/)
+  * 极光认证在授权页面增加诸多自定义接口、事件回调，支持横、竖屏分别设置控件布局约束且 SDK 可根据方向自动切换，[建议升级](https://docs.jiguang.cn/jverification/updates/)，在 github 提供了开源 demo，[建议参考](https://github.com/jpush/JVerfication-Demo)
   * JMLink 小程序 SDK 发布，支持从微信小程序中直达应用，可用于应用推广引流，[欢迎体验](https://docs.jiguang.cn/jmlink/client/Miniprogram_wx/jmlink_mp_guide/)
   * JPush、JMessage、JVerification 的 Flutter 插件均有优化和 BUG 修复，均[建议升级](https://github.com/jpush?utf8=%E2%9C%93&q=Flutter&type=&language=)至最新版本使用
 
@@ -39,6 +39,7 @@ categories:
   * JMessage WXApplet SDK
     * 修复：已知错误
   * JVerification Android SDK
+    * 新增：[开源 demo](https://github.com/jpush/JVerfication-Demo/tree/master/android-jverification-demo)
     * 优化：初始化逻辑，提高 Wi-Fi 开启时取号的成功率
     * 优化：在预取号和一键登录回调中再次请求的逻辑
     * 优化：关闭授权页面的逻辑
@@ -51,6 +52,7 @@ categories:
     * 优化：运营商判断逻辑
     * 修复：已知问题
   * JVerification iOS SDK
+    * 新增：[开源 demo](https://github.com/jpush/JVerfication-Demo/tree/master/ios-jverification-demo/demo)
     * 新增：清除预取号缓存接口，SDK 不再主动清除预取号缓存
     * 新增：授权页面支持横、竖屏分别设置控件布局约束，当授权页面横屏时优先使用横屏约束
     * 新增：授权页面状态栏、导航栏、隐私栏、loading、隐私协议 Web 页等大量 UI 自定义接口
