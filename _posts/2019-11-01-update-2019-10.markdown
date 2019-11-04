@@ -1,0 +1,96 @@
+---
+author: Iris Jay
+date: 2019-11-01 15:30:19+00:00
+layout: post
+link: https://blog.jiguang.cn/update-2019-10/
+slug: update-2019-10
+title: "「极光开发者服务」近期更新汇总 – 2019.10"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * JPush Android 新增[自定义铃声](http://docs.jiguang.cn/jpush/client/Android/android_api/#_205)功能，并针对开发者指定 activity 跳转功能进行各厂商的处理逻辑适配优化，[建议升级](http://docs.jiguang.cn/jpush/updates/)
+  * 极光认证新增初始化超时参数，新增未选中协议点击登录按钮时的 toast 提示，对网络环境和预取号缓存的有效期判断逻辑进行优化。开源 demo 新增 QQ/Wechat/新浪微博授权登录功能。
+  * 极光统计在数据分析面板新增用户分群功能，开发者通过用户分群功能，可具体分析其用户的行为、属性特征等，查看[功能介绍文档](https://docs.jiguang.cn/janalytics/group/group_intro)，该功能当前仅对 VIP 开放，有需求可以[联系商务](https://www.jiguang.cn/accounts/business_contact?fromPage=analytics)
+  * JMLink 修复 SDK 多进程交叉初始化导致场景还原功能失效的问题，修复空指针异常，强烈建议开发者[升级使用](https://docs.jiguang.cn//jmlink/updates/)。
+
+
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JPush iOS SDK
+    * 修复：已知问题
+    * 优化：针对默认获取 IDFA 版本和不获取 IDFA 版本功能进行逻辑优化，统一放到 JCore 处理
+  * JPush Android SDK
+    * 新增：新增 Android 自定义铃声特性支持
+    * 优化：针对开发者指定 activity 跳转功能进行各厂商的处理逻辑适配优化
+    * 更改：变更 AndroidManifest 里的 JNotifyActivity 配置 exported=false
+    * 修复：已知问题
+  * JVerification Android SDK
+    * 优化：更新中国移动、中国联通 SDK
+    * 新增：初始化方法超时参数设置
+    * 新增：未选中协议、点击登录按钮时，弹出 toast 提示
+    * 新增：设置授权页面协议栏宽度
+    * 优化：网络环境判断的逻辑
+    * 优化：预取号缓存有效期判断的逻辑
+    * 修复：已知问题
+  * JVerification iOS SDK
+    * 优化：更新中国移动、中国联通 SDK
+    * 新增：初始化方法超时参数设置
+    * 新增：未选中协议、点击登录按钮时，弹出提示
+    * 优化：网络环境判断的逻辑
+    * 优化：预取号缓存有效期判断的逻辑
+    * 优化：设置授权页面状态栏样式的方法
+    * 修复：已知问题
+  * JMLink Android SDK
+    * 修复：修复 SDK 多进程交叉初始化，导致场景还原功能失效的问题
+    * 修复：修复 SDK 空指针异常带来的应用崩溃
+
+### 服务端 SDK
+
+  * JMessage C# SDK
+    * 修复：设置群组免打扰功能找不到 user 的 BUG
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * JAnalytics
+    * Portal
+      * 新增：数据分析-用户分群功能（仅对开通 VIP 的应用开放），开发者通过用户分群功能，可具体分析其用户的行为、属性特征等，查看[功能介绍文档](https://docs.jiguang.cn/janalytics/group/group_intro)
+  * JVerification
+    * Portal
+      * 优化：“一键登录明细”、“号码认证明细”手机号码脱敏展示（即显示为掩码 135****1234）
+
+
+### [极光开源](https://github.com/jpush)
+
+  * JPush phonegap plugin
+    * 更新 Android 与 iOS SDK 版本
+  * JVerification phonegap plugin
+    * 更新 Android SDK 版本至 2.5.0
+    * 更改：去掉 verifyNumber 接口
+  * JPush react native
+    * 修复：iOS warning 信息
+    * 新增：ios APNs 通知消息回调参数新增 badge (角标数)和 ring (铃声)
+    * 修复：pod Install 失败问题
+    * 修复：ios 处理手动集成没有找到 RCTJPushEventQuene 问题
+  * JVerification react native
+    * 重构插件
+    * 修复：ios 修复一键登录返回值错误问题
+  * JVerification flutter plugin
+    * 新增：一键登录回调支持添加监听接收数据
+    * 新增：一键登录同步接口
+    * 修复：iOS 授权页 loading 框位置偏移问题
+    * 修复：iOS 授权页监听点击事件 bug
+    * 修复：授权登录回调通知 bug
+    * 同步 JVerification SDK 2.5.0 版本
+  * JVerification demo
+    * 新增：QQ/Wechat/新浪微博授权登录功能
+    * 新增：设置协议页面返回按钮
+    * 优化：授权登录成功清除第三方用户登录缓存
