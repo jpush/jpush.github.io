@@ -1,0 +1,122 @@
+---
+author: Iris Jay
+date: 2019-12-02 15:30:19+00:00
+layout: post
+link: https://blog.jiguang.cn/update-2019-11/
+slug: update-2019-11
+title: "「极光开发者服务」近期更新汇总 – 2019.11"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * 极光认证新增支持自定义协议页面的 title 和状态栏，可以控制授权页面拉起、关闭的动画，并更新了电信 SDK，[建议开发者升级](https://docs.jiguang.cn/jverification/updates/)；REST API 新增 [Admin API](https://docs.jiguang.cn/jverification/server/rest_api/admin_api/) 用于批量开通业务功能，欢迎体验。
+  * JPush 客户端 SDK 修复了已知问题，提升了 SDK 稳定性，[建议升级](http://docs.jiguang.cn/jpush/updates/)；REST API 新增文件推送功能，提供 [File API](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_file/) 支持文件上传、查询、删除操作，可以用于实现超过 1000 个的 RegistrationID 和别名推送功能。
+  * 极光魔链[ Flutter 插件](https://github.com/jpush/jmlink-flutter-plugin)首次发布，欢迎 Flutter 开发者接入使用，可支持一键直达、无码邀请等功能。
+  * 极光统计新增[用户卸载 API](http://docs.jiguang.cn/janalytics/server/uninstall_api/)，可调用该 API 获取具体应用在某一时间段的卸载设备总量数据，有需求可以[联系商务](https://www.jiguang.cn/accounts/business_contact?fromPage=analytics)。
+  * JPush 服务端 SDK （[PHP](https://github.com/jpush/jpush-api-php-client)、[Python](https://github.com/jpush/jpush-api-python-client)、[C#](https://github.com/jpush/jpush-api-csharp-client)、[Node.js](https://github.com/jpush/jpush-api-nodejs-client)）新增支持了多个 API 接口，若有更多功能需求可[前往社区](https://community.jiguang.cn/c/feature)提出。
+
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JPush iOS SDK
+    * 修复：已知问题
+  * JPush Android SDK
+    * 优化：提升 SDK 稳定性
+    * 修复：已知问题
+  * JAnalytics iOS SDK
+    * 修复：已知问题
+    * 更改：集成 2.1.2 及以上版本需要依赖 WebKit.framework
+  * JShare Android SDK
+    * 修复：已知问题
+    * 优化：Facebook 分享功能
+  * JShare iOS SDK
+    * 优化：Facebook 分享功能
+  * JVerification Android SDK
+    * 优化：更新中国电信SDK
+    * 新增：一键登录方法超时参数设置
+    * 新增：授权页面拉起、关闭动画控制的接口
+    * 新增：自定义协议页面title、状态栏等设置接口
+    * 优化：持续优化网络环境、预取号缓存有效性判断的逻辑
+    * 修复：已知问题
+  * JVerification iOS SDK
+    * 优化：更新中国电信SDK
+    * 新增：一键登录方法超时参数设置
+    * 新增：授权页面拉起、关闭动画控制的接口
+    * 新增：自定义协议页面 title、状态栏等设置接口
+    * 修复：已知问题
+
+### 服务端 SDK
+
+  * JPush PHP SDK
+    * 新增：增加批量单推接口支持
+    * 新增：送达统计详情（新）接口
+    * 新增：消息统计详情（VIP 专属接口，新）
+  * JPush Python SDK
+    * 新增：支持对 Android 的 Notification 设置 ChannelID 字段
+    * 新增：增加批量单推接口
+    * 新增：增加接口送达统计详情（新） /v3/received/detail
+    * 新增：增加消息统计详情（VIP 专属接口，新）/v3/messages/detail
+  * JPush C# SDK
+    * 新增：支持对 Android 的 Notification 设置 ChannelID 字段，iOS 支持设置 thread-id 字段
+    * 新增：批量单推接口
+    * 新增：增加接口送达统计详情（新） /v3/received/detail
+    * 新增：增加消息统计详情（VIP 专属接口，新）/v3/messages/detail
+    * 修改：短信补充功能从传参 content 修改为传参签名 ID 和模版 ID 等（以最新的 rest API 文档为准）
+  * JPush Node.js SDK
+    * 新增：支持对 Android 的 Notification 设置 ChannelID 字段
+    * 新增：增加批量单推接口
+    * 新增：送达统计详情（新）/v3/received/detail
+    * 新增：送达状态查询 /v3/status/message
+    * 新增：消息统计详情（VIP 专属接口，新）/v3/messages/detail
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * JPush
+    * REST API
+      * 新增：支持指定[文件推送](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#_23)
+      * 新增：[File API](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_file/)，支持文件上传、查询、删除操作
+  * JAnalytics
+    * REST API
+      * 新增：[用户卸载 API](http://docs.jiguang.cn/janalytics/server/uninstall_api/)，可调用该 API 获取具体应用在某一时间段的卸载设备总量数据
+  * JVerification
+    * REST API
+      * 新增：[Admin API 上线](https://docs.jiguang.cn/jverification/server/rest_api/admin_api/)，用于批量开通业务功能
+
+
+### [极光开源](https://github.com/jpush)
+
+  * JPush react native
+    * 优化：更新 ios 工程 demo
+    * 新增：支持添加删除查找本地通知；支持设置本地角标
+  * JAnalytics react native
+    * 优化：更新 JAnalytics 到 2.1.0 版本
+    * 优化：更新 example
+  * JVerification react native
+    * 优化：更新 ios 工程 demo
+  * JPush flutter plugin
+    * 新增：清除通知栏单条通知方法
+    * 修复：点击通知栏无法获取消息问题
+    * 优化：同步最新版 SDK
+  * JMessage flutter plugin
+    * 修复：获取消息失败问题
+    * 注意：接口参数请严格按照接口说明传值
+    * 修复：黑名单接口异常
+  * JVerification flutter plugin
+    * 新增：SDK 初始化回调监听
+    * 新增：授权页弹窗模式
+    * 修复：授权页无法唤起问题
+    * 同步 JVerification SDK 2.5.2 版本
+  * JVerification demo
+    * 新增：用户协议弹窗
+    * 新增：添加 Masonry 库
+    * 新增：添加类似 dailog 的用户协议
+  * JMLink Flutter plugin
+    * 首次发布
