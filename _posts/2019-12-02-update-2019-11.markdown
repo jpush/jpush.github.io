@@ -15,10 +15,11 @@ categories:
 ## 重点关注
 
   * 极光认证新增支持自定义协议页面的 title 和状态栏，可以控制授权页面拉起、关闭的动画，并更新了电信 SDK，[建议开发者升级](https://docs.jiguang.cn/jverification/updates/)；REST API 新增 [Admin API](https://docs.jiguang.cn/jverification/server/rest_api/admin_api/) 用于批量开通业务功能，欢迎体验。
-  * JPush 客户端 SDK 修复了已知问题，提升了 SDK 稳定性，[建议升级](http://docs.jiguang.cn/jpush/updates/)；REST API 新增文件推送功能，提供 [File API](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_file/) 支持文件上传、查询、删除操作，可以用于实现超过 1000 个的 RegistrationID 和别名推送功能。
+  * JPush 客户端 SDK 进行了优化，提升了 SDK 的稳定性，[建议升级](http://docs.jiguang.cn/jpush/updates/)；REST API 新增文件推送功能，提供 [File API](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_file/) 支持文件上传、查询、删除操作，可以用于实现超过 1000 个的 RegistrationID 和别名推送功能。
   * 极光魔链[ Flutter 插件](https://github.com/jpush/jmlink-flutter-plugin)首次发布，欢迎 Flutter 开发者接入使用，可支持一键直达、无码邀请等功能。
   * 极光统计新增[用户卸载 API](http://docs.jiguang.cn/janalytics/server/uninstall_api/)，可调用该 API 获取具体应用在某一时间段的卸载设备总量数据，有需求可以[联系商务](https://www.jiguang.cn/accounts/business_contact?fromPage=analytics)。
   * JPush 服务端 SDK （[PHP](https://github.com/jpush/jpush-api-php-client)、[Python](https://github.com/jpush/jpush-api-python-client)、[C#](https://github.com/jpush/jpush-api-csharp-client)、[Node.js](https://github.com/jpush/jpush-api-nodejs-client)）新增支持了多个 API 接口，若有更多功能需求可[前往社区](https://community.jiguang.cn/c/feature)提出。
+
 
 
 ## 详细列表
