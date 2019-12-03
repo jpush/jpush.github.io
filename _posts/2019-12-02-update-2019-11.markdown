@@ -85,6 +85,8 @@ categories:
       * 新增：支持指定[文件推送](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#_23)
       * 新增：[File API](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_file/)，支持文件上传、查询、删除操作
   * JAnalytics
+    * Portal
+      * 新增：终端统计-地区分布页支持查询 web 平台的数据
     * REST API
       * 新增：[用户卸载 API](http://docs.jiguang.cn/janalytics/server/uninstall_api/)，可调用该 API 获取具体应用在某一时间段的卸载设备总量数据
   * JVerification
