@@ -1,0 +1,89 @@
+---
+author: Iris Jay
+date: 2020-01-03 15:30:19+00:00
+layout: post
+link: https://blog.jiguang.cn/update-2019-12/
+slug: update-2019-12
+title: "「极光开发者服务」近期更新汇总 – 2019.12"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * JPush 客户端 SDK 支持通知开关的检测和引导设置、[通知远程撤销](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#_27)；Android SDK 支持通知[定时展示功能](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#notification)，建议升级 SDK 体验
+
+  * 极光认证发布 Web SDK，支持中国移动、中国电信 SIM 卡的号码认证功能，可[联系商务](https://www.jiguang.cn/accounts/business_contact?fromPage=push)体验该功能
+
+  * 极光短信新增[短信回执 API](https://docs.jiguang.cn//jsms/server/rest_api_jsms_inquire/)，支持获取短信发送状态和上行短信消息。
+
+  * JShare iOS SDK 优化了微博分享功能，且发布了 [Flutter 插件](https://github.com/jpush/jshare-flutter-plugin)。
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JPush iOS SDK
+    * 新增：新增 API 接口，支持通知开关[检测和引导设置功能](http://docs.jiguang.cn/jpush/client/iOS/ios_api/#_177)
+    * 新增：支持通知远程撤销功能
+    * 修复：已知问题
+  * JPush Android SDK
+    * 优化：性能优化
+    * 新增：新增 API 接口，支持通知开关[检测和引导设置功能](http://docs.jiguang.cn/jpush/client/Android/android_api/#api_13)
+    * 新增：支持通知定时展示功能
+    * 新增：支持通知远程撤销功能
+    * 修复：已知问题
+  * JShare iOS SDK
+    * 优化：微博分享功能
+    * 修复：已知问题
+  * JVerification Web SDK
+    * [首次发布](https://docs.jiguang.cn/jverification/client/web_sdk/)
+  * JVerification iOS SDK
+    * 优化：提高稳定性
+    * 修复：已知问题
+
+### 服务端 SDK
+
+  * JPush Java SDK
+    * 新增：支持最外层自定义参数
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * JPush
+    * REST API
+      * 新增：支持指定[推送撤销功能](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#_27)（支持 Android 和 iOS），可调 API 撤回误推的消息。
+      * 新增：[定时展示功能](http://docs.jiguang.cn/jpush/server/push/rest_api_v3_push/#notification)（仅支持 Android）
+      * 新增：[“自定义消息转厂商通知”功能](https://docs.jiguang.cn//jpush/server/push/rest_api_v3_push/#notification_3rd)，支持厂商自定义跳转等个性化参数的功能。
+  * JSMS
+    * REST API
+      * 新增：[短信回执 API](https://docs.jiguang.cn//jsms/server/rest_api_jsms_inquire/)，支持获取短信发送状态和上行短信消息。
+
+
+### [极光开源](https://github.com/jpush)
+
+  * JPush react native
+    * 更新：Android 、iOS 原生 SDK 至最新版本
+    * 新增：本地通知 API
+  * JPush flutter plugin
+    * 更新：适配最新版本 JPush SDK
+    * 新增：新版 SDK 的新功能接口
+  * JPush unity3d plugin/Hbuilder demo
+    * 更新：Android 、iOS 原生 SDK 至最新版本
+  * JMessage flutter plugin
+    * 修复：获取用户信息时黑名单字段错误问题
+  * JVerification react native
+    * 优化：Android 更新自定义布局宽高设置
+    * 新增：添加 dismiss 认证页面的接口
+    * 修复：客户反馈自定义视图无法点击的问题
+  * JVerification flutter plugin
+    * 优化：demo 添加 http 支持
+    * 优化：Android 回调 flutter 的回调函数
+    * 优化：重复请求逻辑
+  * JVerification cordova plugin
+    * 更新：Android、iOS 原生 SDK 至 2.5.2 版本
+  * JShare Flutter plugin
+    * [首次发布](https://github.com/jpush/jshare-flutter-plugin)
