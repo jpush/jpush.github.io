@@ -3,7 +3,7 @@ author: Iris Jay
 date: 2020-02-03 15:30:19+00:00
 layout: post
 link: https://blog.jiguang.cn/update-2020-1/
-slug: update-2019-12
+slug: update-2020-1
 title: "「极光开发者服务」近期更新汇总 – 2020.01"
 categories:
 - 产品更新
