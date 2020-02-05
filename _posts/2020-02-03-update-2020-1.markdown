@@ -1,0 +1,59 @@
+---
+author: Iris Jay
+date: 2020-02-03 15:30:19+00:00
+layout: post
+link: https://blog.jiguang.cn/update-2020-1/
+slug: update-2019-12
+title: "「极光开发者服务」近期更新汇总 – 2020.01"
+categories:
+- 产品更新
+---
+
+
+				
+
+## 重点关注
+
+  * 极光认证 Hbuilder 插件首次发布，基于 uni-app，[欢迎开发者体验](https://github.com/jpush/jverification-hbuilder-plugin)
+  * 极光推送历史增加厂商送达指标，VIP 应用支持导出推送历史记录，有需要可[联系商务](https://www.jiguang.cn/accounts/business_contact?fromPage=push)
+  * 极光认证新增认证余量不足的短信告警功能，可登陆官网配置，点击阅读[详细介绍](https://community.jiguang.cn/notice/58)
+  * 极光认证 Web demo 发布，可使用手机打开[体验](https://m.verification.jiguang.cn/)
+
+## 详细列表
+
+### 客户端 SDK
+
+  * JVerification Android SDK
+    * 优化：部分华为 Android 10 设备上的兼容问题
+  * JVerification Web SDK
+    * 发布体验[ demo](https://m.verification.jiguang.cn/)，可手机体验。
+
+
+### 服务器端（系统功能、REST API、控制台）
+
+  * JPush
+    * Portal
+      * 推送历史增加厂商送达指标，VIP 应用支持导出推送历史记录
+  * JVerification
+    * Portal
+      * 新增：认证余量不足的短信告警功能，[详细介绍](https://community.jiguang.cn/notice/58)
+
+
+### [极光开源](https://github.com/jpush)
+
+  * JPush react native
+    * 修复：iOS 修正清除本地通知 api 入参
+  * JPush flutter plugin
+    * 优化：内部安全策略优化
+    * 更新：同步 JPush SDK 版本
+    * 优化：修改 minSdkVersion 最小支持 17
+  * JMessage flutter plugin
+    * 优化：内部安全策略优化
+  * JVerification flutter plugin
+    * 更新：同步 JVerification SDK 版本
+    * 优化：内部安全策略优化
+  * JShare Flutter plugin
+    * 优化：内部安全策略优化
+  * JVerification HBuilder plugin
+    * 首次发布
+    * 官方支持的 Hbuilder 插件（Android & iOS），是基于 HBuilder 提供的 uni-app 原生插件扩展进而开发出的认证插件。
